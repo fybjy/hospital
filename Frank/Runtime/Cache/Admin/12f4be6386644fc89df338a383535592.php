@@ -10,8 +10,8 @@
     <meta http-equiv="Cache-Control" content="no-siteapp" />
     <title>铜梁妇幼保健院</title>
 
-    <meta name="keywords" content="H+后台主题,后台bootstrap框架,会员中心主题,后台HTML,响应式后台">
-    <meta name="description" content="H+是一个完全响应式，基于Bootstrap3最新版本开发的扁平化主题，她采用了主流的左右两栏式布局，使用了Html5+CSS3等现代技术">
+    <meta name="keywords" content="铜梁妇幼保健院">
+    <meta name="description" content="铜梁妇幼保健院">
 
     <!--[if lt IE 9]>
     <meta http-equiv="refresh" content="0;ie.html" />
@@ -75,10 +75,10 @@
                             <a class="J_menuItem" href="<?php echo U('table');?>">来院导航</a>
                         </li>
                         <li>
-                            <a class="J_menuItem" href="index_v3.html">院内导诊</a>
+                            <a class="J_menuItem" href="<?php echo U('come');?>">院内导诊</a>
                         </li>
                         <li>
-                            <a class="J_menuItem" href="index_v4.html">最新动态</a>
+                            <a class="J_menuItem" href="<?php echo U('news');?>">最新动态</a>
                         </li>
                     </ul>
 
@@ -104,11 +104,11 @@
         <div class="row border-bottom">
             <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
                 <div class="navbar-header"><a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i> </a>
-                    <form role="search" class="navbar-form-custom" method="post" action="http://www.zi-han.net/theme/hplus/search_results.html">
-                        <div class="form-group">
-                            <input type="text" placeholder="请输入您需要查找的内容 …" class="form-control" name="top-search" id="top-search">
-                        </div>
-                    </form>
+                    <!--<form role="search" class="navbar-form-custom" method="post" action="http://www.zi-han.net/theme/hplus/search_results.html">-->
+                        <!--<div class="form-group">-->
+                            <!--<input type="text" placeholder="请输入您需要查找的内容 …" class="form-control" name="top-search" id="top-search">-->
+                        <!--</div>-->
+                    <!--</form>-->
                 </div>
                 <ul class="nav navbar-top-links navbar-right">
                     <li class="hidden-xs">
@@ -127,7 +127,7 @@
             </button>
             <nav class="page-tabs J_menuTabs">
                 <div class="page-tabs-content">
-                    <a href="javascript:;" class="active J_menuTab" data-id="index_v1.html">首页</a>
+                    <a href="javascript:;" class="active J_menuTab" data-id="<?php echo U('index');?>">首页</a>
                 </div>
             </nav>
             <button class="roll-nav roll-right J_tabRight"><i class="fa fa-forward"></i>
@@ -149,18 +149,17 @@
             <a href="login.html" class="roll-nav roll-right J_tabExit"><i class="fa fa fa-sign-out"></i> 退出</a>
         </div>
         <div class="row J_mainContent" id="content-main">
-            <iframe class="J_iframe" name="iframe0" width="100%" height="100%" src="index_v148b2.html?v=4.0" frameborder="0" data-id="index_v1.html" seamless></iframe>
+            <iframe class="J_iframe" name="iframe0" width="100%" height="100%" src="<?php echo U('right');?>" frameborder="0" data-id="index_v1.html" seamless></iframe>
         </div>
-        <div class="footer">
-            <div class="pull-right">&copy; 2014-2015 <a href="http://www.zi-han.net/" target="_blank">zihan's blog</a>
-            </div>
-        </div>
+        <!--<div class="footer">-->
+            <!--<div class="pull-right">&copy; 2014-2015 <a href="http://www.zi-han.net/" target="_blank">zihan's blog</a>-->
+            <!--</div>-->
+        <!--</div>-->
     </div>
     <!--右侧部分结束-->
     <!--右侧边栏开始-->
     <div id="right-sidebar">
         <div class="sidebar-container">
-
 
         </div>
     </div>
@@ -177,6 +176,4 @@
 <script src="http://www.123.com/hospital/public/js/plugins/pace/pace.min.js"></script>
 </body>
 
-
-<!-- Mirrored from www.zi-han.net/theme/hplus/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 20 Jan 2016 14:17:11 GMT -->
 </html>
