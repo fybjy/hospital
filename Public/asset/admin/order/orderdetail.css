@@ -1,0 +1,277 @@
+
+li {
+  list-style: none;
+}
+
+
+.clear {
+  clear: both;
+}
+
+.content {
+  width: 100%;
+  overflow: hidden;
+}
+.content .title {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  font-family: '宋体';
+  color: #666666;
+}
+.content .title .mark {
+  font-size: 20px;
+  font-family: 'microsoft yahei';
+  color: #333;
+}
+.content .title .me {
+  font-size: 14px;
+  color: #333;
+}
+.content .inner {
+  width: 100%;
+}
+.content .inner .orderstate {
+  background: #fffceb;
+  border: 1px solid #eed97c;
+  padding: 0 5px;
+}
+.content .inner .orderstate .top {
+  height: 32px;
+  border-bottom: 1px dashed #EED97C;
+}
+.content .inner .orderstate .top .order_num {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 32px;
+}
+.content .inner .orderstate .top .state {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 32px;
+}
+.content .inner .orderstate .top .state .sta1 {
+  color: #12A000;
+}
+.content .inner .orderstate .top .pay {
+  margin-left: 5px;
+  line-height: 32px;
+  vertical-align: center;
+}
+.content .inner .orderstate .top .pay img {
+  vertical-align: middle;
+  display: inline;
+}
+.content .inner .orderstate .top .oper {
+  float: right;
+}
+.content .inner .orderstate .top .oper a {
+  background: url("../img/order/btn.jpg");
+  display: block;
+  width: 50px;
+  height: 26px;
+  text-align: center;
+  line-height: 26px;
+  color: white;
+  font-weight: 700;
+  margin-top: 5px;
+}
+.content .inner .orderstate .detail {
+  padding: 10px 8px;
+}
+.content .inner .orderstate .detail a {
+  color: #005AA0;
+}
+.content .inner .process {
+  padding: 20px 50px;
+  overflow: hidden;
+  position: relative;
+  height: 100px;
+}
+.content .inner .process .prolist {
+  position: absolute;
+  left: 50px;
+  width: 2000px;
+  overflow: hidden;
+}
+.content .inner .process .one {
+  width: 100px;
+  float: left;
+  text-align: center;
+  position: relative;
+}
+.content .inner .process .one .node {
+  background: url(../img/order/bg_state.jpg) no-repeat -150px 0px;
+  width: 13px;
+  height: 13px;
+  display: inline-block;
+}
+.content .inner .process .one .wait {
+  background-position: -150px -40px;
+}
+.content .inner .process .one .time {
+  color: #999;
+}
+.content .inner .process .step2 {
+  left: -80px;
+}
+.content .inner .process .step3 {
+  left: -160px;
+}
+.content .inner .process .step4 {
+  left: -240px;
+}
+.content .inner .process .step5 {
+  left: -320px;
+}
+.content .inner .process .two {
+  position: relative;
+  width: 152px;
+  float: left;
+}
+.content .inner .process .two .line_ok {
+  position: relative;
+  left: -40px;
+  background: url(../img/order/bg_state.jpg) no-repeat 0px 0px;
+  width: 150px;
+  height: 13px;
+}
+.content .inner .process .two .line_wait {
+  position: relative;
+  left: -40px;
+  background: url(../img/order/bg_state.jpg) no-repeat 0px -40px;
+  width: 150px;
+  height: 13px;
+}
+.content .inner .trace {
+  border: 1px solid #EED97C;
+  width: 978px;
+  padding: 5px;
+}
+.content .inner .trace .t_name {
+  line-height: 32px;
+}
+.content .inner .trace .t_name .tit {
+  font-weight: 700;
+  font-size: 18px;
+  color: black;
+}
+.content .inner .trace .detail {
+  line-height: 20px;
+}
+.content .inner .trace .detail #tbody_track tr th strong {
+  border-bottom: 1px solid #dbdbdb;
+  display: block;
+  margin-bottom: 5px;
+  padding-bottom: 3px;
+  text-align: left;
+}
+.content .inner .orderinfo {
+  margin-top: 10px;
+  background: #EDEDED;
+  border: 1px solid #dadada;
+  overflow: visible;
+  padding: 0 5px 10px;
+}
+.content .inner .orderinfo .mt {
+  padding-left: 5px;
+  font-size: 14px;
+  line-height: 30px;
+}
+.content .inner .orderinfo .order_body {
+  background: #fff;
+  overflow: visible;
+  padding: 5px 8px;
+}
+.content .inner .orderinfo .order_body dl {
+  border-bottom: 1px solid #ededed;
+  padding: 10px 5px;
+}
+.content .inner .orderinfo .order_body dl dt {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+.content .inner .orderinfo .order_body dl.last {
+  border: none;
+}
+.content .inner .orderinfo .order_body .list {
+  border-left: 1px solid #dedede;
+}
+.content .inner .orderinfo .order_body .list table {
+  border-collapse: collapse;
+  border: 1px solid #dedede;
+}
+.content .inner .orderinfo .order_body .list table tbody th {
+  background: #f0f0f0;
+  border-bottom: 1px solid #dedede;
+  border-top: 1px solid #dedede;
+  font-weight: normal;
+  padding: 5px;
+  text-align:center;
+}
+.content .inner .orderinfo .order_body .list table tbody td {
+  background: #FFFFFF;
+  border-bottom: 1px solid #DEDEDE;
+  text-align: center;
+  font-weight: normal;
+  padding: 5px;
+}
+.content .inner .orderinfo .order_body .list table tbody td a {
+  color: #005AA0;
+}
+.content .inner .orderinfo .order_body .list table tbody td a.good {
+  width: 50px;
+  height: 50px;
+  display: block;
+  border: 1px solid #E1E1E1;
+  margin: 0 auto;
+}
+.content .inner .orderinfo .order_body .list table tbody td a.good img{
+  width: 50px;
+  height: 50px;	
+}
+
+.content .inner .orderinfo .order_body .list table tbody td a.good:hover{
+	border:1px solid #EDD28B;
+}
+.content .inner .orderinfo .order_body .list table tbody td.tit{
+	text-align:left;
+}
+.content .inner .orderinfo .order_body .list table tbody td a.buy_again {
+  background: url("../img/order/buy_again.png") no-repeat;
+  display: block;
+  height: 21px;
+  line-height: 100px;
+  margin: 5px auto 0;
+  overflow: hidden;
+  width: 73px;
+}
+.content .inner .orderinfo .order_body .list table tbody td a.buy_again:hover {
+  background-position: 0 -24px;
+}
+.content .inner .orderinfo .order_body .list table tbody td span.price {
+  color: #FF3434;
+}
+.content .inner .orderinfo .order_total {
+  padding: 15px 10px 0;
+  overflow: hidden;
+}
+.content .inner .orderinfo .order_total ul {
+  padding: 0 20px 10px 0;
+  float: right;
+  font-size: 14px;
+  text-align: right;
+}
+.content .inner .orderinfo .order_total .total {
+  border-top: 1px solid #ccc;
+  float: right;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px 0 0;
+  color: #333333;
+}
+.content .inner .orderinfo .order_total .total .money {
+  color: #f00;
+  font-size: 24px;
+}
+

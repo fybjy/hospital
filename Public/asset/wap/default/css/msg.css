@@ -1,0 +1,116 @@
+/*****************系统消息*******************/
+/*消息列表*/
+.msg-tit{
+    margin:13px 0px 30px;
+    padding: 0px 15px;
+}
+.msg-tit a{
+    float: right;
+    padding: 5px 8px;
+    border-radius: 3px;
+    border: solid 1px #d4d4d4;
+}
+
+.msg-list{}
+.msg-list ul{
+
+}
+.msg-list li{
+    padding: 0px 27px 0px 8px;
+    position: relative;
+    margin-bottom: 12px;
+    min-height: 50px;
+}
+.msg-list li img{
+    position: absolute;
+    left: 8px;
+    top:0;
+}
+.msg-list li .dv1{
+    padding-left: 60px;
+    box-sizing: border-box;
+}
+
+.msg-list li .dv2{
+    position: relative;
+    padding:8px 10px;
+    border-radius: 3px;
+    /*border: solid 1px #b2b2b2;*/
+    background: #ffffff;
+    color: #303030;
+    font-size: 14px;
+    box-sizing: border-box;
+    text-align: justify;
+    min-height: 50px;
+}
+
+.msg-list li .dv2:after {
+    content: " ";
+    display: inline-block;
+    -webkit-transform: rotate(225deg) scale(.5);
+    transform: rotate(225deg) scale(.5);
+    height: 12px;
+    width: 12px;
+    border-width: 1px 1px 0 0;
+    border-color: #b2b2b2;
+    background: #fff;
+    border-style: solid;
+    position: absolute;
+    left: 0;
+    margin-left: -6px;
+    top:20px;
+    margin-top: -5px;
+}
+
+.msg-list li .dv2:before {
+    content: " ";
+    width: 200%;
+    height: 200%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid #b2b2b2;
+    -webkit-transform: scale(.5);
+    transform: scale(.5);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+
+.msg-list li .dv2 p{
+    word-wrap:break-word;
+    word-break:break-all;
+}
+
+.msg-list .msgTime:first-child{
+    margin-top: 20px;
+}
+
+.msgTime{
+    width: 100%;
+    /*padding-left: 50px;*/
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.msgTime span{
+    color: #fff;
+    font-size: 12px;
+    background: #dedede;
+    border-radius: 3px;
+    padding: 1px 5px;
+}
+
+/*暂无违法记录*/
+.hasNoWeiFa{
+    padding: 65px 0px 70px;
+    text-align: center;
+}
+.hasNoWeiFa p{
+    line-height: 25px;
+}
+.hasNoWeiFa img{
+    margin-bottom: 6px;
+}

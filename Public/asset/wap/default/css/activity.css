@@ -1,0 +1,146 @@
+/***************活动列表(车友俱乐部)**************/
+
+.line2{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp:2;
+    -webkit-box-orient:vertical;
+}
+.ac-main{
+    /*padding: 10px 0 0 15px;*/
+    padding: 0px 0 0 15px;
+}
+.ac-list{
+   /* margin-top: 5px;*/
+    margin-bottom: 15px;
+}
+.ac-list .item{
+    overflow: hidden;
+    padding: 8px 8px 8px 0;
+    /*border-bottom: #e3e3e3 solid 1px;*/
+    position: relative;
+}
+
+.ac-list .item:after{
+    content: " ";
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    height: 1px;
+    background: #e3e3e3;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+}
+
+
+.ac-list .item:first-child{
+    /*border-top: #e3e3e3 solid 1px;*/
+}
+.ac-list .item a{
+    overflow: hidden;
+    display: block;
+}
+.ac-list .ac-pic{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+    overflow: hidden;
+}
+.ac-list .ac-pic img{
+    width: 100%;
+    height: 100%;
+}
+.ac-list .ac-mc{
+    overflow: hidden;
+    line-height: 17px;
+    font-size: 12px;
+    color: #999;
+}
+.ac-list .ac-mc h3{
+    font-size: 14px;
+    color: #333;
+}
+/*详情*/
+.d-img{
+    padding: 15px 10px;
+    box-sizing: border-box;
+}
+
+.d-img img{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.d-con{
+    padding: 0px 17px 8px 17px;
+    box-sizing: border-box;
+
+}
+
+.d-con .d-con2 span{
+    margin-right: 10px;
+    color: #3b8ffd;
+}
+
+.d-con .d-con3 img{
+    max-width: 100%;
+}
+
+.activity-title{
+    height: 38px;
+    line-height: 38px;
+    /*border-bottom: solid 1px #e3e3e3;*/
+    position: relative;
+
+    background: url(../images/hq.png) no-repeat 16px center #f0f0f0;
+    background-size: 12px 12px;
+    padding-left: 32px;
+    box-sizing: border-box;
+    color: #333;
+    font-size: 14px;
+}
+
+.activity-title:after{
+    content: " ";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+    height: 1px;
+    background: #e3e3e3;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+}
+
+
+
+.ac-time{
+    height: 32px;
+    line-height: 38px;
+    /*border-bottom: solid 1px #e3e3e3;*/
+    position: relative;
+}
+
+.ac-time:after{
+    content: " ";
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    height: 1px;
+    background: #e3e3e3;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+}
+
+

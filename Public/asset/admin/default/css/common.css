@@ -1,0 +1,287 @@
+/*===================== S 公共样式 =====================*/
+
+/* 头部导航条 */
+.navbar-top-links li:last-child {
+    margin-right:20px;
+}
+/* 主要内容容器 */
+.yc-mainCnt {
+    margin:20px 5px 50px;
+}
+/* 固定底部 */
+body.fixed-sidebar.mini-navbar .footer {
+    margin-left:0;
+}
+.f-dn {
+    display:none;
+}
+.f-db {
+    display:block;
+}
+/* 表格 */
+table.vac tbody td {
+    vertical-align:middle;
+}
+.table-vac > tbody > tr > td {
+    vertical-align:middle;
+}
+.table-pd5 > tbody > tr > td {
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.table-striped > tbody > tr:nth-child(odd) {
+    background-color:#fff;
+}
+.table-striped > tbody > tr:nth-child(even) {
+    background-color:#f9f9f9;
+}
+.table-hover > tbody > tr:hover {
+}
+/* 表单 */
+.formBox, .mbox {
+    border-top:4px solid #e7eaec;
+    background-color:#fff;
+    margin-bottom:25px;
+    padding:20px;
+}
+.formBox div.error {
+    display:none;
+    text-align:left;
+}
+.form-group.have-success div.error {
+    display:none;
+}
+.form-group.have-error div.error {
+    display:block;
+}
+.form-horizontal .control-label {
+    padding-bottom:7px;
+}
+form .form-control-static {
+    font-weight:700;
+}
+.i-checks > label {
+    padding-left:0;
+    padding-right:20px;
+}
+form .uploadBox {
+    display:none;
+    width:120px;
+    height:120px;
+}
+/*===================== E 公共样式 =====================*/
+
+/*===================== S 页面样式 =====================*/
+
+/* platform_plugin */
+.plugin-des {
+    min-height:72px;
+    overflow:hidden;
+}
+/*===================== E 页面样式 =====================*/
+
+/*===================== S plugins =====================*/
+
+/* 百度地图 */
+.baidu_map_plugs {
+}
+#baidu_map {
+    height:400px;
+    margin-top:10px;
+}
+#search_area {
+}
+/* 日历插件宽度 */
+.layer-date.w-block {
+    max-width:none;
+}
+/*===================== E plugins =====================*/
+
+/*===================== S UI 样式 =====================*/
+
+/* loading */
+.ui-loading {
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-150px;
+    width:300px;
+    text-align:center;
+}
+.ui-loading i {
+    font-size:50px;
+    color:#1ab394;
+}
+.ui-loading p {
+    margin-top:10px;
+    margin-bottom:0;
+    color:#1ab394;
+    font-size:14px;
+}
+@-webkit-keyframes rotate {
+    from {
+        -webkit-transform:rotate(0deg)
+    }
+    to {
+        -webkit-transform:rotate(360deg)
+    }
+}
+@-moz-keyframes rotate {
+    from {
+        -moz-transform:rotate(0deg)
+    }
+    to {
+        -moz-transform:rotate(360deg)
+    }
+}
+@-ms-keyframes rotate {
+    from {
+        -ms-transform:rotate(0deg)
+    }
+    to {
+        -ms-transform:rotate(360deg)
+    }
+}
+@-o-keyframes rotate {
+    from {
+        -o-transform:rotate(0deg)
+    }
+    to {
+        -o-transform:rotate(360deg)
+    }
+}
+.rotate {
+    animation:1s linear 0s normal none infinite rotate;
+    -webkit-animation:1s linear 0s normal none infinite rotate;
+}
+.mt23 {
+    margin-top:23px;
+}
+.mt10 {
+    margin-top:10px;
+}
+.mt3 {
+    margin-top:3px !important;
+}
+.mt15 {
+    margin-top:15px;
+}
+.mt20 {
+    margin-top:20px;
+}
+.pl0 {
+    padding-left:0px;
+}
+.fs24 {
+    font-size:24px;
+}
+.fs20 {
+    font-size:20px;
+}
+.fs18 {
+    font-size:18px;
+}
+.fs16 {
+    font-size:16px;
+}
+.fs12 {
+    font-size:12px !important;
+}
+.ts {
+    border-radius:10px;
+    background:#ff8c2f;
+    padding:2px 6px;
+    font-weight:800;
+    color:#fff;
+    margin-right:10px;
+}
+.fw800 {
+    font-weight:800;
+}
+.p05 {
+    padding:0px 5px;
+}
+.p02 {
+    padding:0px 2px;
+}
+.mt0 {
+    margin-top:0px !important;
+}
+.mt7 {
+    margin-top:7px !important;
+}
+.mt12 {
+    margin-top:12px !important;
+}
+.ml10 {
+    margin-left:10px;
+}
+.ml15 {
+    margin-left:15px;
+}
+.mr15 {
+    margin-right:15px;
+}
+.look-down {
+    margin-top:15px;
+}
+.borBt2 {
+    border-bottom:2px solid #e7eaec
+}
+.tCenter {
+    text-align:center !important;
+}
+.cu-poin {
+    cursor:pointer;
+    font-weight:normal !important;
+}
+.col-01aced {
+    color:#01aced;
+}
+.col-ff1e00 {
+    color:#ff1e00;
+}
+.col-89c644 {
+    color:#89c644;
+}
+.col-ccc {
+    color:#ccc;
+}
+.w50 {
+    width:50%;
+}
+.borTop-none {
+    border-top:none !important;
+}
+.prg7 {
+    padding-right:7px !important;
+}
+.cl-lin34 {
+    line-height:34px;
+}
+.hea {
+    width:100%;
+    height:auto;
+}
+.pt6 {
+    padding-top:6px;
+}
+.tright {
+    text-align:right !important;
+}
+.ppb {
+    width:50%;
+    float:left;
+}
+/*===================== E UI 样式 =====================*/
+
+
+.up_loading{
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    margin-left: 5px;
+    display: none;
+    background: url(../images/loading.gif) no-repeat center;
+    background-size: 58px 10px;
+}

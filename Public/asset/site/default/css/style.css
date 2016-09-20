@@ -1,0 +1,19 @@
+/*招生招聘*/
+.by-zp{}
+.by-zp .by-zp1:nth-child(2),.by-zp .by-zp1:nth-child(5){ margin-left: 21px; margin-right: 21px;}
+.by-zp1{ width: 306px; height: auto; border-bottom: solid 2px #733c5b; margin-top: 25px; float: left; *margin-left: 10px;}
+.by-zp1-tit{ height: 33px; border-bottom: solid 2px #733c5b; box-sizing: border-box;}
+.by-zp1-tit span{ display: inline-block; width: 130px; height: 30px; float: left; font-size: 16px; text-align: center; line-height: 30px; color: #fff; background: url(../images/reubg-1.png) no-repeat;}
+.by-zp1-tit a{ float: right; font-size: 14px; color: #733c5b; line-height: 33px;}
+.by-zp1-con{ display: block; padding-bottom: 18px; min-height: 152px;}
+.by-zp1-con li{ width: 289px; padding-left: 17px; margin-top: 18px; background: url(../images/jian.png) no-repeat 0px center; height: 16px; line-height: 16px;}
+.by-zp1-con a{ display: block; float: left; max-width: 220px; *max-width: 200px; height: 16px; color: #525252;}
+.by-zp1-con span{ float: right; color: #525252;}
+/*招生办公室*/
+.by-bgs{ margin-top: 30px;}
+.by-bgs-left{ width: 464px; height: 198px;}
+.by-bgs-left1{ font-size: 16px; color: #34322c; border-bottom:solid 2px #733c5b; width: 464px; height: 36px; line-height: 36px;}
+.by-bgs-left p{ font-size: 14px; color: #34322c; display: block; float: left; width: 100%; height: auto; margin-top: 15px; line-height: 22px;}
+.by-bgs-left .pps{ padding-right: 47px;}
+.by-bgs-left .p1{ color: #733c5b;}
+.by-bgs-right{ margin-top: 36px;}

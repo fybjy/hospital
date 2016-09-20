@@ -1,0 +1,2687 @@
+[ 2016-08-02T14:18:17+08:00 ] 127.0.0.1 /tp/admin/index/action
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.112356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.309469s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000388s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000602s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.068774s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068895s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.009073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.125236s ]
+INFO: [ app_end ] --END-- [ RunTime:0.125350s ]
+
+[ 2016-08-02T14:18:17+08:00 ] 127.0.0.1 /tp/admin/index/css/bootstrap.min.css?v=3.3.6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001594s ]
+ERR: 非法操作:css
+
+[ 2016-08-02T14:18:17+08:00 ] 127.0.0.1 /tp/admin/index/css/font-awesome.min.css?v=4.4.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001804s ]
+ERR: 非法操作:css
+
+[ 2016-08-02T14:18:17+08:00 ] 127.0.0.1 /tp/admin/index/css/animate.min.css
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001805s ]
+ERR: 非法操作:css
+
+[ 2016-08-02T14:18:17+08:00 ] 127.0.0.1 /tp/admin/index/css/style.min.css?v=4.1.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001706s ]
+ERR: 非法操作:css
+
+[ 2016-08-02T14:18:17+08:00 ] 127.0.0.1 /tp/admin/index/js/jquery.min.js?v=2.1.4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001032s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:18:17+08:00 ] 127.0.0.1 /tp/admin/index/index_v1.html?v=4.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+ERR: 非法操作:index_v1
+
+[ 2016-08-02T14:18:17+08:00 ] 127.0.0.1 /tp/admin/index/js/bootstrap.min.js?v=3.3.6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001328s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:18:17+08:00 ] 127.0.0.1 /tp/admin/index/js/plugins/metisMenu/jquery.metisMenu.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001433s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:18:17+08:00 ] 127.0.0.1 /tp/admin/index/js/plugins/layer/layer.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001503s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:18:17+08:00 ] 127.0.0.1 /tp/admin/index/js/plugins/slimscroll/jquery.slimscroll.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001501s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:18:17+08:00 ] 127.0.0.1 /tp/admin/index/js/hplus.min.js?v=4.1.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001515s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:18:17+08:00 ] 127.0.0.1 /tp/admin/index/js/contabs.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001727s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:18:17+08:00 ] 127.0.0.1 /tp/admin/index/js/plugins/pace/pace.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:19:09+08:00 ] 127.0.0.1 /tp/admin/index/action
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000278s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000365s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.040192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040328s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000398s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001017s ]
+
+[ 2016-08-02T14:19:09+08:00 ] 127.0.0.1 /tp/admin/index/js/plugins/metisMenu/jquery.metisMenu.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001401s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:19:09+08:00 ] 127.0.0.1 /tp/admin/index/js/bootstrap.min.js?v=3.3.6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001309s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:19:09+08:00 ] 127.0.0.1 /tp/admin/index/js/jquery.min.js?v=2.1.4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001494s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:19:09+08:00 ] 127.0.0.1 /tp/admin/index/js/hplus.min.js?v=4.1.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003310s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:19:09+08:00 ] 127.0.0.1 /tp/admin/index/js/contabs.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001495s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:19:09+08:00 ] 127.0.0.1 /tp/admin/index/js/plugins/pace/pace.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002313s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:19:09+08:00 ] 127.0.0.1 /tp/admin/index/js/plugins/slimscroll/jquery.slimscroll.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001395s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:19:09+08:00 ] 127.0.0.1 /tp/admin/index/index_v1.html?v=4.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001446s ]
+ERR: 非法操作:index_v1
+
+[ 2016-08-02T14:19:09+08:00 ] 127.0.0.1 /tp/admin/index/js/plugins/layer/layer.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002408s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:19:14+08:00 ] 127.0.0.1 /tp/admin/index/index_v1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002625s ]
+ERR: 非法操作:index_v1
+
+[ 2016-08-02T14:19:26+08:00 ] 127.0.0.1 /tp/admin/index/iaction
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002057s ]
+ERR: 非法操作:iaction
+
+[ 2016-08-02T14:19:34+08:00 ] 127.0.0.1 /tp/admin/index/action
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000270s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000392s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017687s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017785s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000914s ]
+
+[ 2016-08-02T14:19:34+08:00 ] 127.0.0.1 /tp/admin/index/js/jquery.min.js?v=2.1.4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001525s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:19:34+08:00 ] 127.0.0.1 /tp/admin/index/js/plugins/metisMenu/jquery.metisMenu.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001516s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:19:34+08:00 ] 127.0.0.1 /tp/admin/index/js/bootstrap.min.js?v=3.3.6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001858s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:19:34+08:00 ] 127.0.0.1 /tp/admin/index/js/hplus.min.js?v=4.1.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001983s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:19:34+08:00 ] 127.0.0.1 /tp/admin/index/js/contabs.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001672s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:19:34+08:00 ] 127.0.0.1 /tp/admin/index/js/plugins/pace/pace.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001487s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:19:34+08:00 ] 127.0.0.1 /tp/admin/index/index_v1.html?v=4.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002106s ]
+ERR: 非法操作:index_v1
+
+[ 2016-08-02T14:19:34+08:00 ] 127.0.0.1 /tp/admin/index/js/plugins/layer/layer.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001480s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:19:34+08:00 ] 127.0.0.1 /tp/admin/index/js/plugins/slimscroll/jquery.slimscroll.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003930s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:23:39+08:00 ] 127.0.0.1 /tp/admin/index/action
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002191s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017174s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001124s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001290s ]
+
+[ 2016-08-02T14:23:39+08:00 ] 127.0.0.1 /tp/admin/index/js/jquery.min.js?v=2.1.4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002319s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:23:39+08:00 ] 127.0.0.1 /tp/admin/index/js/plugins/metisMenu/jquery.metisMenu.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001957s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:23:39+08:00 ] 127.0.0.1 /tp/admin/index/js/plugins/layer/layer.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002095s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:23:39+08:00 ] 127.0.0.1 /tp/admin/index/js/plugins/slimscroll/jquery.slimscroll.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001758s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:23:39+08:00 ] 127.0.0.1 /tp/admin/index/js/plugins/pace/pace.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001376s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:23:39+08:00 ] 127.0.0.1 /tp/admin/index/index_v1.html?v=4.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001361s ]
+ERR: 非法操作:index_v1
+
+[ 2016-08-02T14:23:39+08:00 ] 127.0.0.1 /tp/admin/index/js/contabs.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002017s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:23:39+08:00 ] 127.0.0.1 /tp/admin/index/js/bootstrap.min.js?v=3.3.6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001762s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:23:39+08:00 ] 127.0.0.1 /tp/admin/index/js/hplus.min.js?v=4.1.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001169s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:23:51+08:00 ] 127.0.0.1 /tp/admin/index/action
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001132s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015035s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000805s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001657s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002204s ]
+
+[ 2016-08-02T14:23:51+08:00 ] 127.0.0.1 /tp/admin/index/js/plugins/slimscroll/jquery.slimscroll.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003071s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:23:51+08:00 ] 127.0.0.1 /tp/admin/index/js/plugins/metisMenu/jquery.metisMenu.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001370s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:23:51+08:00 ] 127.0.0.1 /tp/admin/index/js/plugins/layer/layer.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002186s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:23:51+08:00 ] 127.0.0.1 /tp/admin/index/js/bootstrap.min.js?v=3.3.6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.006115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006672s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:23:52+08:00 ] 127.0.0.1 /tp/admin/index/js/hplus.min.js?v=4.1.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001458s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:23:52+08:00 ] 127.0.0.1 /tp/admin/index/js/contabs.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001269s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:23:52+08:00 ] 127.0.0.1 /tp/admin/index/js/plugins/pace/pace.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001551s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:23:52+08:00 ] 127.0.0.1 /tp/admin/index/js/jquery.min.js?v=2.1.4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001476s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:23:52+08:00 ] 127.0.0.1 /tp/admin/index/index_v1.html?v=4.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002778s ]
+ERR: 非法操作:index_v1
+
+[ 2016-08-02T14:24:58+08:00 ] 127.0.0.1 /tp/admin/index/action
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001556s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014680s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014785s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000957s ]
+
+[ 2016-08-02T14:24:58+08:00 ] 127.0.0.1 /tp/admin/index/js/jquery.min.js?v=2.1.4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002474s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:24:58+08:00 ] 127.0.0.1 /tp/admin/index/js/bootstrap.min.js?v=3.3.6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002201s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:24:58+08:00 ] 127.0.0.1 /tp/admin/index/js/plugins/layer/layer.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002357s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:24:58+08:00 ] 127.0.0.1 /tp/admin/index/js/plugins/metisMenu/jquery.metisMenu.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002613s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:24:58+08:00 ] 127.0.0.1 /tp/admin/index/js/plugins/slimscroll/jquery.slimscroll.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001644s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:24:59+08:00 ] 127.0.0.1 /tp/admin/index/index_v1.html?v=4.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001394s ]
+ERR: 非法操作:index_v1
+
+[ 2016-08-02T14:24:59+08:00 ] 127.0.0.1 /tp/admin/index/js/hplus.min.js?v=4.1.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004172s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:24:59+08:00 ] 127.0.0.1 /tp/admin/index/js/plugins/pace/pace.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004092s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:24:59+08:00 ] 127.0.0.1 /tp/admin/index/js/contabs.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001717s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:25:29+08:00 ] 127.0.0.1 /tp/admin/index/action
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000312s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015615s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015834s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000685s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001211s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001378s ]
+
+[ 2016-08-02T14:25:29+08:00 ] 127.0.0.1 /tp/admin/index/js/bootstrap.min.js?v=3.3.6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001750s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:25:29+08:00 ] 127.0.0.1 /tp/admin/index/js/jquery.min.js?v=2.1.4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002353s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:25:29+08:00 ] 127.0.0.1 /tp/admin/index/js/plugins/metisMenu/jquery.metisMenu.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001396s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:25:29+08:00 ] 127.0.0.1 /tp/admin/index/js/plugins/layer/layer.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001861s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:25:29+08:00 ] 127.0.0.1 /tp/admin/index/js/plugins/slimscroll/jquery.slimscroll.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001859s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:25:29+08:00 ] 127.0.0.1 /tp/admin/index/index_v1.html?v=4.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001781s ]
+ERR: 非法操作:index_v1
+
+[ 2016-08-02T14:25:29+08:00 ] 127.0.0.1 /tp/admin/index/js/plugins/pace/pace.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002016s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:25:29+08:00 ] 127.0.0.1 /tp/admin/index/js/contabs.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002685s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:25:29+08:00 ] 127.0.0.1 /tp/admin/index/js/hplus.min.js?v=4.1.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001467s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:25:46+08:00 ] 127.0.0.1 /tp/admin/index/index_v1.html?v=4.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001406s ]
+ERR: 非法操作:index_v1
+
+[ 2016-08-02T14:25:49+08:00 ] 127.0.0.1 /tp/admin/index/index_v1.html?v=4.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001849s ]
+ERR: 非法操作:index_v1
+
+[ 2016-08-02T14:25:50+08:00 ] 127.0.0.1 /tp/admin/index/action
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015431s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015539s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000996s ]
+
+[ 2016-08-02T14:25:50+08:00 ] 127.0.0.1 /tp/admin/index/js/jquery.min.js?v=2.1.4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003397s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:25:50+08:00 ] 127.0.0.1 /tp/admin/index/js/bootstrap.min.js?v=3.3.6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003376s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:25:50+08:00 ] 127.0.0.1 /tp/admin/index/js/plugins/metisMenu/jquery.metisMenu.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002520s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:25:50+08:00 ] 127.0.0.1 /tp/admin/index/js/plugins/layer/layer.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003015s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:25:50+08:00 ] 127.0.0.1 /tp/admin/index/js/plugins/slimscroll/jquery.slimscroll.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003284s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:25:50+08:00 ] 127.0.0.1 /tp/admin/index/index_v1.html?v=4.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002320s ]
+ERR: 非法操作:index_v1
+
+[ 2016-08-02T14:25:50+08:00 ] 127.0.0.1 /tp/admin/index/js/hplus.min.js?v=4.1.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001640s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:25:50+08:00 ] 127.0.0.1 /tp/admin/index/js/plugins/pace/pace.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001629s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:25:50+08:00 ] 127.0.0.1 /tp/admin/index/js/contabs.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001878s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:26:29+08:00 ] 127.0.0.1 /tp/admin/index/index_v1.html?v=4.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001662s ]
+ERR: 非法操作:index_v1
+
+[ 2016-08-02T14:26:33+08:00 ] 127.0.0.1 /tp/admin/index/index_v1.html?v=4.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+ERR: 非法操作:index_v1
+
+[ 2016-08-02T14:26:34+08:00 ] 127.0.0.1 /tp/admin/index/action
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001461s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013518s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000430s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000909s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001055s ]
+
+[ 2016-08-02T14:26:34+08:00 ] 127.0.0.1 /tp/admin/index/js/plugins/slimscroll/jquery.slimscroll.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001313s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:26:34+08:00 ] 127.0.0.1 /tp/admin/index/js/plugins/metisMenu/jquery.metisMenu.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001257s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:26:34+08:00 ] 127.0.0.1 /tp/admin/index/js/plugins/layer/layer.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001278s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:26:34+08:00 ] 127.0.0.1 /tp/admin/index/js/hplus.min.js?v=4.1.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004147s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:26:34+08:00 ] 127.0.0.1 /tp/admin/index/js/contabs.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002482s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:26:34+08:00 ] 127.0.0.1 /tp/admin/index/index_v1.html?v=4.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001422s ]
+ERR: 非法操作:index_v1
+
+[ 2016-08-02T14:26:34+08:00 ] 127.0.0.1 /tp/admin/index/js/bootstrap.min.js?v=3.3.6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001311s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:26:34+08:00 ] 127.0.0.1 /tp/admin/index/js/plugins/pace/pace.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002007s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:26:34+08:00 ] 127.0.0.1 /tp/admin/index/js/jquery.min.js?v=2.1.4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001401s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:26:38+08:00 ] 127.0.0.1 /tp/admin/index/index_v1.html?v=4.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002146s ]
+ERR: 非法操作:index_v1
+
+[ 2016-08-02T14:27:43+08:00 ] 127.0.0.1 /tp/admin/index/index_v1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+ERR: 非法操作:index_v1
+
+[ 2016-08-02T14:27:48+08:00 ] 127.0.0.1 /tp/admin/index/index_v1.html?v=4.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+ERR: 非法操作:index_v1
+
+[ 2016-08-02T14:29:02+08:00 ] 127.0.0.1 /tp/admin/index/action
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8] Undefined variable: admin E:\development tool\PHPstudy\phpStudy\WWW\tp\Frank\Runtime\Cache\Admin\756a4ecf74c7a57919f15dce75fae1cd.php 第 34 行.
+NOTIC: [8] Undefined variable: MenuList E:\development tool\PHPstudy\phpStudy\WWW\tp\Frank\Runtime\Cache\Admin\756a4ecf74c7a57919f15dce75fae1cd.php 第 108 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017897s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000569s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001084s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001209s ]
+
+[ 2016-08-02T14:38:14+08:00 ] 127.0.0.1 /tp/home/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001544s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.159747s ]
+SQL: SELECT * FROM `think_user`  [ RunTime:0.000419s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000211s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.063361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063446s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000365s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000998s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001127s ]
+
+[ 2016-08-02T14:38:14+08:00 ] 127.0.0.1 /tp/home/css/bootstrap.min14ed.css?v=3.3.6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+ERR: 无法加载控制器:Css
+
+[ 2016-08-02T14:38:14+08:00 ] 127.0.0.1 /tp/home/css/font-awesome.min93e3.css?v=4.4.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001453s ]
+ERR: 无法加载控制器:Css
+
+[ 2016-08-02T14:38:15+08:00 ] 127.0.0.1 /tp/home/css/animate.min.css
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002622s ]
+ERR: 无法加载控制器:Css
+
+[ 2016-08-02T14:38:15+08:00 ] 127.0.0.1 /tp/home/js/bootstrap.min.js?v=3.3.6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002438s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T14:38:15+08:00 ] 127.0.0.1 /tp/home/css/style.min862f.css?v=4.1.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001630s ]
+ERR: 无法加载控制器:Css
+
+[ 2016-08-02T14:38:15+08:00 ] 127.0.0.1 /tp/home/js/plugins/metisMenu/jquery.metisMenu.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001761s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T14:38:15+08:00 ] 127.0.0.1 /tp/home/js/jquery.min.js?v=2.1.4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001589s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T14:38:15+08:00 ] 127.0.0.1 /tp/home/index_v148b2.html?v=4.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001380s ]
+ERR: 无法加载控制器:Index_v148b2
+
+[ 2016-08-02T14:38:15+08:00 ] 127.0.0.1 /tp/home/js/contabs.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001342s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T14:38:15+08:00 ] 127.0.0.1 /tp/home/js/plugins/layer/layer.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001309s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T14:38:15+08:00 ] 127.0.0.1 /tp/home/js/hplus.min.js?v=4.1.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001524s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T14:38:15+08:00 ] 127.0.0.1 /tp/home/js/plugins/pace/pace.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001516s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T14:38:15+08:00 ] 127.0.0.1 /tp/home/js/plugins/slimscroll/jquery.slimscroll.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003486s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T14:38:51+08:00 ] 127.0.0.1 /tp/home/index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.071674s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071775s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000387s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000627s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000698s ]
+
+[ 2016-08-02T14:38:51+08:00 ] 127.0.0.1 /tp/home/index/css/bootstrap.min14ed.css?v=3.3.6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001365s ]
+ERR: 非法操作:css
+
+[ 2016-08-02T14:38:51+08:00 ] 127.0.0.1 /tp/home/index/css/font-awesome.min93e3.css?v=4.4.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001224s ]
+ERR: 非法操作:css
+
+[ 2016-08-02T14:38:51+08:00 ] 127.0.0.1 /tp/home/index/css/animate.min.css
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001359s ]
+ERR: 非法操作:css
+
+[ 2016-08-02T14:38:51+08:00 ] 127.0.0.1 /tp/home/index/css/style.min862f.css?v=4.1.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001354s ]
+ERR: 非法操作:css
+
+[ 2016-08-02T14:38:51+08:00 ] 127.0.0.1 /tp/home/index/js/jquery.min.js?v=2.1.4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001568s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:38:51+08:00 ] 127.0.0.1 /tp/home/index/js/bootstrap.min.js?v=3.3.6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001496s ]
+ERR: 非法操作:js
+
+[ 2016-08-02T14:39:21+08:00 ] 127.0.0.1 /tp/home/index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001761s ]
+ERR: 模板不存在:./Frank/Home/View/Index/login.html
+
+[ 2016-08-02T14:39:23+08:00 ] 127.0.0.1 /tp/home/index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+ERR: 模板不存在:./Frank/Home/View/Index/login.html
+
+[ 2016-08-02T14:43:08+08:00 ] 127.0.0.1 /tp/home/index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001978s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008902s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009028s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000804s ]
+
+[ 2016-08-02T15:18:26+08:00 ] 127.0.0.1 /tp/home/index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001141s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007700s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007834s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000807s ]
+
+[ 2016-08-02T15:20:12+08:00 ] 127.0.0.1 /tp/home/index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001806s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008436s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000482s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000688s ]
+
+[ 2016-08-02T15:20:34+08:00 ] 127.0.0.1 /tp/home/index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001503s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006134s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006227s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000650s ]
+
+[ 2016-08-02T15:21:07+08:00 ] 127.0.0.1 /tp/home/index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001932s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000228s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000415s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011153s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000641s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000710s ]
+
+[ 2016-08-02T15:21:50+08:00 ] 127.0.0.1 /tp/home/index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003656s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010636s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000646s ]
+
+[ 2016-08-02T15:22:24+08:00 ] 127.0.0.1 /tp/home/index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007343s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007493s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000577s ]
+
+[ 2016-08-02T15:23:52+08:00 ] 127.0.0.1 /tp/home/index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002633s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006959s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000634s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000696s ]
+
+[ 2016-08-02T15:24:09+08:00 ] 127.0.0.1 /tp/home/index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008548s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008717s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000896s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001203s ]
+
+[ 2016-08-02T15:25:51+08:00 ] 127.0.0.1 /tp/home/index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003814s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000809s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013683s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013827s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000833s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001015s ]
+
+[ 2016-08-02T15:25:56+08:00 ] 127.0.0.1 /tp/home/index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002332s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.079893s ]
+SQL: SELECT * FROM `think_admin` WHERE ( `username` = 'admin' ) AND ( `password` = '111111' )  [ RunTime:0.047932s ]
+
+[ 2016-08-02T15:26:10+08:00 ] 127.0.0.1 /tp/home/index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002360s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007889s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000671s ]
+
+[ 2016-08-02T15:26:39+08:00 ] 127.0.0.1 /tp/home/index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001064s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011186s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011455s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000599s ]
+
+[ 2016-08-02T15:26:46+08:00 ] 127.0.0.1 /tp/home/index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002194s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.004918s ]
+SQL: SELECT * FROM `think_admin` WHERE ( `username` = 'admin' ) AND ( `password` = '123456' )  [ RunTime:0.000378s ]
+
+[ 2016-08-02T15:26:53+08:00 ] 127.0.0.1 /tp/home/index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001140s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006479s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006573s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000606s ]
+
+[ 2016-08-02T15:26:59+08:00 ] 127.0.0.1 /tp/home/index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001771s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.006468s ]
+SQL: SELECT * FROM `think_admin` WHERE ( `username` = 'admin' ) AND ( `password` = '111111' )  [ RunTime:0.000501s ]
+
+[ 2016-08-02T15:27:01+08:00 ] 127.0.0.1 /tp/home/index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001853s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000510s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014943s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000730s ]
+
+[ 2016-08-02T15:27:21+08:00 ] 127.0.0.1 /tp/home/index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000295s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2016-08-02T15:27:25+08:00 ] 127.0.0.1 /tp/home/index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.005287s ]
+SQL: SELECT * FROM `think_admin` WHERE ( `username` = 'admin' ) AND ( `password` = '111111' )  [ RunTime:0.000493s ]
+
+[ 2016-08-02T15:27:31+08:00 ] 127.0.0.1 /tp/home/index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.004850s ]
+SQL: SELECT * FROM `think_admin` WHERE ( `username` = 'admin' ) AND ( `password` = '123456' )  [ RunTime:0.000335s ]
+
+[ 2016-08-02T15:27:45+08:00 ] 127.0.0.1 /tp/home/index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000182s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000600s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009311s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001148s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001289s ]
+
+[ 2016-08-02T15:27:49+08:00 ] 127.0.0.1 /tp/home/index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.004824s ]
+SQL: SELECT * FROM `think_admin` WHERE ( `username` = 'admin' ) AND ( `password` = '111111' )  [ RunTime:0.000295s ]
+
+[ 2016-08-02T15:27:52+08:00 ] 127.0.0.1 /tp/home/index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.004786s ]
+SQL: SELECT * FROM `think_admin` WHERE ( `username` = 'admin' ) AND ( `password` = '111111' )  [ RunTime:0.000331s ]
+
+[ 2016-08-02T15:27:53+08:00 ] 127.0.0.1 /tp/home/index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002850s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009487s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009660s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001282s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001452s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001706s ]
+
+[ 2016-08-02T15:27:59+08:00 ] 127.0.0.1 /tp/home/index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.006192s ]
+SQL: SELECT * FROM `think_admin` WHERE ( `username` = 'admin' ) AND ( `password` = '123456' )  [ RunTime:0.000344s ]
+
+[ 2016-08-02T15:28:41+08:00 ] 127.0.0.1 /tp/home/index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.075206s ]
+SQL: SELECT * FROM `think_admin` WHERE ( `username` = 'admin' ) AND ( `password` = '123456' )  [ RunTime:0.000354s ]
+
+[ 2016-08-02T15:31:59+08:00 ] 127.0.0.1 /tp/admin/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001209s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000267s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000353s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.026049s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026203s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001202s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001375s ]
+
+[ 2016-08-02T15:31:59+08:00 ] 127.0.0.1 /tp/admin/js/bootstrap.min.js?v=3.3.6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001885s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:31:59+08:00 ] 127.0.0.1 /tp/admin/js/plugins/metisMenu/jquery.metisMenu.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001863s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:31:59+08:00 ] 127.0.0.1 /tp/admin/js/plugins/slimscroll/jquery.slimscroll.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001892s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:31:59+08:00 ] 127.0.0.1 /tp/admin/js/plugins/layer/layer.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001588s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:31:59+08:00 ] 127.0.0.1 /tp/admin/js/hplus.min.js?v=4.1.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002290s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:31:59+08:00 ] 127.0.0.1 /tp/admin/js/jquery.min.js?v=2.1.4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.054584s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:31:59+08:00 ] 127.0.0.1 /tp/admin/js/contabs.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001477s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:31:59+08:00 ] 127.0.0.1 /tp/admin/index_v148b2.html?v=4.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001608s ]
+ERR: 无法加载控制器:Index_v148b2
+
+[ 2016-08-02T15:31:59+08:00 ] 127.0.0.1 /tp/admin/js/plugins/pace/pace.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001562s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:32:16+08:00 ] 127.0.0.1 /tp/admin/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001930s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000250s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000353s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.019392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019486s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000949s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001046s ]
+
+[ 2016-08-02T15:32:16+08:00 ] 127.0.0.1 /tp/admin/js/bootstrap.min.js?v=3.3.6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001505s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:32:16+08:00 ] 127.0.0.1 /tp/admin/js/jquery.min.js?v=2.1.4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001339s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:32:16+08:00 ] 127.0.0.1 /tp/admin/index_v148b2.html?v=4.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001532s ]
+ERR: 无法加载控制器:Index_v148b2
+
+[ 2016-08-02T15:32:16+08:00 ] 127.0.0.1 /tp/admin/js/plugins/metisMenu/jquery.metisMenu.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001577s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:32:16+08:00 ] 127.0.0.1 /tp/admin/js/plugins/layer/layer.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001363s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:32:16+08:00 ] 127.0.0.1 /tp/admin/js/plugins/pace/pace.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002305s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:32:16+08:00 ] 127.0.0.1 /tp/admin/js/contabs.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002529s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:32:16+08:00 ] 127.0.0.1 /tp/admin/js/hplus.min.js?v=4.1.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001428s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:32:16+08:00 ] 127.0.0.1 /tp/admin/js/plugins/slimscroll/jquery.slimscroll.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003129s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:34:29+08:00 ] 127.0.0.1 /tp/admin/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001356s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000255s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000348s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017817s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017927s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000853s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000984s ]
+
+[ 2016-08-02T15:34:29+08:00 ] 127.0.0.1 /tp/admin/_Public_css/bootstrap.min14ed.css?v=3.3.6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001570s ]
+ERR: 无法加载控制器:_Public_css
+
+[ 2016-08-02T15:34:29+08:00 ] 127.0.0.1 /tp/admin/_Public_/css/font-awesome.min93e3.css?v=4.4.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001711s ]
+ERR: 无法加载控制器:_Public_
+
+[ 2016-08-02T15:34:29+08:00 ] 127.0.0.1 /tp/admin/_Public_/css/style.min862f.css?v=4.1.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003340s ]
+ERR: 无法加载控制器:_Public_
+
+[ 2016-08-02T15:34:29+08:00 ] 127.0.0.1 /tp/admin/_Public_/css/animate.min.css
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002946s ]
+ERR: 无法加载控制器:_Public_
+
+[ 2016-08-02T15:34:29+08:00 ] 127.0.0.1 /tp/admin/js/jquery.min.js?v=2.1.4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002133s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:34:29+08:00 ] 127.0.0.1 /tp/admin/js/bootstrap.min.js?v=3.3.6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001880s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:34:29+08:00 ] 127.0.0.1 /tp/admin/js/plugins/slimscroll/jquery.slimscroll.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001677s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:34:29+08:00 ] 127.0.0.1 /tp/admin/js/plugins/metisMenu/jquery.metisMenu.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001622s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:34:29+08:00 ] 127.0.0.1 /tp/admin/js/plugins/layer/layer.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001311s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:34:29+08:00 ] 127.0.0.1 /tp/admin/js/hplus.min.js?v=4.1.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002065s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:34:29+08:00 ] 127.0.0.1 /tp/admin/js/contabs.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001481s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:34:29+08:00 ] 127.0.0.1 /tp/admin/js/plugins/pace/pace.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001450s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:34:29+08:00 ] 127.0.0.1 /tp/admin/index_v148b2.html?v=4.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002350s ]
+ERR: 无法加载控制器:Index_v148b2
+
+[ 2016-08-02T15:35:36+08:00 ] 127.0.0.1 /tp/admin/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001906s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000248s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000346s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.018915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019030s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000430s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000801s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000916s ]
+
+[ 2016-08-02T15:35:36+08:00 ] 127.0.0.1 /tp/admin/Public/css/bootstrap.min14ed.css?v=3.3.6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002554s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-08-02T15:35:36+08:00 ] 127.0.0.1 /tp/admin/public/css/animate.min.css
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001362s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-08-02T15:35:36+08:00 ] 127.0.0.1 /tp/admin/public/css/font-awesome.min93e3.css?v=4.4.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001685s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-08-02T15:35:36+08:00 ] 127.0.0.1 /tp/admin/index_v148b2.html?v=4.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001462s ]
+ERR: 无法加载控制器:Index_v148b2
+
+[ 2016-08-02T15:35:36+08:00 ] 127.0.0.1 /tp/admin/js/plugins/metisMenu/jquery.metisMenu.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001399s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:35:36+08:00 ] 127.0.0.1 /tp/admin/js/plugins/slimscroll/jquery.slimscroll.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001893s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:35:36+08:00 ] 127.0.0.1 /tp/admin/js/plugins/layer/layer.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001809s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:35:36+08:00 ] 127.0.0.1 /tp/admin/js/hplus.min.js?v=4.1.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001652s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:35:36+08:00 ] 127.0.0.1 /tp/admin/js/contabs.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001261s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:35:36+08:00 ] 127.0.0.1 /tp/admin/public/css/style.min862f.css?v=4.1.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001483s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-08-02T15:35:36+08:00 ] 127.0.0.1 /tp/admin/js/plugins/pace/pace.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002015s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:35:36+08:00 ] 127.0.0.1 /tp/admin/js/jquery.min.js?v=2.1.4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002279s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:35:36+08:00 ] 127.0.0.1 /tp/admin/js/bootstrap.min.js?v=3.3.6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001635s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:35:57+08:00 ] 127.0.0.1 /tp/admin/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001160s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000247s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000360s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017683s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000279s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001348s ]
+
+[ 2016-08-02T15:35:57+08:00 ] 127.0.0.1 /tp/admin/js/jquery.min.js?v=2.1.4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001393s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:35:57+08:00 ] 127.0.0.1 /tp/admin/index_v148b2.html?v=4.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001614s ]
+ERR: 无法加载控制器:Index_v148b2
+
+[ 2016-08-02T15:35:57+08:00 ] 127.0.0.1 /tp/admin/js/plugins/slimscroll/jquery.slimscroll.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001531s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:35:57+08:00 ] 127.0.0.1 /tp/admin/js/plugins/layer/layer.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001588s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:35:57+08:00 ] 127.0.0.1 /tp/admin/js/hplus.min.js?v=4.1.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001527s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:35:57+08:00 ] 127.0.0.1 /tp/admin/js/plugins/pace/pace.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001695s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:35:57+08:00 ] 127.0.0.1 /tp/admin/js/contabs.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002188s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:35:57+08:00 ] 127.0.0.1 /tp/admin/js/bootstrap.min.js?v=3.3.6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001530s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:35:57+08:00 ] 127.0.0.1 /tp/admin/js/plugins/metisMenu/jquery.metisMenu.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001996s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:36:41+08:00 ] 127.0.0.1 /tp/admin/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000272s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000353s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017334s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017425s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001144s ]
+
+[ 2016-08-02T15:36:41+08:00 ] 127.0.0.1 /tp/admin/_Public_css/bootstrap.min14ed.css?v=3.3.6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001747s ]
+ERR: 无法加载控制器:_Public_css
+
+[ 2016-08-02T15:36:41+08:00 ] 127.0.0.1 /tp/admin/index_v148b2.html?v=4.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001548s ]
+ERR: 无法加载控制器:Index_v148b2
+
+[ 2016-08-02T15:36:41+08:00 ] 127.0.0.1 /tp/admin/js/bootstrap.min.js?v=3.3.6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002115s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:36:41+08:00 ] 127.0.0.1 /tp/admin/js/plugins/metisMenu/jquery.metisMenu.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001359s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:36:41+08:00 ] 127.0.0.1 /tp/admin/js/hplus.min.js?v=4.1.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001413s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:36:41+08:00 ] 127.0.0.1 /tp/admin/js/plugins/layer/layer.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001356s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:36:41+08:00 ] 127.0.0.1 /tp/admin/js/contabs.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001583s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:36:41+08:00 ] 127.0.0.1 /tp/admin/js/plugins/pace/pace.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001689s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:36:41+08:00 ] 127.0.0.1 /tp/admin/js/plugins/slimscroll/jquery.slimscroll.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001781s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:36:41+08:00 ] 127.0.0.1 /tp/admin/js/jquery.min.js?v=2.1.4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001709s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:42:08+08:00 ] 127.0.0.1 /tp/admin/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001854s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000263s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000359s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.019936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020064s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001176s ]
+
+[ 2016-08-02T15:42:08+08:00 ] 127.0.0.1 /tp/admin/_Public_css/bootstrap.min14ed.css?v=3.3.6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002537s ]
+ERR: 无法加载控制器:_Public_css
+
+[ 2016-08-02T15:42:08+08:00 ] 127.0.0.1 /tp/admin/js/jquery.min.js?v=2.1.4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001448s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:42:08+08:00 ] 127.0.0.1 /tp/admin/js/bootstrap.min.js?v=3.3.6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002199s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:42:08+08:00 ] 127.0.0.1 /tp/admin/js/plugins/metisMenu/jquery.metisMenu.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001657s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:42:08+08:00 ] 127.0.0.1 /tp/admin/js/plugins/slimscroll/jquery.slimscroll.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001502s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:42:08+08:00 ] 127.0.0.1 /tp/admin/js/hplus.min.js?v=4.1.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002174s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:42:08+08:00 ] 127.0.0.1 /tp/admin/js/contabs.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001403s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:42:08+08:00 ] 127.0.0.1 /tp/admin/js/plugins/pace/pace.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002300s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:42:08+08:00 ] 127.0.0.1 /tp/admin/index_v148b2.html?v=4.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001993s ]
+ERR: 无法加载控制器:Index_v148b2
+
+[ 2016-08-02T15:42:08+08:00 ] 127.0.0.1 /tp/admin/js/plugins/layer/layer.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.052184s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:43:29+08:00 ] 127.0.0.1 /tp/admin/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001213s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000282s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000377s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.030897s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.006566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006811s ]
+
+[ 2016-08-02T15:43:29+08:00 ] 127.0.0.1 /tp/admin/js/jquery.min.js?v=2.1.4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002231s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:43:29+08:00 ] 127.0.0.1 /tp/admin/js/plugins/metisMenu/jquery.metisMenu.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003380s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:43:29+08:00 ] 127.0.0.1 /tp/admin/js/plugins/slimscroll/jquery.slimscroll.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001563s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:43:29+08:00 ] 127.0.0.1 /tp/admin/js/plugins/layer/layer.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001357s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:43:29+08:00 ] 127.0.0.1 /tp/admin/js/hplus.min.js?v=4.1.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001520s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:43:29+08:00 ] 127.0.0.1 /tp/admin/js/plugins/pace/pace.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001482s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:43:29+08:00 ] 127.0.0.1 /tp/admin/js/contabs.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001316s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:43:29+08:00 ] 127.0.0.1 /tp/admin/index_v148b2.html?v=4.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001479s ]
+ERR: 无法加载控制器:Index_v148b2
+
+[ 2016-08-02T15:43:30+08:00 ] 127.0.0.1 /tp/admin/js/bootstrap.min.js?v=3.3.6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002081s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:44:09+08:00 ] 127.0.0.1 /tp/admin/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002049s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000655s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000811s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.058210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.003159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.012483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012668s ]
+
+[ 2016-08-02T15:44:09+08:00 ] 127.0.0.1 /tp/admin/js/jquery.min.js?v=2.1.4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001623s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:44:09+08:00 ] 127.0.0.1 /tp/admin/js/plugins/metisMenu/jquery.metisMenu.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001549s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:44:09+08:00 ] 127.0.0.1 /tp/admin/js/plugins/slimscroll/jquery.slimscroll.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001495s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:44:09+08:00 ] 127.0.0.1 /tp/admin/js/plugins/layer/layer.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001548s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:44:09+08:00 ] 127.0.0.1 /tp/admin/index_v148b2.html?v=4.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001671s ]
+ERR: 无法加载控制器:Index_v148b2
+
+[ 2016-08-02T15:44:09+08:00 ] 127.0.0.1 /tp/admin/js/contabs.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001298s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:44:09+08:00 ] 127.0.0.1 /tp/admin/js/plugins/pace/pace.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002458s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:44:09+08:00 ] 127.0.0.1 /tp/admin/js/hplus.min.js?v=4.1.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001598s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:44:09+08:00 ] 127.0.0.1 /tp/admin/js/bootstrap.min.js?v=3.3.6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002818s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:44:56+08:00 ] 127.0.0.1 /tp/admin/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002426s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000402s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000555s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.026475s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026659s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000288s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000913s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001023s ]
+
+[ 2016-08-02T15:44:56+08:00 ] 127.0.0.1 /tp/admin/index_v148b2.html?v=4.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001436s ]
+ERR: 无法加载控制器:Index_v148b2
+
+[ 2016-08-02T15:44:56+08:00 ] 127.0.0.1 /tp/admin/js/bootstrap.min.js?v=3.3.6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001368s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:44:56+08:00 ] 127.0.0.1 /tp/admin/js/plugins/metisMenu/jquery.metisMenu.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001507s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:44:56+08:00 ] 127.0.0.1 /tp/admin/js/plugins/slimscroll/jquery.slimscroll.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001534s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:44:56+08:00 ] 127.0.0.1 /tp/admin/js/plugins/layer/layer.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001326s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:44:56+08:00 ] 127.0.0.1 /tp/admin/js/hplus.min.js?v=4.1.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001749s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:44:56+08:00 ] 127.0.0.1 /tp/admin/js/contabs.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001406s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:44:56+08:00 ] 127.0.0.1 /tp/admin/js/jquery.min.js?v=2.1.4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001369s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:44:56+08:00 ] 127.0.0.1 /tp/admin/js/plugins/pace/pace.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001315s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:45:32+08:00 ] 127.0.0.1 /tp/admin/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001139s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000272s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000368s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.029213s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029334s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001254s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001439s ]
+
+[ 2016-08-02T15:45:32+08:00 ] 127.0.0.1 /tp/admin/js/jquery.min.js?v=2.1.4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001858s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:45:32+08:00 ] 127.0.0.1 /tp/admin/js/bootstrap.min.js?v=3.3.6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002296s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:45:32+08:00 ] 127.0.0.1 /tp/admin/js/plugins/slimscroll/jquery.slimscroll.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001374s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:45:32+08:00 ] 127.0.0.1 /tp/admin/js/plugins/metisMenu/jquery.metisMenu.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001485s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:45:32+08:00 ] 127.0.0.1 /tp/admin/js/hplus.min.js?v=4.1.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004646s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:45:32+08:00 ] 127.0.0.1 /tp/admin/js/plugins/layer/layer.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001772s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:45:32+08:00 ] 127.0.0.1 /tp/admin/js/plugins/pace/pace.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001516s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:45:32+08:00 ] 127.0.0.1 /tp/admin/index_v148b2.html?v=4.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001591s ]
+ERR: 无法加载控制器:Index_v148b2
+
+[ 2016-08-02T15:45:32+08:00 ] 127.0.0.1 /tp/admin/js/contabs.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001765s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:46:37+08:00 ] 127.0.0.1 /tp/admin/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000279s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000375s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.018032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018442s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000636s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001440s ]
+
+[ 2016-08-02T15:46:37+08:00 ] 127.0.0.1 /tp/admin/js/jquery.min.js?v=2.1.4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002428s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:46:37+08:00 ] 127.0.0.1 /tp/admin/index_v148b2.html?v=4.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001831s ]
+ERR: 无法加载控制器:Index_v148b2
+
+[ 2016-08-02T15:46:37+08:00 ] 127.0.0.1 /tp/admin/js/plugins/slimscroll/jquery.slimscroll.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001523s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:46:37+08:00 ] 127.0.0.1 /tp/admin/js/plugins/layer/layer.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001328s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:46:37+08:00 ] 127.0.0.1 /tp/admin/js/contabs.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001349s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:46:37+08:00 ] 127.0.0.1 /tp/admin/js/hplus.min.js?v=4.1.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:46:37+08:00 ] 127.0.0.1 /tp/admin/js/plugins/metisMenu/jquery.metisMenu.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:46:37+08:00 ] 127.0.0.1 /tp/admin/js/bootstrap.min.js?v=3.3.6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001695s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:46:37+08:00 ] 127.0.0.1 /tp/admin/js/plugins/pace/pace.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001473s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:47:44+08:00 ] 127.0.0.1 /tp/admin/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001143s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013575s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013723s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001199s ]
+
+[ 2016-08-02T15:47:45+08:00 ] 127.0.0.1 /tp/admin/js/bootstrap.min.js?v=3.3.6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001605s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:47:45+08:00 ] 127.0.0.1 /tp/admin/index_v148b2.html?v=4.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001425s ]
+ERR: 无法加载控制器:Index_v148b2
+
+[ 2016-08-02T15:47:45+08:00 ] 127.0.0.1 /tp/admin/js/plugins/layer/layer.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001612s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:47:45+08:00 ] 127.0.0.1 /tp/admin/js/hplus.min.js?v=4.1.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001572s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:47:45+08:00 ] 127.0.0.1 /tp/admin/js/jquery.min.js?v=2.1.4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002636s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:47:45+08:00 ] 127.0.0.1 /tp/admin/js/plugins/pace/pace.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001484s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:47:45+08:00 ] 127.0.0.1 /tp/admin/js/contabs.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001642s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:47:45+08:00 ] 127.0.0.1 /tp/admin/js/plugins/slimscroll/jquery.slimscroll.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.066460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.067077s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:47:45+08:00 ] 127.0.0.1 /tp/admin/js/plugins/metisMenu/jquery.metisMenu.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004025s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:48:44+08:00 ] 127.0.0.1 /tp/admin/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000266s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017742s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000926s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000795s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000964s ]
+
+[ 2016-08-02T15:48:44+08:00 ] 127.0.0.1 /tp/admin/www.123.com/tp/Public/css/bootstrap.min14ed.css?v=3.3.6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002228s ]
+ERR: 无法加载控制器:Www.123.com
+
+[ 2016-08-02T15:48:44+08:00 ] 127.0.0.1 /tp/admin/www.123.com/tp//public/css/font-awesome.min93e3.css?v=4.4.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001574s ]
+ERR: 无法加载控制器:Www.123.com
+
+[ 2016-08-02T15:48:44+08:00 ] 127.0.0.1 /tp/admin/js/jquery.min.js?v=2.1.4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001976s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:48:44+08:00 ] 127.0.0.1 /tp/admin/www.123.com/tp//public/css/animate.min.css
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001608s ]
+ERR: 无法加载控制器:Www.123.com
+
+[ 2016-08-02T15:48:44+08:00 ] 127.0.0.1 /tp/admin/js/plugins/metisMenu/jquery.metisMenu.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001497s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:48:44+08:00 ] 127.0.0.1 /tp/admin/js/plugins/slimscroll/jquery.slimscroll.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001459s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:48:44+08:00 ] 127.0.0.1 /tp/admin/js/plugins/layer/layer.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001322s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:48:44+08:00 ] 127.0.0.1 /tp/admin/js/bootstrap.min.js?v=3.3.6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002079s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:48:44+08:00 ] 127.0.0.1 /tp/admin/www.123.com/tp//public/css/style.min862f.css?v=4.1.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001728s ]
+ERR: 无法加载控制器:Www.123.com
+
+[ 2016-08-02T15:48:44+08:00 ] 127.0.0.1 /tp/admin/js/contabs.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001375s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:48:44+08:00 ] 127.0.0.1 /tp/admin/js/plugins/pace/pace.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001479s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:48:44+08:00 ] 127.0.0.1 /tp/admin/index_v148b2.html?v=4.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001780s ]
+ERR: 无法加载控制器:Index_v148b2
+
+[ 2016-08-02T15:48:44+08:00 ] 127.0.0.1 /tp/admin/js/hplus.min.js?v=4.1.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001731s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:49:20+08:00 ] 127.0.0.1 /tp/admin/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003112s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014554s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014655s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000933s ]
+
+[ 2016-08-02T15:49:20+08:00 ] 127.0.0.1 /tp/admin/js/bootstrap.min.js?v=3.3.6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001581s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:49:20+08:00 ] 127.0.0.1 /tp/admin/js/hplus.min.js?v=4.1.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001976s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:49:20+08:00 ] 127.0.0.1 /tp/admin/index_v148b2.html?v=4.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载控制器:Index_v148b2
+
+[ 2016-08-02T15:49:20+08:00 ] 127.0.0.1 /tp/admin/js/plugins/layer/layer.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002034s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:49:20+08:00 ] 127.0.0.1 /tp/admin/js/plugins/slimscroll/jquery.slimscroll.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001645s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:49:20+08:00 ] 127.0.0.1 /tp/admin/js/plugins/metisMenu/jquery.metisMenu.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001295s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:49:20+08:00 ] 127.0.0.1 /tp/admin/js/plugins/pace/pace.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004022s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:49:20+08:00 ] 127.0.0.1 /tp/admin/js/contabs.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001603s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:49:20+08:00 ] 127.0.0.1 /tp/admin/js/jquery.min.js?v=2.1.4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.058994s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:49:35+08:00 ] 127.0.0.1 /tp/admin/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000306s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014568s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001158s ]
+
+[ 2016-08-02T15:49:35+08:00 ] 127.0.0.1 /tp/admin/js/jquery.min.js?v=2.1.4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003945s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:49:35+08:00 ] 127.0.0.1 /tp/admin/js/bootstrap.min.js?v=3.3.6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003017s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:49:35+08:00 ] 127.0.0.1 /tp/admin/js/plugins/layer/layer.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001327s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:49:35+08:00 ] 127.0.0.1 /tp/admin/js/hplus.min.js?v=4.1.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001353s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:49:35+08:00 ] 127.0.0.1 /tp/admin/js/plugins/slimscroll/jquery.slimscroll.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.016258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016821s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:49:35+08:00 ] 127.0.0.1 /tp/admin/js/contabs.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.012754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014115s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:49:35+08:00 ] 127.0.0.1 /tp/admin/js/plugins/pace/pace.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008697s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:49:35+08:00 ] 127.0.0.1 /tp/admin/index_v148b2.html?v=4.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003708s ]
+ERR: 无法加载控制器:Index_v148b2
+
+[ 2016-08-02T15:49:35+08:00 ] 127.0.0.1 /tp/admin/js/plugins/metisMenu/jquery.metisMenu.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.108830s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:51:20+08:00 ] 127.0.0.1 /tp/admin/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001149s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000543s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001502s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.027117s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027245s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000790s ]
+
+[ 2016-08-02T15:51:20+08:00 ] 127.0.0.1 /tp/admin/index_v148b2.html?v=4.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001580s ]
+ERR: 无法加载控制器:Index_v148b2
+
+[ 2016-08-02T15:51:20+08:00 ] 127.0.0.1 /tp/admin/js/jquery.min.js?v=2.1.4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001736s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:51:20+08:00 ] 127.0.0.1 /tp/admin/js/bootstrap.min.js?v=3.3.6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002008s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:51:20+08:00 ] 127.0.0.1 /tp/admin/js/plugins/slimscroll/jquery.slimscroll.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002020s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:51:20+08:00 ] 127.0.0.1 /tp/admin/js/plugins/metisMenu/jquery.metisMenu.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002082s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:51:20+08:00 ] 127.0.0.1 /tp/admin/js/hplus.min.js?v=4.1.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001676s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:51:20+08:00 ] 127.0.0.1 /tp/admin/js/plugins/pace/pace.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002330s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:51:20+08:00 ] 127.0.0.1 /tp/admin/js/contabs.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002014s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:51:20+08:00 ] 127.0.0.1 /tp/admin/js/plugins/layer/layer.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.004561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005561s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:51:43+08:00 ] 127.0.0.1 /tp/admin/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001695s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000342s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000560s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.021039s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000643s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.004081s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004813s ]
+
+[ 2016-08-02T15:51:43+08:00 ] 127.0.0.1 /tp/admin/js/plugins/layer/layer.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002205s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:51:43+08:00 ] 127.0.0.1 /tp/admin/js/jquery.min.js?v=2.1.4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001683s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:51:43+08:00 ] 127.0.0.1 /tp/admin/js/plugins/metisMenu/jquery.metisMenu.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002486s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:51:43+08:00 ] 127.0.0.1 /tp/admin/js/hplus.min.js?v=4.1.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001691s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:51:43+08:00 ] 127.0.0.1 /tp/admin/js/contabs.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001330s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:51:43+08:00 ] 127.0.0.1 /tp/admin/js/plugins/slimscroll/jquery.slimscroll.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001536s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:51:43+08:00 ] 127.0.0.1 /tp/admin/js/plugins/pace/pace.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002323s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:51:43+08:00 ] 127.0.0.1 /tp/admin/index_v148b2.html?v=4.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001405s ]
+ERR: 无法加载控制器:Index_v148b2
+
+[ 2016-08-02T15:51:43+08:00 ] 127.0.0.1 /tp/admin/js/bootstrap.min.js?v=3.3.6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001506s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-08-02T15:54:16+08:00 ] 127.0.0.1 /tp/admin/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001736s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000250s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000364s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.026496s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000427s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000892s ]
+
+[ 2016-08-02T15:54:16+08:00 ] 127.0.0.1 /tp/admin/index_v148b2.html?v=4.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002332s ]
+ERR: 无法加载控制器:Index_v148b2
+
+[ 2016-08-02T15:54:18+08:00 ] 127.0.0.1 /tp/admin/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002856s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000247s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000443s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.023438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023806s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000805s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000935s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003077s ]
+
+[ 2016-08-02T15:54:18+08:00 ] 127.0.0.1 /tp/admin/index_v148b2.html?v=4.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001839s ]
+ERR: 无法加载控制器:Index_v148b2
+
+[ 2016-08-02T16:00:41+08:00 ] 127.0.0.1 /tp/admin/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005794s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017757s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018714s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001779s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001406s ]
+
+[ 2016-08-02T16:00:41+08:00 ] 127.0.0.1 /tp/admin/_Public_css/bootstrap.min14ed.css?v=3.3.6%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003067s ]
+ERR: 无法加载控制器:_Public_css
+
+[ 2016-08-02T16:00:41+08:00 ] 127.0.0.1 /tp/admin/index_v148b2.html?v=4.0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003044s ]
+ERR: 无法加载控制器:Index_v148b2
+

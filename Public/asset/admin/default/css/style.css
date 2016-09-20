@@ -1,0 +1,324 @@
+
+.radio-inline input[type="radio"]{
+  margin-top: 2px!important;
+}
+
+/* ECHARTS  */
+.echarts {
+    height: 240px;
+}
+
+
+
+/* datatables样式 */
+.j-datatables thead th, .j-datatables tbody td{
+    text-align: center;
+}
+
+
+
+/* angular 数据隐藏 */
+[ng-controller] {
+    visibility: hidden;
+}
+
+.ng-scope {
+    visibility: visible;
+}
+
+
+
+/* 登录页 */
+.loginscreen .errorBox {
+    text-align: right;
+    margin-top: 5px;
+}
+
+.loginscreen .errorBox .error {
+    color: red;
+    margin-top: 5px;
+}
+
+.loginscreen.middle-box h3 {
+    margin: 20px 0;
+}
+
+.loginBox .login-u, .loginBox .login-p{
+    /*padding-left: 40px;*/
+    /*background: url(../img/icon-login-u.png) 10px center no-repeat;*/
+}
+.loginBox .login-p{}
+.loginBox{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 384px;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #b2b2b2;
+}
+.loginBox-hd {
+    height: 45px;
+    line-height: 45px;
+    background-color: #1ab395;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+}
+.loginBox-bd{
+    background-color: #fff;
+}
+.loginBox .mb30{ margin-bottom: 30px;}
+.loginBox .errorBox{ margin-top: 5px; font-size: 12px; color: red; text-align: right;}
+
+.loginBox-tab{}
+.loginBox-nav{ overflow: hidden;}
+.loginBox-nav > div {
+    float: left;
+    width: 50%;
+    line-height: 54px;
+    text-align: center;
+    border-bottom: 1px solid #eaeaea;
+}
+.loginBox-nav > div a{
+    position: relative;
+    display: block;
+    line-height: 30px;
+    margin: 10px 0;
+    font-size: 16px;
+    color: #cacaca;
+    font-weight: bold;
+}
+.loginBox-nav > div a:after{
+    display: none;
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -11px;
+    margin-left: -25%;
+    width: 50%;
+    border-bottom: 2px solid #1ab395;
+}
+
+.loginBox-nav > div:first-child a{ border-right: 1px solid #eaeaea;}
+.loginBox-nav .active a{
+    color: #1ab395;
+}
+.loginBox-nav .active a:after{
+    display: block;
+}
+.loginBox-panel{ padding: 30px;}
+
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    box-shadow:0 0 0 60px #fff inset;
+    -webkit-text-fill-color: #333;
+}
+
+/*添加自定义菜单*/
+.mb0{margin-bottom: 0px!important;}
+.pd20{padding: 20px!important;}
+.mb15{margin-bottom: 15px!important;}
+.mb5{margin-bottom: 5px!important;}
+
+.pl0{padding-left: 0px!important;}
+
+.pr0{padding-right: 0px!important;}
+.wb100{width: 100%!important;}
+.mb10{margin-bottom: 10px!important;}
+.lh34{line-height: 34px!important;}
+
+.cb{clear:both;}
+.cl{clear:left;}
+.cr{clear:right;}
+.clearfix:after{content:'.';display:block;height:0;clear:both;visibility:hidden}
+.clearfix{display:inline-block;zoom: 1;}
+.Clearfix{display:block;}
+.clear{zoom:1}
+.clear:after{display:block;clear:both;content:"";}
+
+/**/
+.mustB{
+  background: #f9f9f9;
+  padding: 20px 20px 0px 20px!important;
+  border-radius: 6px;
+}
+.pb15{padding-bottom: 15px!important;}
+.con-menu{
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.menu_type{
+    position: absolute;
+    top:20px;
+    left: 20px;
+    width: 272px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+/*左边*/
+.con-menu-l{
+  position: absolute;
+  left: 0;
+  top:100px;
+  width: 316px;
+  height: 604px;
+  background: url("../images/phone.png") no-repeat;
+}
+
+.con-menu-l .bottom-menu{
+  width: 272px;
+  height: 44px;
+  margin-left: 23px;
+  margin-top: 485px;
+}
+.con-menu-l .bottom-menu li{
+  position: relative;
+  height: 42px;
+  float: left;
+  border: solid 1px #e3e3e3;
+  border-right: solid 1px #fff;
+}
+
+.con-menu-l .bottom-menu li.bottom-menu-li:after{
+  content: " ";
+  display: inline-block;
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+  height: 6px;
+  width: 6px;
+  border-width: 1px 1px 0 0;
+  border-color: #e3e3e3;
+  background: #fff;
+  border-style: solid;
+  position: absolute;
+  left: 50%;
+  margin-left: -4px;
+  top: -13px;
+}
+
+.con-menu-l .bottom-menu li:last-child{
+  border-right: solid 1px #e3e3e3;
+}
+
+.con-menu-l .bottom-menu li.active{
+  border: solid 1px #18a689!important;
+}
+
+.con-menu-l .bottom-menu li a{
+  display: block;
+  width: 100%;
+  height: 42px;
+  text-align: center;
+  line-height: 42px;
+}
+
+.con-menu-l .bottom-menu li a:hover,.con-menu-l .bottom-menu li a:active,.con-menu-l .bottom-menu li a:visited,.con-menu-l .bottom-menu li a:link{
+  color: #999;
+}
+
+.bottom-menu-li dl{
+  position: absolute;
+  left: 50%;
+  margin-left: -42px;
+  bottom: 30px;
+  width: 84px;
+  height: auto;
+}
+.bottom-menu-li dd{
+  width: 82px;
+  height: 40px;
+  border: solid 1px #e3e3e3;
+  box-sizing: border-box;
+  border-bottom: solid 1px #fff;
+}
+
+.bottom-menu-li dd:last-child{
+  border-bottom: solid 1px #e3e3e3;
+}
+
+.bottom-menu-li dd.active{
+  border: solid 1px #18a689!important;
+}
+
+.bottom-menu-li dd a{
+  text-align: center;
+  display: block;
+  width: 100%;
+  height: 38px!important;
+  line-height: 38px!important;;
+}
+
+.bottom-menu-li dd a:hover,.bottom-menu-li dd a:active,.bottom-menu-li dd a:visited,.bottom-menu-li dd a:link{
+  color: #999;
+}
+
+/*右边*/
+.con-menu-r{
+  width: 100%;
+  min-height: 720px;
+  padding-left:370px;
+  box-sizing: border-box;
+}
+.con-menu-r-con{
+  position: relative;
+  width: 580px;
+  height: auto;
+  border-radius: 10px;
+  border: solid 1px #e3e3e3;
+  padding: 38px 38px 14px 38px;
+  box-sizing: border-box;
+}
+.con-menu-r-con:after{
+  content: " ";
+  display: inline-block;
+  -webkit-transform: rotate(225deg);
+  transform: rotate(225deg);
+  height: 30px;
+  width: 30px;
+  border-width: 1px 1px 0 0;
+  border-color: #e3e3e3;
+  background: #fff;
+  border-style: solid;
+  position: absolute;
+  left: -15px;
+  top: 150px;
+}
+
+.deleteDiv{
+  position: relative;
+}
+.deleteDiv:hover .jsDelete{
+  opacity: 1;
+}
+
+.deleteDiv .jsDelete{
+  position: absolute;
+  right: -7px;
+  top:-7px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 20px!important;
+  color: #fff;
+  background: rgba(0,0,0,0.25);
+  opacity: 0;
+}
+
+.deleteDiv .jsDelete:hover{
+  background: rgba(0,0,0,1);
+}
+
+.deleteDiv .jsDelete i{
+    margin-top: 3px!important;
+}

@@ -1,0 +1,155 @@
+/*巴渝骄傲*/
+.by-jiaoao{ width: 884px; height: 250px; padding: 39px 38px 38px 38px; background: url(../images/index-bg1.png) no-repeat;}
+.by-jiaoao-left{ width: 556px; height: 250px;}
+.by-jiaoao-left .swiper-container,.by-jiaoao-left .swiper-wrapper,.by-jiaoao-left .swiper-slide{ width: 556px; height: 250px; color: #8d4a70;}
+.s-s-1{ width: 175px; padding-left: 10px; height: 250px; font-size: 16px; color: #8d4a70;}
+.s-s-1 .s-s-tit{ width: 175px; height: auto; font-size: 32px; margin-top: 33px;}
+.s-s-1 .s-s-con{ width: 175px; height: 112px; line-height: 28px; margin-top: 22px; display: -webkit-box;-webkit-line-clamp: 4;-webkit-box-orient: vertical;}
+.s-s-2{ width: 340px; height: 250px;}
+.s-s-2 .shade{ width: 300px; padding: 0px 20px; left: 0px; bottom: 0px; background: url(../images/shade1.png) repeat; height: 45px; color: #fff;}
+.s-s-2 .shade p{ display: block; width: 300px; height: 45px; line-height: 45px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+.by-jiaoao-right{ width: 294px; height: 250px;}
+.by-jiaoao-right1{ width: 271px; padding-left: 23px; height: 24px; line-height: 24px; font-size: 16px; color: #733c5b; background: url(../images/yun.png) no-repeat;}
+.by-jiaoao-right2{ width: 294px; margin-top: 5px; text-align: justify; color: #8d4a70; height: 150px; font-size: 16px; line-height: 30px;display: -webkit-box;-webkit-line-clamp: 5;-webkit-box-orient: vertical; overflow:hidden;}
+.by-jiaoao-right3{ width: 294px; margin-top: 3px; height: 68px; font-size: 12px; color: #34322c;}
+.by-jiaoao-right3 .bj3-1{ width: 60px; height: 68px; float: left; margin-right: 18px;}
+.by-jiaoao-right3 .bj3-1:last-child{ margin-right: 0px;}
+.by-jiaoao-right3 .bj3-11{ width: 60px; height: 40px;}
+.by-jiaoao-right3 .bj3-11 img{
+    float: left;
+    width: 60px;
+    height: 40px;
+    -webkit-transform: scale(1);
+    -webkit-transform-origin: center;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transform: scale(1);
+    -moz-transform-origin: center;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transform: scale(1);
+    -ms-transform-origin: center;
+    -ms-transition: all .4s ease-in-out;
+    -o-transform: scale(1);
+    -o-transform-origin: center;
+    -o-transition: all .4s ease-in-out;
+}
+.by-jiaoao-right3 .activity img{
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
+.by-jiaoao-right3 .bj3-12{ width: 60px; height: 28px; color:#34322c; line-height: 38px; text-align: center;}
+
+/*校园资讯 巴渝新闻*/
+.by-news1{ width: 460px;}
+.by-news-tit{ height: 33px; border-bottom: solid 2px #733c5b; box-sizing: border-box;}
+.by-news-tit span{ display: inline-block; width: 180px; height: 30px; float: left; font-size: 16px; text-align: center; line-height: 30px; color: #fff; background: url(../images/index-bg4.png) no-repeat;}
+.by-news-tit a{ float: right; font-size: 14px; color: #733c5b; line-height: 33px;}
+.by-news-list{ display: block; min-height: 230px;}
+.by-news-list li{ width: 100%; height: 30px; margin-top: 20px; position: relative;}
+.by-news-list a:first-child li{ margin-top: 12px;}
+.by-news-list li .l{ width: 122px; height: 30px; line-height: 30px; color: #8d4a70; font-size: 18px; border-right: solid 1px #CACACA;}
+.by-news-list li span{ font-size: 16px;}
+.by-news-list li .r{ position: absolute; right: 0px; top: -3px; width: 317px; padding-left: 20px; line-height: 18px;height: 36px;color: #34322c;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;}
+
+/*引导页面*/
+.guide{ width: 1024px; height: 768px; top: 50%; left: 50%; margin-left: -512px; margin-top: -384px; position: fixed;}
+.guide-child{ width: 1024px; height: 768px; position: absolute; left: 0px; top: 0px;}
+.guide-1{ z-index: 1;}
+.guide-child1{ width: 100%; height: 100%; position: relative;}
+/*.guide-child1 img{ position: absolute; width: 726px; height: 410px; left: 50%; top:135px; margin-left: -363px; display: none;}*/
+.guide-child1 .ig5{ position: absolute; width: 726px; height: 410px; left: 50%; top:135px; margin-left: -363px; display: none;}
+.guide-child1 .ig5 img{ display: none;}
+.guide-child1 .ig5 .show{ display: block!important;}
+
+
+
+.guide-child1 .guide-child1-m{position: absolute; width: 726px; height: 410px; left: 50%; top:135px; margin-left: -363px;}
+.guide-child1 .guide-child1-m img{ width: 726px; height: 410px; float: left;}
+
+
+
+.guide-2{ z-index: 2; background: url(../images/guide-bg.png) no-repeat;}
+.guide-3{ z-index: 3;}
+
+.guide-child3{ width: 100%; height: 100%; position: relative;}
+.guide-child3 .ig1{ position: absolute; width: 158px; height: 136px; top: 235px; left: 417px;}
+.guide-child3 span{ position: absolute; font-size: 18px; color: #34322c; display: block; left: 476px; top: 415px;}
+.guide-child3 .ig2{-webkit-animation-delay: 0.3s;-moz-animation-delay: 0.3s;-ms-animation-delay: 0.3s;-o-animation-delay: 0.3s; animation-delay: 0.3s; position: absolute; width: 158px; height: 136px; top: 80px; left: 91px;}
+.guide-child3 .ig3{-webkit-animation-delay: 1.3s;-moz-animation-delay: 1.3s;-ms-animation-delay: 1.3s;-o-animation-delay: 1.3s; animation-delay: 1.3s; position: absolute; width: 752px; height: 252px; bottom: 133px; left: 65px;}
+.guide-child3 .abtn{position: absolute; background: url(../images/a-btn.png) no-repeat; width: 154px; height: 36px; left: 50%; margin-left: -77px; bottom: 76px;}
+.guide-child3 a{ font-weight: 800; display:block; width: 154px; height: 36px;line-height: 36px; text-align: center; font-size: 18px; color: #34322c;}
+.guide-child3 .ig4{-webkit-animation-delay: 0.8s;-moz-animation-delay: 0.8s;-ms-animation-delay: 0.8s;-o-animation-delay: 0.8s; animation-delay: 0.8s; position: absolute; width: 28px; height: 336px; top: 165px; right: 148px;}
+._show{ display: none;}
+.site-info{ z-index: 4; width: 100%; height: auto; position: absolute; left: 0px; bottom: 30px; color: #34322c; text-align: center; font-size: 14px;}
+
+
+.animation1 {
+    -webkit-animation-name: bounceIn;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-direction:alternate;
+
+    animation-name: bounceIn;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+
+
+    -moz-animation-name: bounceIn;
+    -moz-animation-duration: 2s;
+    -moz-animation-fill-mode: forwards;
+    -moz-animation-iteration-count:infinite;
+    -moz-animation-direction:alternate;
+
+
+    -ms-animation-name: bounceIn;
+    -ms-animation-duration: 2s;
+    -ms-animation-fill-mode: forwards;
+    -ms-animation-iteration-count:infinite;
+    -ms-animation-direction:alternate;
+
+
+    -o-animation-name: bounceIn;
+    -o-animation-duration: 2s;
+    -o-animation-fill-mode: forwards;
+    -o-animation-iteration-count:infinite;
+    -o-animation-direction:alternate;
+}
+
+@-webkit-keyframes bounceIn {
+    0% {-webkit-transform: scale(0.6);}
+    50% {-webkit-transform: scale(1);}
+    70% {-webkit-transform: scale(0.9);}
+    100% {-webkit-transform: scale(1);}
+}
+
+@keyframes bounceIn {
+    0% {transform: scale(0.6);}
+    50% {transform: scale(1);}
+    70% {transform: scale(0.9);}
+    100% {transform: scale(1);}
+}
+
+@-moz-keyframes bounceIn {
+    0% {-moz-transform: scale(0.6);}
+    50% {-moz-transform: scale(1);}
+    70% {-moz-transform: scale(0.9);}
+    100% {-moz-transform: scale(1);}
+}
+
+@-ms-keyframes bounceIn {
+    0% {-ms-transform: scale(0.6);}
+    50% {-ms-transform: scale(1);}
+    70% {-ms-transform: scale(0.9);}
+    100% {-ms-transform: scale(1);}
+}
+
+@-o-keyframes bounceIn {
+    0% {-o-transform: scale(0.6);}
+    50% {-o-transform: scale(1);}
+    70% {-o-transform: scale(0.9);}
+    100% {-o-transform: scale(1);}
+}

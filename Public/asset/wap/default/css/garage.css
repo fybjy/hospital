@@ -1,0 +1,180 @@
+/***************车库系统**************/
+/********车库列表模式*******/
+/*搜索框*/
+.garageSearch{
+    height: 60px;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    border-bottom: solid 1px #e5e5e5;
+    position: relative;
+}
+
+.garageSearch .garageSearchDiv{
+    box-sizing: border-box;
+    height: 60px;
+    padding-right: 90px;
+    padding-top: 12px;
+}
+
+.garageSearch .garageSearchDiv div{
+    border-radius: 3px;
+    height: 36px;
+    position: relative;
+}
+
+.garageSearch .garageSearchDiv div a{
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    left: 0;
+    top:0;
+    display: block;
+}
+.garageSearch .garageSearchDiv div a img{
+    margin-right: 5px;
+    margin-top: 11px;
+    float: right;
+}
+.garageSearch .garageSearchDiv div input{
+    outline: none;
+    border: none;
+    background: none;
+    float: left;
+    width: 100%;
+    padding: 12px 10px 11px 40px;
+    box-sizing: border-box;
+}
+
+.garageSearch .garageBtn{
+    position: absolute;
+    border-radius: 3px;
+    display: block;
+    right: 20px;
+    top:12px;
+    width: 80px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+}
+
+/*车库列表*/
+.garage-list ul{
+    padding: 0px 20px;
+}
+.garage-list li{
+    position: relative;
+    box-sizing: border-box;
+    padding: 6px 10px 6px 12px;
+    height: 117px;
+    background: #fff;
+    border-radius: 3px;
+    margin-top: 22px;
+}
+
+.garage-list p{
+    box-sizing: border-box;
+    padding-right: 55px;
+}
+.garage-list .p2 .sp1{
+    /*background: url("../images/icon2.png") no-repeat center left;
+    background-size:13px 13px;
+    padding-left: 15px;*/
+    margin-right: 5px;
+}
+.garage-list .p2 .sp2{/*
+    background: url("../images/icon3.png") no-repeat center left;
+    background-size:13px 13px;
+    padding-left: 15px;*/
+}
+
+.garage-list .p3 .sp1{/*
+    background: url("../images/icon4.png") no-repeat center left;
+    background-size:13px 13px;
+    padding-left: 15px;*/
+    margin-right: 18px;
+}
+.garage-list .p3 a{
+    border-radius: 3px;
+    padding: 4px 8px 3px;
+}
+.garage-list .p3 i{
+    font-style: normal;
+}
+.garage-list .getThere{
+    display: block;
+    position: absolute;
+    width: 45px;
+    height: 65px;
+    /*border-left: dashed 1px #dfdfdf;*/
+    right: 10px;
+    top:17px;
+    box-sizing: border-box;
+    padding-top:5px;
+}
+
+.garage-list .getThere .sp1{
+    display: block;
+    margin: 0 auto;
+    line-height: 36px;
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+}
+/*车库详情*/
+.garageDet{
+    padding: 25px 20px 0px;
+}
+.garageTit{}
+.garageTit img{
+    left: 0;
+    top: 6px;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+.garageTit div{
+    padding-top: 5px;
+    padding-left: 130px;
+    box-sizing: border-box;
+}
+
+.garageTit p{
+    line-height: 22px;
+}
+
+.garageTit .p4 a{
+    display: inline-block;
+    height: 22px;
+    line-height: 22px;
+    padding: 0px 10px;
+    margin-top: 8px;
+    margin-left: 2px;
+    border-radius: 3px;
+    background: /*url("../images/icon1.png") no-repeat center right 8px*/ #f76260;
+    background-size: 13px 13px;
+}
+
+/*收费价格*/
+.garagePrice{
+    border-radius: 3px;
+    padding: 5px 13px;
+    box-sizing: border-box;
+    color: #999;
+}
+.garagePrice .p1{
+    border-bottom: dotted 1px #dfdfdf;
+    line-height: 26px;
+}
+.garagePrice div{
+    line-height: 22px;
+}
+.garagePrice img{
+    max-width: 100%;
+}
+
+/*地图模式*/
+.c-fixed{
+    position: fixed;
+    left: 0;
+    top:0;
+    z-index: 10;
+}

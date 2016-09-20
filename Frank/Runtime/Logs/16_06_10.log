@@ -1,0 +1,100 @@
+[ 2016-06-10T16:24:41+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.018134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.053307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.032062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.032347s ]
+
+[ 2016-06-10T20:52:37+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.029534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.080138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.029372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.029652s ]
+
+[ 2016-06-10T20:52:50+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001966s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001074s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001220s ]
+
+[ 2016-06-10T20:53:22+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003729s ]
+
+[ 2016-06-10T20:59:33+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003658s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002697s ]
+
+[ 2016-06-10T21:00:43+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002888s ]
+NOTIC: [2] date() expects at most 2 parameters, 3 given E:\development tool\PHPstudy\phpStudy\WWW\tp\Frank\Home\Controller\IndexController.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001967s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002229s ]
+
+[ 2016-06-10T21:00:44+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003196s ]
+NOTIC: [2] date() expects at most 2 parameters, 3 given E:\development tool\PHPstudy\phpStudy\WWW\tp\Frank\Home\Controller\IndexController.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001889s ]
+
+[ 2016-06-10T21:00:50+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003107s ]
+NOTIC: [2] date() expects at most 2 parameters, 3 given E:\development tool\PHPstudy\phpStudy\WWW\tp\Frank\Home\Controller\IndexController.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002323s ]
+
+[ 2016-06-10T21:00:51+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003088s ]
+NOTIC: [2] date() expects at most 2 parameters, 3 given E:\development tool\PHPstudy\phpStudy\WWW\tp\Frank\Home\Controller\IndexController.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001914s ]
+
+[ 2016-06-10T21:05:28+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000659s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000750s ]
+
+[ 2016-06-10T21:05:30+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000735s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000849s ]
+
+[ 2016-06-10T21:10:20+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003231s ]
+

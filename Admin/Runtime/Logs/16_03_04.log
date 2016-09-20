@@ -1,0 +1,13 @@
+[ 2016-03-04T15:38:42+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018817s ]
+
+[ 2016-03-04T15:39:28+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001758s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.012082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012170s ]
+

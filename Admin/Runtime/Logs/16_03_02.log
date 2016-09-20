@@ -1,0 +1,608 @@
+[ 2016-03-02T16:15:07+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001955s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001229s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001311s ]
+
+[ 2016-03-02T16:15:10+08:00 ] 127.0.0.1 /tp/admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001572s ]
+
+[ 2016-03-02T16:15:15+08:00 ] 127.0.0.1 /tp/admin/conversation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001505s ]
+ERR: 无法加载控制器:Conversation
+
+[ 2016-03-02T16:15:25+08:00 ] 127.0.0.1 /tp/admin/conversation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002235s ]
+ERR: 无法加载控制器:Conversation
+
+[ 2016-03-02T16:17:06+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002190s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.035230s ]
+ERR: 1146:Table 'thinkphp.think_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_user`
+SQL: SELECT * FROM `think_user`  [ RunTime:0.000631s ]
+ERR: 1146:Table 'thinkphp.think_user' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_user` 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001535s ]
+
+[ 2016-03-02T16:17:35+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001869s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+ERR: Unknown database 'phpmyadmin/thinkphp'
+
+[ 2016-03-02T16:17:38+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001334s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+ERR: Unknown database 'phpmyadmin/thinkphp'
+
+[ 2016-03-02T16:17:43+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001447s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+ERR: Unknown database 'tp/thinkphp'
+
+[ 2016-03-02T16:17:52+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001635s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.008356s ]
+ERR: 1146:Table 'thinkphp.think_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_user`
+SQL: SELECT * FROM `think_user`  [ RunTime:0.002100s ]
+ERR: 1146:Table 'thinkphp.think_user' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_user` 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001098s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001168s ]
+
+[ 2016-03-02T16:19:05+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001773s ]
+ERR: 没有定义数据库配置
+
+[ 2016-03-02T16:19:13+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006190s ]
+ERR: 没有定义数据库配置
+
+[ 2016-03-02T16:19:44+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001919s ]
+ERR: 没有定义数据库配置
+
+[ 2016-03-02T16:19:57+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001709s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_name` [ RunTime:0.004958s ]
+ERR: 1146:Table 'thinkphp.think_name' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_name`
+SQL: SELECT * FROM `think_name`  [ RunTime:0.000338s ]
+ERR: 1146:Table 'thinkphp.think_name' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_name` 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002686s ]
+
+[ 2016-03-02T16:20:17+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001468s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_name` [ RunTime:0.004827s ]
+ERR: 1146:Table 'thinkphp.think_name' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_name`
+SQL: SELECT * FROM `think_name`  [ RunTime:0.000427s ]
+ERR: 1146:Table 'thinkphp.think_name' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_name` 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001120s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001185s ]
+
+[ 2016-03-02T16:20:20+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001752s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_name` [ RunTime:0.006336s ]
+ERR: 1146:Table 'thinkphp.think_name' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_name`
+SQL: SELECT * FROM `think_name`  [ RunTime:0.000388s ]
+ERR: 1146:Table 'thinkphp.think_name' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_name` 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000908s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000959s ]
+
+[ 2016-03-02T16:20:26+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001890s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+ERR: Unknown database '2'
+
+[ 2016-03-02T16:20:29+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002057s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_name` [ RunTime:0.005280s ]
+ERR: 1146:Table 'thinkphp.think_name' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_name`
+SQL: SELECT * FROM `think_name`  [ RunTime:0.000420s ]
+ERR: 1146:Table 'thinkphp.think_name' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_name` 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001093s ]
+
+[ 2016-03-02T16:20:50+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001418s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.004818s ]
+ERR: 1146:Table 'thinkphp.think_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_user`
+SQL: SELECT * FROM `think_user`  [ RunTime:0.000349s ]
+ERR: 1146:Table 'thinkphp.think_user' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_user` 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001239s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001304s ]
+
+[ 2016-03-02T16:31:49+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001640s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `thinkphpthinkphp` [ RunTime:0.006832s ]
+ERR: 1146:Table 'thinkphp.thinkphpthinkphp' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `thinkphpthinkphp`
+SQL: SELECT * FROM `thinkphpthinkphp`  [ RunTime:0.000709s ]
+ERR: 1146:Table 'thinkphp.thinkphpthinkphp' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `thinkphpthinkphp` 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001184s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001255s ]
+
+[ 2016-03-02T16:31:51+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002010s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `thinkphpthinkphp` [ RunTime:0.006024s ]
+ERR: 1146:Table 'thinkphp.thinkphpthinkphp' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `thinkphpthinkphp`
+SQL: SELECT * FROM `thinkphpthinkphp`  [ RunTime:0.000442s ]
+ERR: 1146:Table 'thinkphp.thinkphpthinkphp' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `thinkphpthinkphp` 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000957s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001012s ]
+
+[ 2016-03-02T16:31:51+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002087s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `thinkphpthinkphp` [ RunTime:0.005663s ]
+ERR: 1146:Table 'thinkphp.thinkphpthinkphp' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `thinkphpthinkphp`
+SQL: SELECT * FROM `thinkphpthinkphp`  [ RunTime:0.000391s ]
+ERR: 1146:Table 'thinkphp.thinkphpthinkphp' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `thinkphpthinkphp` 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001727s ]
+
+[ 2016-03-02T16:31:51+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001709s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `thinkphpthinkphp` [ RunTime:0.005007s ]
+ERR: 1146:Table 'thinkphp.thinkphpthinkphp' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `thinkphpthinkphp`
+SQL: SELECT * FROM `thinkphpthinkphp`  [ RunTime:0.002188s ]
+ERR: 1146:Table 'thinkphp.thinkphpthinkphp' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `thinkphpthinkphp` 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001019s ]
+
+[ 2016-03-02T16:31:51+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.004303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005108s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `thinkphpthinkphp` [ RunTime:0.006053s ]
+ERR: 1146:Table 'thinkphp.thinkphpthinkphp' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `thinkphpthinkphp`
+SQL: SELECT * FROM `thinkphpthinkphp`  [ RunTime:0.000394s ]
+ERR: 1146:Table 'thinkphp.thinkphpthinkphp' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `thinkphpthinkphp` 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000930s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000984s ]
+
+[ 2016-03-02T16:31:51+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001448s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `thinkphpthinkphp` [ RunTime:0.004645s ]
+ERR: 1146:Table 'thinkphp.thinkphpthinkphp' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `thinkphpthinkphp`
+SQL: SELECT * FROM `thinkphpthinkphp`  [ RunTime:0.000384s ]
+ERR: 1146:Table 'thinkphp.thinkphpthinkphp' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `thinkphpthinkphp` 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000858s ]
+
+[ 2016-03-02T16:31:51+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001797s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `thinkphpthinkphp` [ RunTime:0.006452s ]
+ERR: 1146:Table 'thinkphp.thinkphpthinkphp' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `thinkphpthinkphp`
+SQL: SELECT * FROM `thinkphpthinkphp`  [ RunTime:0.000669s ]
+ERR: 1146:Table 'thinkphp.thinkphpthinkphp' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `thinkphpthinkphp` 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001169s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001237s ]
+
+[ 2016-03-02T16:31:51+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001896s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `thinkphpthinkphp` [ RunTime:0.005081s ]
+ERR: 1146:Table 'thinkphp.thinkphpthinkphp' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `thinkphpthinkphp`
+SQL: SELECT * FROM `thinkphpthinkphp`  [ RunTime:0.000383s ]
+ERR: 1146:Table 'thinkphp.thinkphpthinkphp' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `thinkphpthinkphp` 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001009s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001069s ]
+
+[ 2016-03-02T16:31:51+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001956s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `thinkphpthinkphp` [ RunTime:0.005679s ]
+ERR: 1146:Table 'thinkphp.thinkphpthinkphp' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `thinkphpthinkphp`
+SQL: SELECT * FROM `thinkphpthinkphp`  [ RunTime:0.000400s ]
+ERR: 1146:Table 'thinkphp.thinkphpthinkphp' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `thinkphpthinkphp` 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001007s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001068s ]
+
+[ 2016-03-02T16:32:07+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001486s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `thinkphp` [ RunTime:0.006363s ]
+SQL: SELECT * FROM `thinkphp`  [ RunTime:0.001197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001709s ]
+
+[ 2016-03-02T16:32:35+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001354s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `thinkphp` [ RunTime:0.005532s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\PHPst\phpStudy\WWW\tp\Frank\Home\Controller\IndexController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000947s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001003s ]
+
+[ 2016-03-02T16:32:53+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001689s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `thinkphp` [ RunTime:0.005101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001140s ]
+
+[ 2016-03-02T16:33:06+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002099s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `thinkphp` [ RunTime:0.006476s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\PHPst\phpStudy\WWW\tp\Frank\Home\Controller\IndexController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001166s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001238s ]
+
+[ 2016-03-02T16:33:39+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001442s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `thinkphp` [ RunTime:0.004900s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001170s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001261s ]
+
+[ 2016-03-02T16:33:43+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001472s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `thinkphp` [ RunTime:0.008109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001130s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001217s ]
+
+[ 2016-03-02T16:34:04+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001585s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `thinkphp` [ RunTime:0.006807s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001131s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001200s ]
+
+[ 2016-03-02T16:34:05+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001541s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `thinkphp` [ RunTime:0.006205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001005s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001066s ]
+
+[ 2016-03-02T16:34:06+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001747s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `thinkphp` [ RunTime:0.005345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000982s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001051s ]
+
+[ 2016-03-02T16:34:06+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001307s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `thinkphp` [ RunTime:0.006540s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001075s ]
+
+[ 2016-03-02T16:34:06+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001425s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `thinkphp` [ RunTime:0.006300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001107s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001173s ]
+
+[ 2016-03-02T16:34:16+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001489s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `thinkphp` [ RunTime:0.005967s ]
+SQL: SELECT * FROM `thinkphp`  [ RunTime:0.000295s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001105s ]
+
+[ 2016-03-02T16:39:09+08:00 ] 127.0.0.1 /tp/Home/ces
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001523s ]
+ERR: 无法加载控制器:Ces
+
+[ 2016-03-02T16:39:20+08:00 ] 127.0.0.1 /tp/Home/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001595s ]
+
+[ 2016-03-02T16:39:24+08:00 ] 127.0.0.1 /tp/Home
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001512s ]
+
+[ 2016-03-02T16:39:27+08:00 ] 127.0.0.1 /tp/Home
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002490s ]
+
+[ 2016-03-02T16:39:31+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001693s ]
+
+[ 2016-03-02T16:39:36+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001347s ]
+
+[ 2016-03-02T16:39:36+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001665s ]
+
+[ 2016-03-02T16:39:36+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001659s ]
+
+[ 2016-03-02T16:39:44+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001458s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `thinkphp` [ RunTime:0.005739s ]
+SQL: SELECT * FROM `thinkphp`  [ RunTime:0.000233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002434s ]
+
+[ 2016-03-02T16:39:55+08:00 ] 127.0.0.1 /tp/home/dede
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001477s ]
+ERR: 无法加载控制器:Dede
+
+[ 2016-03-02T16:40:06+08:00 ] 127.0.0.1 /tp/Home/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001721s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `thinkphp` [ RunTime:0.005753s ]
+SQL: SELECT * FROM `thinkphp`  [ RunTime:0.000232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000998s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001055s ]
+
+[ 2016-03-02T16:40:11+08:00 ] 127.0.0.1 /tp/Home/index/dede
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001622s ]
+NOTIC: [8] Use of undefined constant xiong - assumed 'xiong' D:\PHPst\phpStudy\WWW\tp\Frank\Home\Controller\IndexController.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001228s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001305s ]
+
+[ 2016-03-02T17:39:40+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001480s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `thinkphp` [ RunTime:0.017101s ]
+SQL: SELECT * FROM `thinkphp`  [ RunTime:0.000309s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001086s ]
+
+[ 2016-03-02T17:40:01+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001788s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `thinkphp` [ RunTime:0.005903s ]
+SQL: SELECT * FROM `thinkphp`  [ RunTime:0.000242s ]
+NOTIC: [8] Array to string conversion D:\PHPst\phpStudy\WWW\tp\Frank\Home\Controller\IndexController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000868s ]
+
+[ 2016-03-02T17:40:07+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001977s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `thinkphp` [ RunTime:0.009461s ]
+SQL: SELECT * FROM `thinkphp`  [ RunTime:0.000329s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001208s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001274s ]
+
+[ 2016-03-02T17:40:35+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001744s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `thinkphp` [ RunTime:0.005814s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001383s ]
+
+[ 2016-03-02T17:40:42+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001738s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `thinkphp` [ RunTime:0.007164s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001754s ]
+
+[ 2016-03-02T17:43:16+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001404s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `thinkphp` [ RunTime:0.006777s ]
+SQL: SELECT * FROM `thinkphp`  [ RunTime:0.000399s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000973s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001041s ]
+
+[ 2016-03-02T17:43:32+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002014s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `thinkphp` [ RunTime:0.006412s ]
+SQL: SELECT * FROM `thinkphp`  [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000984s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001039s ]
+
+[ 2016-03-02T17:43:43+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001605s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+NOTIC: [2] mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+ERR: Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2016-03-02T17:43:47+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001677s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `thinkphp` [ RunTime:0.005752s ]
+SQL: SELECT * FROM `thinkphp`  [ RunTime:0.000274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000998s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001060s ]
+

@@ -1,0 +1,1490 @@
+[ 2016-02-26T11:57:44+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001088s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010312s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000774s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000820s ]
+
+[ 2016-02-26T11:57:45+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001833s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000859s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000922s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000513s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000870s ]
+
+[ 2016-02-26T11:57:46+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001810s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.001533s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001658s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000608s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000876s ]
+
+[ 2016-02-26T11:57:46+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.005050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016207s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.001005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001074s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002617s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000904s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2016-02-26T11:57:46+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001841s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000708s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000776s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001012s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000983s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001036s ]
+
+[ 2016-02-26T11:57:46+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001431s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016495s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016583s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.009684s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009758s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003201s ]
+
+[ 2016-02-26T11:57:46+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002247s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000974s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001052s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000858s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000781s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000830s ]
+
+[ 2016-02-26T11:57:46+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001700s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002327s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000631s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001140s ]
+
+[ 2016-02-26T11:57:46+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003356s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000896s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000908s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000964s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.007197s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007265s ]
+
+[ 2016-02-26T11:57:46+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001718s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000659s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000726s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002642s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002706s ]
+
+[ 2016-02-26T11:57:46+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009155s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000785s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000859s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000659s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000766s ]
+
+[ 2016-02-26T11:57:46+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001696s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003894s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003967s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000715s ]
+
+[ 2016-02-26T11:57:46+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001210s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000590s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000662s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001030s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000805s ]
+
+[ 2016-02-26T11:57:46+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001933s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.001216s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.005311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001136s ]
+
+[ 2016-02-26T12:00:23+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003571s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000752s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000814s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001269s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001321s ]
+
+[ 2016-02-26T12:01:13+08:00 ] 127.0.0.1 /tp/Home/controller
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002043s ]
+ERR: 无法加载控制器:Controller
+
+[ 2016-02-26T12:02:07+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001917s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003515s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000789s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000848s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000835s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000889s ]
+
+[ 2016-02-26T12:03:11+08:00 ] 127.0.0.1 /tp/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005432s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000894s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000963s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001564s ]
+
+[ 2016-02-26T12:03:47+08:00 ] 127.0.0.1 /tp/index.php/Home/index/conversation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000759s ]
+
+[ 2016-02-26T12:03:56+08:00 ] 127.0.0.1 /tp/index.php/Home/index/conversation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001996s ]
+NOTIC: [8] Use of undefined constant xiong - assumed 'xiong' D:\PHPst\phpStudy\WWW\tp\Frank\Home\Controller\IndexController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000761s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000854s ]
+
+[ 2016-02-26T12:08:40+08:00 ] 127.0.0.1 /tp/index.php/Home/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001797s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000774s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000847s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000575s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000901s ]
+
+[ 2016-02-26T12:08:56+08:00 ] 127.0.0.1 /tp/index.php/Home/art
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004374s ]
+ERR: 无法加载控制器:Art
+
+[ 2016-02-26T12:09:52+08:00 ] 127.0.0.1 /tp/index.php/Home/Art
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003207s ]
+ERR: 无法加载控制器:Art
+
+[ 2016-02-26T12:10:23+08:00 ] 127.0.0.1 /tp/index.php/Home/artcontroller
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001316s ]
+ERR: 无法加载控制器:Artcontroller
+
+[ 2016-02-26T12:10:27+08:00 ] 127.0.0.1 /tp/index.php/Home/art
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001360s ]
+ERR: 无法加载控制器:Art
+
+[ 2016-02-26T12:11:40+08:00 ] 127.0.0.1 /tp/index.php/Home/art
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002126s ]
+ERR: 无法加载控制器:Art
+
+[ 2016-02-26T12:11:42+08:00 ] 127.0.0.1 /tp/index.php/Home/art
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001454s ]
+ERR: 无法加载控制器:Art
+
+[ 2016-02-26T12:11:42+08:00 ] 127.0.0.1 /tp/index.php/Home/art
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001313s ]
+ERR: 无法加载控制器:Art
+
+[ 2016-02-26T12:11:42+08:00 ] 127.0.0.1 /tp/index.php/Home/art
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001367s ]
+ERR: 无法加载控制器:Art
+
+[ 2016-02-26T12:11:42+08:00 ] 127.0.0.1 /tp/index.php/Home/art
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001619s ]
+ERR: 无法加载控制器:Art
+
+[ 2016-02-26T12:11:42+08:00 ] 127.0.0.1 /tp/index.php/Home/art
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001694s ]
+ERR: 无法加载控制器:Art
+
+[ 2016-02-26T12:11:42+08:00 ] 127.0.0.1 /tp/index.php/Home/art
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001687s ]
+ERR: 无法加载控制器:Art
+
+[ 2016-02-26T12:11:42+08:00 ] 127.0.0.1 /tp/index.php/Home/art
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002371s ]
+ERR: 无法加载控制器:Art
+
+[ 2016-02-26T12:11:43+08:00 ] 127.0.0.1 /tp/index.php/Home/art
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002476s ]
+ERR: 无法加载控制器:Art
+
+[ 2016-02-26T12:11:43+08:00 ] 127.0.0.1 /tp/index.php/Home/art
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001974s ]
+ERR: 无法加载控制器:Art
+
+[ 2016-02-26T12:11:43+08:00 ] 127.0.0.1 /tp/index.php/Home/art
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.010434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.050144s ]
+ERR: 无法加载控制器:Art
+
+[ 2016-02-26T12:11:43+08:00 ] 127.0.0.1 /tp/index.php/Home/art
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005779s ]
+ERR: 无法加载控制器:Art
+
+[ 2016-02-26T12:11:43+08:00 ] 127.0.0.1 /tp/index.php/Home/art
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.008811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011249s ]
+ERR: 无法加载控制器:Art
+
+[ 2016-02-26T12:11:43+08:00 ] 127.0.0.1 /tp/index.php/Home/art
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001748s ]
+ERR: 无法加载控制器:Art
+
+[ 2016-02-26T12:11:43+08:00 ] 127.0.0.1 /tp/index.php/Home/art
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.009593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010199s ]
+ERR: 无法加载控制器:Art
+
+[ 2016-02-26T12:11:43+08:00 ] 127.0.0.1 /tp/index.php/Home/art
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002023s ]
+ERR: 无法加载控制器:Art
+
+[ 2016-02-26T12:11:43+08:00 ] 127.0.0.1 /tp/index.php/Home/art
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001580s ]
+ERR: 无法加载控制器:Art
+
+[ 2016-02-26T12:11:48+08:00 ] 127.0.0.1 /tp/index.php/Home/artController
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001453s ]
+ERR: 无法加载控制器:ArtController
+
+[ 2016-02-26T12:13:30+08:00 ] 127.0.0.1 /tp/index.php/Home/art
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002047s ]
+ERR: 无法加载控制器:Art
+
+[ 2016-02-26T12:14:07+08:00 ] 127.0.0.1 /tp/index.php/Home/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001748s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.001102s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001194s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002785s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002930s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001760s ]
+
+[ 2016-02-26T12:14:16+08:00 ] 127.0.0.1 /tp/index.php/Home/conversation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002315s ]
+ERR: 无法加载控制器:Conversation
+
+[ 2016-02-26T12:14:22+08:00 ] 127.0.0.1 /tp/index.php/Home/conversation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001435s ]
+ERR: 无法加载控制器:Conversation
+
+[ 2016-02-26T12:14:31+08:00 ] 127.0.0.1 /tp/index.php/Home/index/conversation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002170s ]
+NOTIC: [8] Use of undefined constant xiong - assumed 'xiong' D:\PHPst\phpStudy\WWW\tp\Frank\Home\Controller\IndexController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000929s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000996s ]
+
+[ 2016-02-26T12:14:56+08:00 ] 127.0.0.1 /tp/index.php/Home/index/art
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001263s ]
+ERR: 非法操作:art
+
+[ 2016-02-26T12:15:12+08:00 ] 127.0.0.1 /tp/index.php/Home/art/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001608s ]
+ERR: 无法加载控制器:Art
+
+[ 2016-02-26T12:15:21+08:00 ] 127.0.0.1 /tp/index.php/Home/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002599s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given D:\PHPst\phpStudy\WWW\tp\ThinkPHP\Library\Think\Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000818s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000897s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000862s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000912s ]
+
+[ 2016-02-26T12:15:53+08:00 ] 127.0.0.1 /tp/index.php/Home/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001757s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000799s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000870s ]
+
+[ 2016-02-26T12:16:11+08:00 ] 127.0.0.1 /tp/index.php/Home/index/conversation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003041s ]
+NOTIC: [8] Use of undefined constant xiong - assumed 'xiong' D:\PHPst\phpStudy\WWW\tp\Frank\Home\Controller\IndexController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000995s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001054s ]
+
+[ 2016-02-26T12:17:10+08:00 ] 127.0.0.1 /tp/index.php/Home/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001819s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000815s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000894s ]
+
+[ 2016-02-26T12:17:14+08:00 ] 127.0.0.1 /tp/index.php/Home/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001968s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000949s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001012s ]
+
+[ 2016-02-26T12:17:21+08:00 ] 127.0.0.1 /tp/index.php/Home/art/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000790s ]
+
+[ 2016-02-26T12:19:00+08:00 ] 127.0.0.1 /tp/index.php/Home/art/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000889s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000961s ]
+
+[ 2016-02-26T12:19:00+08:00 ] 127.0.0.1 /tp/index.php/Home/art/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000655s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000712s ]
+
+[ 2016-02-26T12:19:26+08:00 ] 127.0.0.1 /tp/index.php/Home/art/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001966s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000847s ]
+
+[ 2016-02-26T12:21:20+08:00 ] 127.0.0.1 /tp/index.php/Home/art/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000995s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001079s ]
+
+[ 2016-02-26T12:21:26+08:00 ] 127.0.0.1 /tp/index.php/Home/de/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001444s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000920s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001002s ]
+
+[ 2016-02-26T12:23:05+08:00 ] 127.0.0.1 /tp/index.php/Home
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002970s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000941s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001046s ]
+
+[ 2016-02-26T12:23:21+08:00 ] 127.0.0.1 /tp/index.php/Home/conversation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002784s ]
+ERR: 无法加载控制器:Conversation
+
+[ 2016-02-26T12:23:34+08:00 ] 127.0.0.1 /tp/index.php/Home/index/conversation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002042s ]
+NOTIC: [8] Use of undefined constant xiong - assumed 'xiong' D:\PHPst\phpStudy\WWW\tp\Frank\Home\Controller\IndexController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001096s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001172s ]
+
+[ 2016-02-26T12:23:39+08:00 ] 127.0.0.1 /tp/index.php/Home/index/www
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001533s ]
+ERR: 非法操作:www
+
+[ 2016-02-26T12:23:54+08:00 ] 127.0.0.1 /tp/index.php/Home/index/conversation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001841s ]
+ERR: 非法操作:conversation
+
+[ 2016-02-26T12:24:02+08:00 ] 127.0.0.1 /tp/index.php/Home/index/actionconversation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002791s ]
+ERR: 非法操作:actionconversation
+
+[ 2016-02-26T12:24:10+08:00 ] 127.0.0.1 /tp/index.php/Home/index/ationconversation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001357s ]
+NOTIC: [8] Use of undefined constant xiong - assumed 'xiong' D:\PHPst\phpStudy\WWW\tp\Frank\Home\Controller\IndexController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002122s ]
+
+[ 2016-02-26T12:25:45+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001211s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001293s ]
+
+[ 2016-02-26T12:26:11+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001982s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000934s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001066s ]
+
+[ 2016-02-26T12:26:24+08:00 ] 127.0.0.1 /tp/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001584s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000809s ]
+
+[ 2016-02-26T12:26:53+08:00 ] 127.0.0.1 /tp/index.php/Home/art
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000725s ]
+
+[ 2016-02-26T12:26:58+08:00 ] 127.0.0.1 /tp/index.php/Home/de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001599s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000913s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000993s ]
+
+[ 2016-02-26T12:27:22+08:00 ] 127.0.0.1 /tp/index.php/Home
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001387s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000764s ]
+
+[ 2016-02-26T12:27:38+08:00 ] 127.0.0.1 /tp/index.php/Home
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000821s ]
+
+[ 2016-02-26T12:27:42+08:00 ] 127.0.0.1 /tp/index.php/Home/Controller
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001604s ]
+ERR: 无法加载控制器:Controller
+
+[ 2016-02-26T12:27:46+08:00 ] 127.0.0.1 /tp/index.php/Home/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001237s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001312s ]
+
+[ 2016-02-26T12:27:58+08:00 ] 127.0.0.1 /tp/index.php/Home/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000695s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000766s ]
+
+[ 2016-02-26T12:28:02+08:00 ] 127.0.0.1 /tp/index.php/Home/art
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002601s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000888s ]
+
+[ 2016-02-26T12:28:46+08:00 ] 127.0.0.1 /tp/index.php/Home/art/actiom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001238s ]
+ERR: 非法操作:actiom
+
+[ 2016-02-26T12:28:50+08:00 ] 127.0.0.1 /tp/index.php/Home/art/action
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001478s ]
+ERR: 非法操作:action
+
+[ 2016-02-26T12:28:56+08:00 ] 127.0.0.1 /tp/index.php/Home/art/ation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001566s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001003s ]
+
+[ 2016-02-26T12:29:57+08:00 ] 127.0.0.1 /tp/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001452s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000918s ]
+
+[ 2016-02-26T12:29:57+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002375s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000878s ]
+
+[ 2016-02-26T12:30:17+08:00 ] 127.0.0.1 /tp/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001452s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000899s ]
+
+[ 2016-02-26T12:30:22+08:00 ] 127.0.0.1 /tp/index.php/Home/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001631s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000873s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000956s ]
+
+[ 2016-02-26T12:30:30+08:00 ] 127.0.0.1 /tp/index.php/Home/art/artion
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001572s ]
+ERR: 非法操作:artion
+
+[ 2016-02-26T12:30:38+08:00 ] 127.0.0.1 /tp/index.php/Home/art/ation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001579s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000664s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000719s ]
+
+[ 2016-02-26T14:38:53+08:00 ] 127.0.0.1 /tp/index.php/Home/art/ation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003408s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000885s ]
+
+[ 2016-02-26T14:38:55+08:00 ] 127.0.0.1 /tp/index.php/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001924s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000767s ]
+
+[ 2016-02-26T14:39:04+08:00 ] 127.0.0.1 /tp/index.php/admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002065s ]
+ERR: 无法加载控制器:Index
+
+[ 2016-02-26T14:39:12+08:00 ] 127.0.0.1 /tp/index.php/admin/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001417s ]
+ERR: 无法加载控制器:Index
+
+[ 2016-02-26T14:39:14+08:00 ] 127.0.0.1 /tp/index.php/admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001473s ]
+ERR: 无法加载控制器:Index
+
+[ 2016-02-26T14:39:29+08:00 ] 127.0.0.1 /tp/index.php/Admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004345s ]
+ERR: 无法加载控制器:Index
+
+[ 2016-02-26T14:39:51+08:00 ] 127.0.0.1 /tp/index.php/Admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001444s ]
+ERR: 无法加载控制器:Index
+
+[ 2016-02-26T14:40:08+08:00 ] 127.0.0.1 /tp/index.php/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001503s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000833s ]
+
+[ 2016-02-26T14:40:18+08:00 ] 127.0.0.1 /tp/index.php/Admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001746s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000926s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001009s ]
+
+[ 2016-02-26T14:45:30+08:00 ] 127.0.0.1 /tp/index.php/Home
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001821s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000964s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001032s ]
+
+[ 2016-02-26T14:46:02+08:00 ] 127.0.0.1 /tp/index.php/Home
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003620s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000996s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001077s ]
+
+[ 2016-02-26T14:46:06+08:00 ] 127.0.0.1 /tp/index.php/admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001475s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000890s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000967s ]
+
+[ 2016-02-26T14:47:27+08:00 ] 127.0.0.1 /tp/index.php/admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000682s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000746s ]
+
+[ 2016-02-26T14:50:10+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001283s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001392s ]
+
+[ 2016-02-26T14:50:16+08:00 ] 127.0.0.1 /tp/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001657s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000788s ]
+
+[ 2016-02-26T14:50:17+08:00 ] 127.0.0.1 /tp/index.php/Home
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000765s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000836s ]
+
+[ 2016-02-26T14:53:44+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000981s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001068s ]
+
+[ 2016-02-26T14:53:48+08:00 ] 127.0.0.1 /tp/admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001473s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000687s ]
+
+[ 2016-02-26T14:53:51+08:00 ] 127.0.0.1 /tp/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001567s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000737s ]
+
+[ 2016-02-26T14:58:16+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005682s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001114s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001199s ]
+
+[ 2016-02-26T14:58:56+08:00 ] 127.0.0.1 /tp/admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002817s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000806s ]
+
+[ 2016-02-26T14:59:08+08:00 ] 127.0.0.1 /tp/admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002048s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000840s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000911s ]
+
+[ 2016-02-26T14:59:14+08:00 ] 127.0.0.1 /tp/admin/Art
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000715s ]
+
+[ 2016-02-26T14:59:23+08:00 ] 127.0.0.1 /tp/admin/Art
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001864s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000934s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001026s ]
+
+[ 2016-02-26T14:59:24+08:00 ] 127.0.0.1 /tp/admin/Art
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001039s ]
+
+[ 2016-02-26T14:59:24+08:00 ] 127.0.0.1 /tp/admin/Art
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001623s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000757s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000824s ]
+
+[ 2016-02-26T14:59:24+08:00 ] 127.0.0.1 /tp/admin/Art
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008768s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000772s ]
+
+[ 2016-02-26T14:59:24+08:00 ] 127.0.0.1 /tp/admin/Art
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001293s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000631s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000686s ]
+
+[ 2016-02-26T14:59:25+08:00 ] 127.0.0.1 /tp/admin/Art
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000877s ]
+
+[ 2016-02-26T14:59:25+08:00 ] 127.0.0.1 /tp/admin/Art
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000828s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000904s ]
+
+[ 2016-02-26T14:59:25+08:00 ] 127.0.0.1 /tp/admin/Art
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002645s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000975s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001045s ]
+
+[ 2016-02-26T14:59:25+08:00 ] 127.0.0.1 /tp/admin/Art
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001782s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.026575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.026675s ]
+
+[ 2016-02-26T14:59:25+08:00 ] 127.0.0.1 /tp/admin/Art
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001118s ]
+
+[ 2016-02-26T14:59:25+08:00 ] 127.0.0.1 /tp/admin/Art
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001647s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000794s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000867s ]
+
+[ 2016-02-26T14:59:25+08:00 ] 127.0.0.1 /tp/admin/Art
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003343s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001089s ]
+
+[ 2016-02-26T14:59:25+08:00 ] 127.0.0.1 /tp/admin/Art
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001802s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000890s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000964s ]
+
+[ 2016-02-26T14:59:26+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001880s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001121s ]
+
+[ 2016-02-26T14:59:28+08:00 ] 127.0.0.1 /tp/admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001553s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000724s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000790s ]
+
+[ 2016-02-26T15:02:35+08:00 ] 127.0.0.1 /tp/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000843s ]
+
+[ 2016-02-26T15:02:39+08:00 ] 127.0.0.1 /tp/index.php/admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001988s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000875s ]
+
+[ 2016-02-26T15:02:45+08:00 ] 127.0.0.1 /tp/index.php/home
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001516s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000888s ]
+
+[ 2016-02-26T15:02:59+08:00 ] 127.0.0.1 /tp/index.php/Home/index/conversation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001189s ]
+NOTIC: [8] Use of undefined constant xiong - assumed 'xiong' D:\PHPst\phpStudy\WWW\tp\Frank\Home\Controller\IndexController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000683s ]
+
+[ 2016-02-26T15:03:13+08:00 ] 127.0.0.1 /tp/index.php/Home/de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000904s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000995s ]
+
+[ 2016-02-26T15:03:28+08:00 ] 127.0.0.1 /tp/index.php/Home/Art
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001571s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001088s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001188s ]
+
+[ 2016-02-26T15:05:55+08:00 ] 127.0.0.1 /tp/index.php?m=Home
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001713s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000779s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000845s ]
+
+[ 2016-02-26T15:06:10+08:00 ] 127.0.0.1 /tp/index.php?m=Home&c=aer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001727s ]
+ERR: 无法加载控制器:Aer
+
+[ 2016-02-26T15:06:14+08:00 ] 127.0.0.1 /tp/index.php?m=Home&c=art
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001621s ]
+
+[ 2016-02-26T15:06:21+08:00 ] 127.0.0.1 /tp/index.php?m=Home&c=Art
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001882s ]
+
+[ 2016-02-26T15:07:04+08:00 ] 127.0.0.1 /tp/index.php?m=Home
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001143s ]
+
+[ 2016-02-26T15:07:12+08:00 ] 127.0.0.1 /tp/index.php?m=Home&&c=art
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001431s ]
+
+[ 2016-02-26T15:08:27+08:00 ] 127.0.0.1 /tp/admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001792s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000766s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000830s ]
+
+[ 2016-02-26T15:08:33+08:00 ] 127.0.0.1 /tp/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002403s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000787s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000857s ]
+
+[ 2016-02-26T15:08:37+08:00 ] 127.0.0.1 /tp/admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000724s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000792s ]
+
+[ 2016-02-26T15:08:42+08:00 ] 127.0.0.1 /tp/Home
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002056s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001520s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001653s ]
+
+[ 2016-02-26T15:10:27+08:00 ] 127.0.0.1 /tp/index.php/Home/index/art
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001632s ]
+ERR: 非法操作:art
+
+[ 2016-02-26T15:10:32+08:00 ] 127.0.0.1 /tp/index.php/Home/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000909s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000983s ]
+
+[ 2016-02-26T15:10:35+08:00 ] 127.0.0.1 /tp/index.php/Home/art
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001748s ]
+
+[ 2016-02-26T15:10:42+08:00 ] 127.0.0.1 /tp/index.php/Home/Art
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002041s ]
+
+[ 2016-02-26T15:11:02+08:00 ] 127.0.0.1 /tp/home
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001556s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000875s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000955s ]
+
+[ 2016-02-26T15:11:11+08:00 ] 127.0.0.1 /tp/Home/index/Art
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001455s ]
+ERR: 非法操作:art
+
+[ 2016-02-26T15:11:15+08:00 ] 127.0.0.1 /tp/Home/Art
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001771s ]
+
+[ 2016-02-26T15:11:22+08:00 ] 127.0.0.1 /tp/Home/de
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001606s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000917s ]
+
+[ 2016-02-26T15:12:01+08:00 ] 127.0.0.1 /tp/Home/art/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001406s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000749s ]
+
+[ 2016-02-26T15:12:12+08:00 ] 127.0.0.1 /tp/index.php/admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000857s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000922s ]
+
+[ 2016-02-26T15:12:17+08:00 ] 127.0.0.1 /tp/admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000785s ]
+
+[ 2016-02-26T15:12:17+08:00 ] 127.0.0.1 /tp/admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001571s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000800s ]
+
+[ 2016-02-26T15:12:42+08:00 ] 127.0.0.1 /tp/admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001503s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000798s ]
+
+[ 2016-02-26T15:13:07+08:00 ] 127.0.0.1 /tp/admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001991s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000857s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000929s ]
+
+[ 2016-02-26T15:13:08+08:00 ] 127.0.0.1 /tp/admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001616s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000844s ]
+
+[ 2016-02-26T15:13:08+08:00 ] 127.0.0.1 /tp/admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001441s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000807s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000869s ]
+
+[ 2016-02-26T15:13:09+08:00 ] 127.0.0.1 /tp/admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001645s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001753s ]
+
+[ 2016-02-26T15:13:09+08:00 ] 127.0.0.1 /tp/admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001812s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001446s ]
+
+[ 2016-02-26T15:13:09+08:00 ] 127.0.0.1 /tp/admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.008745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010435s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000641s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000706s ]
+
+[ 2016-02-26T15:13:09+08:00 ] 127.0.0.1 /tp/admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.005209s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005297s ]
+
+[ 2016-02-26T15:13:09+08:00 ] 127.0.0.1 /tp/admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003324s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001091s ]
+
+[ 2016-02-26T15:13:09+08:00 ] 127.0.0.1 /tp/admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001509s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000835s ]
+
+[ 2016-02-26T15:13:09+08:00 ] 127.0.0.1 /tp/admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001332s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000974s ]
+
+[ 2016-02-26T15:13:09+08:00 ] 127.0.0.1 /tp/admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.004537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001164s ]
+
+[ 2016-02-26T15:13:09+08:00 ] 127.0.0.1 /tp/admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004568s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001130s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001220s ]
+
+[ 2016-02-26T15:13:09+08:00 ] 127.0.0.1 /tp/admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001336s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000828s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000906s ]
+
+[ 2016-02-26T15:13:09+08:00 ] 127.0.0.1 /tp/admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.018191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000983s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001062s ]
+
+[ 2016-02-26T15:13:09+08:00 ] 127.0.0.1 /tp/admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.006597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022756s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001269s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001350s ]
+
+[ 2016-02-26T15:13:09+08:00 ] 127.0.0.1 /tp/admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.006205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006907s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003425s ]
+
+[ 2016-02-26T15:13:09+08:00 ] 127.0.0.1 /tp/admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.017705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002850s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002929s ]
+
+[ 2016-02-26T15:13:09+08:00 ] 127.0.0.1 /tp/admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.023005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023690s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000778s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000845s ]
+
+[ 2016-02-26T15:13:09+08:00 ] 127.0.0.1 /tp/admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001457s ]
+
+[ 2016-02-26T15:13:09+08:00 ] 127.0.0.1 /tp/admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003650s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000783s ]
+
+[ 2016-02-26T15:13:09+08:00 ] 127.0.0.1 /tp/admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001755s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000709s ]
+
+[ 2016-02-26T15:13:09+08:00 ] 127.0.0.1 /tp/admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001424s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000987s ]
+
+[ 2016-02-26T15:13:09+08:00 ] 127.0.0.1 /tp/admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000812s ]
+
+[ 2016-02-26T15:13:09+08:00 ] 127.0.0.1 /tp/admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001932s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000867s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000939s ]
+
+[ 2016-02-26T15:13:11+08:00 ] 127.0.0.1 /tp/admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001553s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000705s ]
+
+[ 2016-02-26T15:13:32+08:00 ] 127.0.0.1 /tp/admin/art
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000748s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000827s ]
+

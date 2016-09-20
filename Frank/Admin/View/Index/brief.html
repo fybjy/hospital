@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+
+
+<!-- Mirrored from www.zi-han.net/theme/hplus/table_basic.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 20 Jan 2016 14:20:01 GMT -->
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>医院简介</title>
+    <meta name="keywords" content="H+后台主题,后台bootstrap框架,会员中心主题,后台HTML,响应式后台">
+    <meta name="description" content="H+是一个完全响应式，基于Bootstrap3最新版本开发的扁平化主题，她采用了主流的左右两栏式布局，使用了Html5+CSS3等现代技术">
+
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="http://www.123.com/hospital/public/css/bootstrap.min14ed.css?v=3.3.6" rel="stylesheet">
+    <link href="http://www.123.com/hospital/public/css/font-awesome.min93e3.css?v=4.4.0" rel="stylesheet">
+    <link href="http://www.123.com/hospital/public/css/plugins/iCheck/custom.css" rel="stylesheet">
+    <link href="http://www.123.com/hospital/public/css/animate.min.css" rel="stylesheet">
+    <link href="http://www.123.com/hospital/public/css/style.min862f.css?v=4.1.0" rel="stylesheet">
+
+</head>
+<body class="gray-bg">
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <div class="">
+                        <a data-toggle="modal" class="btn btn-primary" href="form_basic.html#modal-form">添加数据</a>
+                    </div>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                        <a class="close-link">
+                            <i class="fa fa-times"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="ibox-content">
+
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th>id</th>
+                            <th>图片</th>
+                            <th>医院名称</th>
+                            <th>医院地址</th>
+                            <th>联系电话</th>
+                            <th>门诊就诊时间</th>
+                            <th>冬季</th>
+                            <th>夏季</th>
+                            <th>住院部</th>
+                            <th>收费标准</th>
+                            <th>医院简介</th>
+                            <th style="text-align: center">操作</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <foreach name="doctor" item="vo">
+                            <tr>
+                                <td>{$vo.id}</td>
+                                <td>{$vo.img}</td>
+                                <td>{$vo.title}</td>
+                                <td>{$vo.address}</td>
+                                <td>{$vo.tel}</td>
+                                <td>{$vo.mz_time}</td>
+                                <td>{$vo.winter_time}</td>
+                                <td>{$vo.summer_time}</td>
+                                <td>{$vo.Inpatient}</td>
+                                <td>{$vo.charge}</td>
+                                <td>{$vo.introduction}</td>
+                                <td>
+                                   <a data-toggle="modal" onclick="detele({$vo.id})" class="btn btn-primary replace">
+                                        删除
+                                    </a>
+                                    <a data-toggle="modal" class="btn btn-primary replace" href="#form{$vo.id}">
+                                        查看
+                                    </a>
+                                </td>
+                            </tr>
+                        </foreach>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------修改---------------------------------------------------->
+    <foreach name="list" item="list">
+        <div id="form{$list.id}" class="modal fade" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-sm-6 b-r">
+                                <h3 class="m-t-none m-b">修改</h3>
+                                <form role="form">
+                                    <div class="form-group">
+                                        <label>姓名：</label>
+                                        <input type="email" id="up_name" value="{$list.name}" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>性别：</label>
+                                        <input type="email" id="up_sex" value="{$list.sex}" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>年龄：</label>
+                                        <input type="email" id="up_age" value="{$list.age}" class="form-control">
+                                    </div>
+                                    <div>
+                                        <button class="btn btn-sm btn-primary pull-right m-t-n-xs" type="submit"><strong
+                                                style="text-align: center" onclick="Tj({$list.id})"> 修改</strong>
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </foreach>
+    <!-------------------------------------------增加数据------------------------------------------->
+    <!--<div id="modal-form" class="modal fade eee" aria-hidden="true">-->
+        <!--<div class="modal-dialog">-->
+            <!--<div class="modal-content">-->
+                <!--<div class="modal-body">-->
+                    <!--<div class="row">-->
+                        <!--<div class="col-sm-6 b-r">-->
+                            <!--<form role="form">-->
+                                <!--<div class="form-group">-->
+                                    <!--<label>姓名：</label>-->
+                                    <!--<input type="test" id="name" placeholder="请输入姓名" class="form-control">-->
+                                <!--</div>-->
+                                <!--<div class="form-group">-->
+                                    <!--<label>性别：</label>-->
+                                    <!--<input type="test" id="sex" placeholder="请输入性别" class="form-control">-->
+                                <!--</div>-->
+                                <!--<div class="form-group">-->
+                                    <!--<label>年龄：</label>-->
+                                    <!--<input type="test" id="age" placeholder="请输入年龄" class="form-control">-->
+                                <!--</div>-->
+                                <!--<div>-->
+                                    <!--<button class="btn btn-sm btn-primary pull-right m-t-n-xs" id="submit"><strong-->
+                                            <!--style="text-align: center">提交</strong>-->
+                                    <!--</button>-->
+
+                                <!--</div>-->
+                            <!--</form>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+
+
+
+    <div id="modal-form" class="modal fade eee" aria-hidden="true">
+        <div class="modal-dialog">
+        <!--公共菜单-->
+        <div class="row wrapper border-bottom white-bg page-heading">
+            <div class="col-lg-10">
+                <h2>剧目管理</h2>
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="{U('index/index')}">后台首页</a>
+                    </li>
+                    <li>
+                        <a>剧目详情</a>
+                    </li>
+                </ol>
+            </div>
+            <div class="col-lg-2">
+            </div>
+        </div>
+        <div class="row  border-bottom white-bg dashboard-header">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="ibox float-e-margins">
+                        <form method="post" class="form-horizontal" id="add_form" action="">
+                            <div class="form-group">
+                                <div class="form-group">
+                                    <!--隐藏表单-->
+                                    <input type="hidden" class="form-control" name="id" value="">
+                                    <label class="col-sm-2 control-label"><span style="color: red">*&nbsp;</span>剧目名:</label>
+                                    <div class="col-sm-4">
+                                        <input type="text" class="form-control" name="name" value="">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label"><span style="color: red">*&nbsp;</span>封面图片:</label>
+                                    <div class="col-sm-7">
+                                        <input id="file_upload" name="file_upload" type="file" multiple="true">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label"></label>
+                                    <div class="col-sm-6">
+                                        <div id="image" class="image">
+                                            <div id="45" class="goods_img_row">
+                                                <a href="{echo tplgetimg($obj.thumb_image)}" target="_blank">
+                                                    <img src="{echo tplgetimg($obj.thumb_image)}" height="80" width="80" style="text-align: center" data-img="">
+                                                </a>
+                                                <div class="del">
+                                                    <a href="javascript:;" onclick="del(45);return" false;="">
+                                                        <i class="fa fa-times" title="删除"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--隐藏表单域-->
+                                        <input type="hidden" class="form-control" name="thumb_image" value="">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label"><span style="color: red">*&nbsp;</span>剧目类型:</label>
+                                    <div class="col-sm-2">
+                                        <select  name="dramacategory" class="col-sm-7 form-control" >
+                                            <option selected="selected" value="{$v['hid']}">{$v.title}</option>
+                                            <option value="{$v['hid']}">{$v.title}</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label"><span style="color: red">*&nbsp;</span>是否在首页显示:</label>
+                                    <div class="col-sm-2">
+                                        <select  name="display" class="col-sm-7 form-control" >
+                                            <option value="0">是</option>
+                                            <option { value="1">否</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">演出时间:</label>
+                                    <div class="col-sm-2">
+                                        <input placeholder="请选择演出时间" class="form-control laydate-icon" id="start" name="add_time" readonly><p>微信端剧目介绍时显示，填写最近一期演出时间</p>
+
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label"><span style="color: red">*&nbsp;</span>演出地点:</label>
+                                    <div class="col-sm-2">
+                                        <input type="text" class="form-control" name="theatre"   ><p>微信端剧目介绍时显示，填写最近演出地点</p>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label"><span style="color: red">*&nbsp;</span>最低票价:</label>
+                                    <div class="col-sm-2">
+                                        <input type="text" class="form-control" name="price"  >
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">是否赠送优惠卷:</label>
+                                    <div class="col-sm-2">
+                                        <select  name="coupon" class="col-sm-7 form-control" >
+                                            <option {if isset($obj)&&$obj.coupon==1}selected{/if} value="1">否</option>
+                                            <option {if isset($obj)&&$obj.coupon==0}selected{/if} value="0">是</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">优惠卷名称:</label>
+                                    <div class="col-sm-2">
+                                        <input type="text"placeholder="" class="form-control" name="title" >注：优惠卷名称只有在选择优惠卷为"是"的时候才填写。
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">优惠金额:</label>
+                                    <div class="col-sm-2">
+                                        <input type="text" class="form-control" name="money"   > 注：优惠金额只有在选择优惠卷为"是"的时候才填写。
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label"><span style="color: red">*&nbsp;</span>剧目描述:</label>
+                                    <div class="col-sm-7">
+                                        <div class="ibox-content no-padding">
+                                            <!--{if isset($obj.content)}{$obj.content}{/if}-->
+                                            <textarea type="text" id="content" name="content" style="width: 100%; height: 400px;"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hr-line-dashed"></div>
+                                <div class="form-group">
+                                    <div class="col-sm-4 col-sm-offset-2">
+                                        <button class="btn btn-primary" type="submit">保存内容</button>
+                                        <a class="btn btn-white" href="javascript:history.go(-1);">返回</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            </div>
+    </div>
+
+
+
+
+
+</div>
+<script src="http://www.123.com/hospital/public/js/jquery.min.js?v=2.1.4"></script>
+<script src="http://www.123.com/hospital/public/js/bootstrap.min.js?v=3.3.6"></script>
+<script src="http://www.123.com/hospital/public/js/content.min.js?v=1.0.0"></script>
+<script>
+    $(document).ready(function () {
+        $(".i-checks").iCheck({checkboxClass: "icheckbox_square-green", radioClass: "iradio_square-green",})
+    });
+</script>
+<script type="text/javascript" src="http://tajs.qq.com/stats?sId=9051096" charset="UTF-8"></script>
+<script>
+    //  $(document).on("click","#sublit",function(){
+    //
+    //  })
+    $("#submit").click(function () {
+        var name = $("#name").val();
+        var sex = $("#sex").val();
+        var age = $("#age").val();
+        $.ajax({
+            url: "{:U(table)}?action=one     ",
+            dataType: "json",
+            type: "post",
+            data: {
+                name: name,
+                sex: sex,
+                age: age,
+            },
+            success: function (data) {
+                if (data.status == "ok") {
+                    alert("121212");
+                }
+            }
+        })
+    })
+    function detele(id) {
+//        var id = $(this).attr("id");
+        $.ajax({
+            url: "{:U(table)}?action=two",
+            dataType: "json",
+            type: "post",
+            data: {
+                id: id,
+            },
+            success: function (json) {
+
+            }
+        })
+    }
+    //修改
+    function Tj(id) {
+        var name = $("#up_name").val();
+        var sex = $("#up_sex").val();
+        var age = $("#up_age").val();
+        $.ajax({
+            url: "{:U(table)}?action=three",
+            dataType: "json",
+            type: "post",
+            data: {
+                id: id,
+                name: name,
+                sex: sex,
+                age: age,
+            },
+            success: function (json) {
+
+            }
+        })
+    }
+</script>
+</body>
+
+
+<!-- Mirrored from www.zi-han.net/theme/hplus/table_basic.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 20 Jan 2016 14:20:01 GMT -->
+</html>
