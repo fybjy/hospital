@@ -28,7 +28,7 @@
             <div class="ibox float-e-margins">
                 <div class="ibox-title">
                     <div class="">
-                        <a data-toggle="modal" class="btn btn-primary" href="form_basic.html#modal-form">添加数据</a>
+                        <a data-toggle="modal" class="btn btn-primary" href="{:U('addbrief')}">添加数据</a>
                     </div>
                     <div class="ibox-tools">
                         <a class="collapse-link">
@@ -72,7 +72,7 @@
                                 <td>{$vo.Inpatient}</td>
                                 <td>{$vo.charge}</td>
                                 <td>{$vo.introduction}</td>
-                                <td>
+                                <td style="text-align: center">
                                    <a data-toggle="modal" onclick="detele({$vo.id})" class="btn btn-primary replace">
                                         删除
                                     </a>
