@@ -22,6 +22,35 @@ class IndexController extends Controller {
         $this->assign("doctor",$doctor_jy);
         $this->display();
     }
+    //来院到诊
+    public function come(){
+        $come = new Model("come_to");
+        $come_to = $come->select();
+        $this->assign('come',$come_to);
+        if(IS_POST){
+            $action = $_GET['action'];
+            switch($action){
+                case "add":
+                    $come_js = I('post.');
+                    $come_to_Add['Department'] = $come_js['Department'];
+                    $come_to_Add['position'] = $come_js['position'];
+                    $come_to_Add['time'] = date('Y-m-d H:i:s');
+                    $come_add = new Model("come_to");
+                    $conme = $come_add->add($come_to_Add);
+                    break;
+                case "delete":
+                    $id = I('post.id');
+                    $delete = new Model("come_to");
+                    $delete_lete = $delete->delete($id);
+                    if($delete_lete){
+                        $this->ajaxReturn("ok");
+                    }else{
+                        $this->ajaxReturn("no");
+                    }
+            }
+        }
+        $this->display();
+    }
     public function table(){
         $list = new Model("Frank");
         $list = $list->select();
@@ -126,6 +155,47 @@ class IndexController extends Controller {
                 $this->ajaxReturn("登录成功");
             }else{
                 $this->ajaxReturn("账号密码错误");
+            }
+        }
+        $this->display();
+    }
+    //首页右边
+    public function right(){
+        $this->display();
+    }
+    //最新动态
+    public function news(){
+        $new = new Model("news");
+        $news = $new->select();
+        $this->assign('news',$news);
+        if(IS_POST){
+            $action = $_GET['action'];
+            switch($action){
+//                case "add":
+//                    $username = I('post.username');
+//                    $password = I('post.password');
+//                    $time = date("Y-m-d H:i:s");
+//                    $user['username'] = $username;
+//                    $user['password'] = md5($password);
+//                    $user['time'] = $time;
+//                    $add_user = new Model('user');
+//                    $add_user = $add_user->add($user);
+//                    if($add_user){
+//                        $this->ajaxReturn('ok');
+//                    }else{
+//                        $this->ajaxReturn('ok');
+//                    }
+//                    break;
+                case "delete":
+                    $id = I('post.id');
+                    $detele = new Model("news");
+                    $detele = $detele->delete($id);
+                    if($detele){
+                        $this->ajaxReturn("ok");
+                    }else{
+                        $this->ajaxReturn("no");
+                    }
+                    break;
             }
         }
         $this->display();
