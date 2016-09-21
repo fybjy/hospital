@@ -153,10 +153,250 @@
 <!-- jQuery Validation plugin javascript-->
 <script src="http://www.123.com/hospital/public/asset/admin/common/js/plugins/validate/jquery.validate.min.js"></script>
 <script src="http://www.123.com/hospital/public/asset/admin/common/js/plugins/validate/messages_zh.min.js"></script>
-    <script src="http://static.weiwubao.com/asset/lib/js/ibox.js"></script>
+
 <script src="http://www.123.com/hospital/public/asset/admin/common/js/plugins/layer/layer.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+        //实例化编辑器
+        UM.getEditor('content');
+        var validator = $("#add_form").submit(function () {
+            UM.getEditor('content').sync();
+        }).validate({
+            ignore: "",
+            rules: {
+                area: "required",
+                price: "required",
+                theatre: "required",
+                name: {
+                    required:true,
+                    maxlength: 25
+                },
+                add_time: "required",
+                content: "required"
+
+            },
+            messages: {
+                name: {
+                    required: "请填写剧目名",
+                    maxlength: "剧目名长度不能超过25，超过的字符将自动截取"
+                },
+                content:"请填写剧目描述",
+                price:"请填写票价",
+                theatre:"请填写演出地点",
+                add_time:"请填写时间"
+            }
+
+        });
+        validator.focusInvalid = function() {
+            if( this.settings.focusInvalid ) {
+                try {
+                    var toFocus = $(this.findLastActive() || this.errorList.length && this.errorList[0].element || []);
+                    if (toFocus.is("textarea")) {
+                        UM.getEditor('content').focus()
+                    } else {
+                        toFocus.filter(":visible").focus();
+                    }
+                } catch(e) {
+                }
+            }
+        }
+    });
+    $(function() {
+        $('#file_upload').uploadify({
+            'onInit': function () { //载入时触发，将flash设置到最小
+                $("#file_upload-queue").hide();
+            },
+            'queueSizeLimit': 1,
+            'simUploadLimit': 1,
+            'buttonClass': 'btn btn-primary btn-sm',
+            'fileDataName' : 'file',
+            'fileTypeDesc' : 'Image Files',					//类型描述
+            //'removeCompleted' : false,    //是否自动消失
+            'fileTypeExts' : '*.gif; *.jpg; *.png',		//允许类型
+            'fileSizeLimit' : '2MB',					//允许上传最大值
+            'swf'      : '/uploadify/uploadify.swf',	//加载swf
+            'uploader' : '/common/uploadify/index',					//上传路径
+            'buttonText' :'图片上传', //按钮的文字
+            'overrideEvents': ['onSelectError', 'onDialogClose'],
+            //返回一个错误，选择文件的时候触发
+            'onSelectError': function (file, errorCode, errorMsg) {
+                switch (errorCode) {
+                    case -100:
+                        alert("上传的文件数量已经超出系统限制的" + $('#file_upload').uploadify('settings', 'queueSizeLimit') + "个文件！");
+                        break;
+                    case -110:
+                        alert("文件 [" + file.name + "] 大小超出系统限制的" + $('#file_upload').uploadify('settings', 'fileSizeLimit') + "大小！");
+                        break;
+                    case -120:
+                        alert("文件 [" + file.name + "] 大小异常！");
+                        break;
+                    case -130:
+                        alert("文件 [" + file.name + "] 类型不正确！");
+                        break;
+                }
+                return false;
+            },
+            'onUploadStart' : function(file) {
+                toastr.success('正在上传，注意上传成功提示！', "请等待");
+                toastr_tip();
+            },
+            'onUploadSuccess' : function(file, data, response) {			//成功上传返回
+                toastr.success('上传成功！', "已上传！");
+                toastr_tip();
+                var n=parseInt(Math.random()*100);								//100以内的随机数
+                //alert(n+data);
+                //插入到image标签内，显示图片的缩略图
+                //console.log(data);
+                var obj = JSON.parse(data);
+                $('#image').html('<div id="'+n+'" class="goods_img_row"><a href="/data/attachment'+obj.file.resize_path+'"  target="_blank"><img src="/data/attachment'+obj.file.size_100x100+'"  height=80 width=80 data-img="/data/attachment'+obj.file.resize_path+'" /></a><div class="del"><a href="javascript:vo(0)" onclick=del("'+n+'");return false;><i class="fa fa-times" title="删除"></i></a></div></div>')
+                //往表单里追加内容
+                $('input[name=thumb_image]').val(obj.file.resize_path);
+            }
+
+        });
+    });
+    function del(delName){
+        var d='#'+delName;
+        $(d).remove();
+        $('input[name=thumb_image]').val('');
+    }
+
+    /**
+     * toastr 提示
+     */
+    function toastr_tip(){
+        toastr.options = {
+            "closeButton": true,
+            "debug": false,
+            "progressBar": true,
+            "positionClass": "toast-top-right",
+            "onclick": null,
+            "showDuration": "400",
+            "hideDuration": "1000",
+            "timeOut": "2000",
+            "extendedTimeOut": "1000",
+            "showEasing": "swing",
+            "hideEasing": "linear",
+            "showMethod": "fadeIn",
+            "hideMethod": "fadeOut"
+        }
+    }
+</script>
+<script>
+    $(function(){
+
+        myEvent();
+
+
+
+    });
+    //剧场票价选择展示
+
+    function drawArea(data){
+        var myData = data.data.list;
+
+        if(myData==null || myData == undefined || myData == "")
+            return false;
+
+        for(var j=0; j<myData.length; j++){
+
+            var name = myData[j].jyname;
+            var _item2 = "";
+            $(".jC").each(function(){
+                if($(this).attr("data-area") == name ){
+
+                    if(myData[j].area == null || myData[j].area == "" || myData[j].area == undefined)
+                        return true;
+
+                    _item2 += '<div class="form-group">';
+                    _item2 += '<div class="col-sm-2"></div>';
+                    _item2 += '<div class="col-sm-1">';
+                    _item2 += '<input type="text" class="form-control tCenter" name="area-type[]" value="'+myData[j].area+'"  readonly>';
+                    _item2 += '</div>';
+                    _item2 += '<div class="col-sm-1">';
+                    _item2 += '<input type="text" class="form-control tCenter " name="area-prize[]">';
+                    _item2 += '</div>';
+
+                    $(this).find(".area-c").append(_item2);
+                }
+
+            })
+
+        }
+
+
+        myEvent();
+    }
+
+    function myEvent(){
+        $('#theatre').unbind("change").change(function(){
+            var index = $(this).children('option:selected').index();
+            $('.jC').eq(index).show(0).siblings('.jC').hide(0);
+        });
+
+        $('.jC').hide(0);
+        $('.jC').first().show(0);
+    }
+
+    //新增套票
+    $(document).on('click','.tAdd',function(){
+        var ltNum = $.trim($(this).parent().siblings('.col-sm-1').find('.tNum').val());
+        if(ltNum == null || ltNum =='' || ltNum == undefined){
+            layer.msg('请先填写套票数量');
+            $('#tPbig .tNum:last-child').focus();
+            return false;
+        }
+
+        var ltZk = $.trim($(this).parent().siblings('.col-sm-1').find('.tZk').val());
+        if(ltZk == null || ltZk =='' || ltZk == undefined){
+            layer.msg('请先填写套票折扣');
+            $('#tPbig .tZk:last-child').focus();
+            return false;
+        }
+
+        $(this).hide(0);
+        var str = '';
+        str += '<div class="col-sm-7 col-md-offset-2 tMt10">';
+        str += '<span class="tDinb tLh34 tL">套票数量</span>';
+        str += '<div class="col-sm-1 tDinb tL">';
+        str += '<input type="text" class="form-control tCenter tNum" name="package_number[]">';
+        str += '</div>';
+        str += '<span class="tDinb tLh34 tL">张，折扣</span>';
+        str += '<div class="col-sm-1 tDinb tL">';
+        str += '<input type="text" class="form-control tCenter tZk" name="package_discount[]">';
+        str += '</div>';
+        str += '<span class="tDinb tLh34 tL">折</span>';
+        str += '<div class="col-sm-1 tDinb tL">';
+        str += '<a href="javascript:;" class="btn btn-w-m btn-primary tAdd">+新增</a>';
+        str += '</div>';
+        str += '</div>';
+        $('#tPbig').append(str);
+    });
+
+    var start = {
+        elem: '#start',
+        format: 'YYYY-MM-DD hh:mm:ss',
+        min: '{$times}', //设定最小日期为当前日期
+        max: '2099-06-16 23:59:59', //最大日期
+        istime: true,
+        istoday: false,
+        choose: function(datas){
+        }
+    };
+    laydate(start);
+
+    var area = '';
+    var prizes = $("input[name='area-prize']");
+    $("input[name='area-type']").each(function(i,v){
+        var type = $(this).val();
+        var prize = prizes.eq(i).val();
+        area +=  type +'-'+ prize +"|"  ;
+    });
+
+</script>
     <script>
-        //修改 查看
+        //修改
        function modify(id){
             var title = $(".title").val();
             var address = $(".address").val();
@@ -184,9 +424,9 @@
                     introduction:introduction,
                 },
                 success:function(data){
-                    if(data== ""){
-                        window.location.reload();
-                    }
+                        if(data== ""){
+                            window.location.reload()
+                        }
                 }
             })
         }

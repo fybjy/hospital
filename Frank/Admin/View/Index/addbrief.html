@@ -157,6 +157,52 @@
 <script src="http://www.123.com/hospital/public/asset/admin/common/js/plugins/layer/layer.min.js"></script>
 
 <script>
+
+    $(document).ready(function() {
+        //实例化编辑器
+        UM.getEditor('content');
+        var validator = $("#add_form").submit(function () {
+            UM.getEditor('content').sync();
+        }).validate({
+            ignore: "",
+            rules: {
+                area: "required",
+                price: "required",
+                theatre: "required",
+                name: {
+                    required:true,
+                    maxlength: 25
+                },
+                add_time: "required",
+                content: "required"
+
+            },
+            messages: {
+                name: {
+                    required: "请填写剧目名",
+                    maxlength: "剧目名长度不能超过25，超过的字符将自动截取"
+                },
+                content:"请填写剧目描述",
+                price:"请填写票价",
+                theatre:"请填写演出地点",
+                add_time:"请填写时间"
+            }
+
+        });
+        validator.focusInvalid = function() {
+            if( this.settings.focusInvalid ) {
+                try {
+                    var toFocus = $(this.findLastActive() || this.errorList.length && this.errorList[0].element || []);
+                    if (toFocus.is("textarea")) {
+                        UM.getEditor('content').focus()
+                    } else {
+                        toFocus.filter(":visible").focus();
+                    }
+                } catch(e) {
+                }
+            }
+        }
+    });
     $(function() {
         $('#file_upload').uploadify({
             'onInit': function () { //载入时触发，将flash设置到最小
