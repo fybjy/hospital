@@ -3,20 +3,10 @@
 namespace Admin\Controller;
 use Think\Controller;
 use Think\Model;
-use ZF\Service\NewCoupon;
-
 class IndexController extends Controller {
-    public function action(){
-     $wx = "{\"access_token\":\"ACCESS_TOKEN\",\"expires_in\":7200}";
-        print_r(json_decode($wx,true));
-       $this->display();
-    }
-    public function conversation(){
-        $user = new Model('User','think_','mysql://root:root@www.123.com/thinkphp');
-        var_dump($user->select());
-    }
     //医院简介
     public function brief(){
+        $this->checkLogin();
         $doctor = new Model("Hospital_profile");
         $doctor_jy = $doctor->select();
         $this->assign("doctor",$doctor_jy);
@@ -152,15 +142,44 @@ class IndexController extends Controller {
             $use = new Model('user');
             $use_se = $use->where($where)->find();
             if($use_se){
+                session_start();
+               session('user_admin',$use_se);
+                //如果超过多长时间没有再写 登陆失效时间
+                session('login_session',time()+10800);
                 $this->ajaxReturn("登录成功");
             }else{
                 $this->ajaxReturn("账号密码错误");
             }
         }
+
         $this->display();
+    }
+
+    /**
+     * @return bool是否登录验证
+     */
+    private function checkLogin(){
+        $data =session('user_admin');
+//        $data =session(null);
+        if(session('login_session') < time()){
+            //清除掉判断是否登陆的session
+            $data =session(null);
+            //跳转到登陆页面去
+            redirect("http://www.123.com/hospital/admin/index/login");
+        }else{
+            //重新更新session时间
+            session('login_session',time()+10800);
+        }
+        if(empty($data)){
+            redirect("http://www.123.com/hospital/admin/index/login");
+            return false;
+        }else{
+            return true;
+        }
     }
     //首页右边
     public function right(){
+        $this->checkLogin();
         $this->display();
     }
     //最新动态
