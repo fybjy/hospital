@@ -10,6 +10,64 @@ class IndexController extends Controller {
         $doctor = new Model("Hospital_profile");
         $doctor_jy = $doctor->select();
         $this->assign("doctor",$doctor_jy);
+        if(IS_POST){
+            $action = $_GET['action'];
+            switch($action){
+                case "delete":
+                    $id = I('post.id');
+                    $delete = new Model('hospital_profile');
+                    $delete_de = $delete->delete($id);
+                    if($delete_de){
+                        $this->ajaxReturn('ok');
+                    }else{
+                        $this->ajaxReturn('no');
+                    }
+            }
+        }
+        $this->display();
+    }
+    //查看
+    public function see(){
+        $id = $_GET['id'];
+        $see = new Model("Hospital_profile");
+        $where['id'] = $id;
+        $see = $see->where($where)->find();
+        $this->assign('see',$see);
+        //修改
+        if(IS_POST){
+            $action = $_GET['action'];
+            switch($action){
+                case "sava":
+                    $id = I('post.id');
+                    $title = I('post.title');
+                    $tel = I('post.tel');
+                    $address = I('post.address');
+                    $mz_time = I('post.mz_time');
+                    $winter_time = I('post.winter_time');
+                    $summer_time = I('post.summer_time');
+                    $Inpatient = I('post.Inpatient');
+                    $charge = I('post.charge');
+                    $introduction = I('post.introduction');
+                    $see_e = array(
+                        'title' => $title,
+                        'tel' => $tel,
+                        'address' => $address,
+                        'mz_time' => $mz_time,
+                        'winter_time' => $winter_time,
+                        'summer_time' => $summer_time,
+                        'Inpatient' => $Inpatient,
+                        'charge' => $charge,
+                        'introduction' => $introduction,
+                    );
+                    $see = new Model("Hospital_profile");
+                    $seee = $see->where("id=$id")->save($see_e);
+                    if($seee){
+                        $this->ajaxReturn("ok");
+                    }
+                    break;
+
+            }
+        }
         $this->display();
     }
     //来院到诊
@@ -218,5 +276,20 @@ class IndexController extends Controller {
             }
         }
         $this->display();
+    }
+    //图片上传
+    public function upload(){
+        $upload = new \Think\Upload();// 实例化上传类
+        $upload->maxSize   =     3145728 ;// 设置附件上传大小
+        $upload->exts      =     array('jpg', 'gif', 'png', 'jpeg');// 设置附件上传类型
+        $upload->rootPath  =     './Uploads/'; // 设置附件上传根目录
+        $upload->savePath  =     ''; // 设置附件上传（子）目录
+        // 上传文件
+        $info   =   $upload->upload();
+        if(!$info) {// 上传错误提示错误信息
+            $this->error($upload->getError());
+        }else{// 上传成功
+            $this->success('上传成功！');
+        }
     }
 }

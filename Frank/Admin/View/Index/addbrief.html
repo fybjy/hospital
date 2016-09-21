@@ -36,7 +36,7 @@
                                 <input type="hidden" class="form-control" name="id" value="">
                                 <label class="col-sm-2 control-label"><span style="color: red">*&nbsp;</span>医院名称:</label>
                                 <div class="col-sm-4">
-                                    <input type="text" class="form-control" placeholder="请输入医院名称" name="name" value="">
+                                    <input type="text" class="form-control title" placeholder="请输入医院名称" name="name" value="">
                                 </div>
                             </div>
                             <div class="form-group">
@@ -67,50 +67,62 @@
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">门诊就诊时间:</label>
                                 <div class="col-sm-2">
-                                    <input placeholder="请选择就诊时间" class="form-control laydate-icon" id="start" name="add_time" readonly>
+                                    <input placeholder="请选择就诊时间" class="form-control laydate-icon mz_time" id="start" name="add_time" readonly>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label class="col-sm-2 control-label"><span style="color: red">*&nbsp;</span>医院地址:</label>
                                 <div class="col-sm-2">
-                                    <input type="text" class="form-control" placeholder="请输入医院地址" name="theatre"   >
+                                    <input type="text" class="form-control address" placeholder="请输入医院地址" name="theatre"   >
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label class="col-sm-2 control-label"><span style="color: red">*&nbsp;</span>医院电话:</label>
                                 <div class="col-sm-2">
-                                    <input type="text" class="form-control" placeholder="请输入医院电话" name="theatre"   >
+                                    <input type="text" class="form-control tel" placeholder="请输入医院电话" name="theatre"   >
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label class="col-sm-2 control-label"><span style="color: red">*&nbsp;</span>冬季时间:</label>
                                 <div class="col-sm-2">
-                                    <input type="text" class="form-control" placeholder="请输入冬季时间" name="theatre"   >
+                                    <input type="text" class="form-control winter_time" placeholder="请输入冬季时间" name="theatre"   >
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label class="col-sm-2 control-label"><span style="color: red">*&nbsp;</span>夏季时间:</label>
                                 <div class="col-sm-2">
-                                    <input type="text" class="form-control" placeholder="请输入夏季时间" name="theatre"   >
+                                    <input type="text" class="form-control summer_time" placeholder="请输入夏季时间" name="theatre"   >
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label class="col-sm-2 control-label"><span style="color: red">*&nbsp;</span>住院部:</label>
                                 <div class="col-sm-2">
-                                    <input type="text" class="form-control" placeholder="请输入住院部" name="theatre"   >
+                                    <input type="text" class="form-control Inpatient" placeholder="请输入住院部" name="theatre"   >
                                 </div>
                             </div>
-                                <label class="col-sm-2 control-label"><span style="color: red">*&nbsp;</span>医院简介:</label>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label"><span
+                                        style="color: red">*&nbsp;</span>收费标准:</label>
+
                                 <div class="col-sm-7">
-                                    <div class="ibox-content no-padding">
-                                        <textarea type="text" id="content" name="content" style="width: 100%; height: 400px;"></textarea>
-                                    </div>
+                                    <textarea type="text" name="content"
+                                              class="charge"  style="width: 100%; height: 200px;">{$see['charge']}
+                                    </textarea>
+                                </div>
+                            </div>
+                            <label class="col-sm-2 control-label"><span
+                                    style="color: red">*&nbsp;</span>医院简介:</label>
+                            <div class="col-sm-7">
+                                <div class="ibox-content no-padding">
+                                    <textarea type="text" id="content" name="content"
+                                              class="introduction" style="width: 100%; height: 400px;">{$see.introduction}
+                                     </textarea>
                                 </div>
                             </div>
                             <div class="hr-line-dashed"></div>
                             <div class="form-group">
                                 <div class="col-sm-4 col-sm-offset-2">
-                                    <button class="btn btn-primary" type="submit">保存</button>
+                                    <button class="btn btn-primary" onclick="submit()" type="submit">保存</button>
                                     <a class="btn btn-white" href="javascript:history.go(-1);">返回</a>
                                 </div>
                             </div>
@@ -145,51 +157,6 @@
 <script src="http://www.123.com/hospital/public/asset/admin/common/js/plugins/layer/layer.min.js"></script>
 
 <script>
-    $(document).ready(function() {
-        //实例化编辑器
-        UM.getEditor('content');
-        var validator = $("#add_form").submit(function () {
-            UM.getEditor('content').sync();
-        }).validate({
-            ignore: "",
-            rules: {
-                area: "required",
-                price: "required",
-                theatre: "required",
-                name: {
-                    required:true,
-                    maxlength: 25
-                },
-                add_time: "required",
-                content: "required"
-
-            },
-            messages: {
-                name: {
-                    required: "请填写剧目名",
-                    maxlength: "剧目名长度不能超过25，超过的字符将自动截取"
-                },
-                content:"请填写剧目描述",
-                price:"请填写票价",
-                theatre:"请填写演出地点",
-                add_time:"请填写时间"
-            }
-
-        });
-        validator.focusInvalid = function() {
-            if( this.settings.focusInvalid ) {
-                try {
-                    var toFocus = $(this.findLastActive() || this.errorList.length && this.errorList[0].element || []);
-                    if (toFocus.is("textarea")) {
-                        UM.getEditor('content').focus()
-                    } else {
-                        toFocus.filter(":visible").focus();
-                    }
-                } catch(e) {
-                }
-            }
-        }
-    });
     $(function() {
         $('#file_upload').uploadify({
             'onInit': function () { //载入时触发，将flash设置到最小
@@ -382,6 +349,25 @@
         area +=  type +'-'+ prize +"|"  ;
     });
 
+</script>
+<script>
+    //增加
+    function submit(){
+        var title = $(".title").val();
+        if(title == ""){
+            $.iBox.alert("请输入标题");
+            $(".title").focus();
+            return false;
+        }
+        $.ajax({
+            url:"{:U('see')}?action=sava",
+            dataType:"json",
+            type:"post",
+            data:{
+                title:title,
+            }
+        })
+    }
 </script>
 </body>
 

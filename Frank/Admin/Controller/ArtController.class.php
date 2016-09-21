@@ -4,9 +4,8 @@ namespace Admin\Controller;
 use Think\Controller;
 class ArtController extends Controller {
     public function index(){
+        echo "测试";
       $this->display();
     }
-    public function conversation(){
-        echo xiong;
-}
+
 }

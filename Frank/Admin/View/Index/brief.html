@@ -76,7 +76,7 @@
                                    <a data-toggle="modal" onclick="detele({$vo.id})" class="btn btn-primary replace">
                                         删除
                                     </a>
-                                    <a data-toggle="modal" class="btn btn-primary replace" href="#form{$vo.id}">
+                                    <a data-toggle="modal" class="btn btn-primary replace" href="{:U('see')}?id={$vo.id}">
                                         查看
                                     </a>
                                 </td>
@@ -125,41 +125,6 @@
         </div>
     </foreach>
     <!-------------------------------------------增加数据------------------------------------------->
-    <!--<div id="modal-form" class="modal fade eee" aria-hidden="true">-->
-        <!--<div class="modal-dialog">-->
-            <!--<div class="modal-content">-->
-                <!--<div class="modal-body">-->
-                    <!--<div class="row">-->
-                        <!--<div class="col-sm-6 b-r">-->
-                            <!--<form role="form">-->
-                                <!--<div class="form-group">-->
-                                    <!--<label>姓名：</label>-->
-                                    <!--<input type="test" id="name" placeholder="请输入姓名" class="form-control">-->
-                                <!--</div>-->
-                                <!--<div class="form-group">-->
-                                    <!--<label>性别：</label>-->
-                                    <!--<input type="test" id="sex" placeholder="请输入性别" class="form-control">-->
-                                <!--</div>-->
-                                <!--<div class="form-group">-->
-                                    <!--<label>年龄：</label>-->
-                                    <!--<input type="test" id="age" placeholder="请输入年龄" class="form-control">-->
-                                <!--</div>-->
-                                <!--<div>-->
-                                    <!--<button class="btn btn-sm btn-primary pull-right m-t-n-xs" id="submit"><strong-->
-                                            <!--style="text-align: center">提交</strong>-->
-                                    <!--</button>-->
-
-                                <!--</div>-->
-                            <!--</form>-->
-                        <!--</div>-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</div>-->
-
-
-
     <div id="modal-form" class="modal fade eee" aria-hidden="true">
         <div class="modal-dialog">
         <!--公共菜单-->
@@ -342,14 +307,16 @@
     function detele(id) {
 //        var id = $(this).attr("id");
         $.ajax({
-            url: "{:U(table)}?action=two",
+            url: "{:U(brief)}?action=delete",
             dataType: "json",
             type: "post",
             data: {
                 id: id,
             },
-            success: function (json) {
-
+            success: function (data) {
+                if(data == "ok"){
+                    window.location.reload();
+                }
             }
         })
     }
