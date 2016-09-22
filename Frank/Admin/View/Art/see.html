@@ -102,7 +102,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label class="col-sm-2 control-label"><span
-                                            style="color: red">*&nbsp;</span>出诊信息:</label>
+                                            style="color: red"></span>出诊信息:</label>
 
                                     <div class="col-sm-7">
                                     <textarea type="text" name="content"
@@ -114,7 +114,7 @@
                             <div class="hr-line-dashed"></div>
                             <div class="form-group">
                                 <div class="col-sm-4 col-sm-offset-2">
-                                    <button class="btn btn-primary modify" onclick="modify({$updata.id})" type="submit">修改</button>
+                                    <button class="btn btn-primary modify" onclick="modify({$updata.id})" type="button">修改</button>
                                     <a class="btn btn-white" href="javascript:history.go(-1);">返回</a>
                                 </div>
                             </div>
@@ -123,6 +123,7 @@
             </div>
         </div>
 </div>
+    </div>
 
 <!-- Mainly scripts -->
 <script src="http://www.123.com/hospital/public/asset/admin/common/js/jquery-2.1.1.min.js"></script>
@@ -143,121 +144,8 @@
 <!-- jQuery Validation plugin javascript-->
 <script src="http://www.123.com/hospital/public/asset/admin/common/js/plugins/validate/jquery.validate.min.js"></script>
 <script src="http://www.123.com/hospital/public/asset/admin/common/js/plugins/validate/messages_zh.min.js"></script>
-
+<script src="http://static.weiwubao.com/asset/lib/js/ibox.js"></script>
 <script src="http://www.123.com/hospital/public/asset/admin/common/js/plugins/layer/layer.min.js"></script>
-
-<script>
-    $(function(){
-
-        myEvent();
-
-
-
-    });
-    //剧场票价选择展示
-
-    function drawArea(data){
-        var myData = data.data.list;
-
-        if(myData==null || myData == undefined || myData == "")
-            return false;
-
-        for(var j=0; j<myData.length; j++){
-
-            var name = myData[j].jyname;
-            var _item2 = "";
-            $(".jC").each(function(){
-                if($(this).attr("data-area") == name ){
-
-                    if(myData[j].area == null || myData[j].area == "" || myData[j].area == undefined)
-                        return true;
-
-                    _item2 += '<div class="form-group">';
-                    _item2 += '<div class="col-sm-2"></div>';
-                    _item2 += '<div class="col-sm-1">';
-                    _item2 += '<input type="text" class="form-control tCenter" name="area-type[]" value="'+myData[j].area+'"  readonly>';
-                    _item2 += '</div>';
-                    _item2 += '<div class="col-sm-1">';
-                    _item2 += '<input type="text" class="form-control tCenter " name="area-prize[]">';
-                    _item2 += '</div>';
-
-                    $(this).find(".area-c").append(_item2);
-                }
-
-            })
-
-        }
-
-
-        myEvent();
-    }
-
-    function myEvent(){
-        $('#theatre').unbind("change").change(function(){
-            var index = $(this).children('option:selected').index();
-            $('.jC').eq(index).show(0).siblings('.jC').hide(0);
-        });
-
-        $('.jC').hide(0);
-        $('.jC').first().show(0);
-    }
-
-    //新增套票
-    $(document).on('click','.tAdd',function(){
-        var ltNum = $.trim($(this).parent().siblings('.col-sm-1').find('.tNum').val());
-        if(ltNum == null || ltNum =='' || ltNum == undefined){
-            layer.msg('请先填写套票数量');
-            $('#tPbig .tNum:last-child').focus();
-            return false;
-        }
-
-        var ltZk = $.trim($(this).parent().siblings('.col-sm-1').find('.tZk').val());
-        if(ltZk == null || ltZk =='' || ltZk == undefined){
-            layer.msg('请先填写套票折扣');
-            $('#tPbig .tZk:last-child').focus();
-            return false;
-        }
-
-        $(this).hide(0);
-        var str = '';
-        str += '<div class="col-sm-7 col-md-offset-2 tMt10">';
-        str += '<span class="tDinb tLh34 tL">套票数量</span>';
-        str += '<div class="col-sm-1 tDinb tL">';
-        str += '<input type="text" class="form-control tCenter tNum" name="package_number[]">';
-        str += '</div>';
-        str += '<span class="tDinb tLh34 tL">张，折扣</span>';
-        str += '<div class="col-sm-1 tDinb tL">';
-        str += '<input type="text" class="form-control tCenter tZk" name="package_discount[]">';
-        str += '</div>';
-        str += '<span class="tDinb tLh34 tL">折</span>';
-        str += '<div class="col-sm-1 tDinb tL">';
-        str += '<a href="javascript:;" class="btn btn-w-m btn-primary tAdd">+新增</a>';
-        str += '</div>';
-        str += '</div>';
-        $('#tPbig').append(str);
-    });
-
-    var start = {
-        elem: '#start',
-        format: 'YYYY-MM-DD hh:mm:ss',
-        min: '{$times}', //设定最小日期为当前日期
-        max: '2099-06-16 23:59:59', //最大日期
-        istime: true,
-        istoday: false,
-        choose: function(datas){
-        }
-    };
-    laydate(start);
-
-    var area = '';
-    var prizes = $("input[name='area-prize']");
-    $("input[name='area-type']").each(function(i,v){
-        var type = $(this).val();
-        var prize = prizes.eq(i).val();
-        area +=  type +'-'+ prize +"|"  ;
-    });
-
-</script>
     <script>
         //修改
        function modify(id){
@@ -267,6 +155,32 @@
             var good_at = $('#good_at').val();
             var doctor_jj = $("#doctor_jj").val();
             var information = $("#information").val();
+           if (name == null || name == "" || name == 'undefined'){
+               $.iBox.alert('请输入名字');
+                   $("#name").focus();
+                   return false;
+           }
+           if (company == null || company == "" || name == 'company'){
+               $.iBox.alert('请输入单位');
+               $("#company").focus();
+               return false;
+           }
+           if (position == null || position == "" || position == 'undefined'){
+               $.iBox.alert('请输入部门');
+               $("#position").focus();
+               return false;
+           }
+           if (good_at == null || good_at == "" || good_at == 'undefined'){
+               $.iBox.alert('请输入擅长');
+               $("#good_at").focus();
+               return false;
+           }
+           if (doctor_jj == null || doctor_jj == "" || doctor_jj == 'undefined'){
+               $.iBox.alert('请输入医生简介');
+               $("#doctor_jj").focus();
+               return false;
+           }
+
             $.ajax({
                 url:"{:U('see')}",
                 dataType:"json",
