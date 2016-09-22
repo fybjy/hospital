@@ -31,6 +31,10 @@
                 <div class="ibox float-e-margins">
                     <form method="post" class="form-horizontal" id="add_form" action="">
                         <div class="form-group">
+                            <form action="__CONTROLLER__/upload" enctype="multipart/form-data" method="post">
+                                <input type="file" name="photo" />
+                                <input type="submit" value="提交" />
+                            </form>
                             <div class="form-group">
                                 <!--隐藏表单-->
                                 <input type="hidden" class="form-control" name="id" value="">

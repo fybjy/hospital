@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title>院内导诊</title>
+
+    <link href="http://cdn.bootcss.com/Swiper/3.3.1/css/swiper.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="http://www.123.com/hospital/public/styles/main.css">
+</head>
+
+<body>
+<!--[if lt IE 8]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+<![endif]-->
+
+
+<div id="main" class="navigation">
+    <div class="nav-title">
+        <div>科室</div>
+        <div>位置</div>
+    </div>
+    <foreach name="nav" item="list">
+            <div class="nav-row">
+                <div class="name">
+                    {$list.Department}
+                </div>
+                <div class="location">
+                    {$list.position}
+                </div>
+            </div>
+    </foreach>
+    <div class="nav-last">
+        <div class="name">
+            &nbsp;
+        </div>
+        <div class="location">
+            &nbsp;
+        </div>
+    </div>
+</div>
+
+<script src="http://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script src="http://cdn.bootcss.com/Swiper/3.3.1/js/swiper.min.js"></script>
+<script src="http://cdn.bootcss.com/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
+
+<script src="http://www.123.com/hospital/public/scripts/vendor.js"></script>
+<script src="http://www.123.com/hospital/public/scripts/main.js"></script>
+
+<script type="text/javascript">
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true
+    });
+</script>
+</body>
+
+</html>

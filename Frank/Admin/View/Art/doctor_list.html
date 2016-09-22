@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="renderer" content="webkit">
+    <title>铜梁妇幼保健院</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="http://www.123.com/hospital/public/css/bootstrap.min14ed.css?v=3.3.6" rel="stylesheet">
+    <link href="http://www.123.com/hospital/public/asset/admin/common/css/plugins/toastr/toastr.min.css" rel="stylesheet">
+    <link href="http://www.123.com/hospital/public/css/font-awesome.min93e3.css?v=4.4.0" rel="stylesheet">
+    <link href="http://www.123.com/hospital/public/asset/admin/common/umeditor/themes/default/css/umeditor.css" type="text/css" rel="stylesheet">
+    <link href="http://www.123.com/hospital/public/css/animate.min.css" rel="stylesheet">
+    <link href="http://www.123.com/hospital/public/css/style.min862f.css?v=4.1.0" rel="stylesheet">
+    <link href="http://www.123.com/hospital/public/asset/admin/common/css/bootstrap.min.css?v=3.3.0" rel="stylesheet">
+    <link href="http://www.123.com/hospital/public/asset/admin/common/font-awesome/css/font-awesome.css?v=4.3.0" rel="stylesheet">
+</head>
+<body>
+<div id="wrapper">
+    <!--公共菜单-->
+    <div class="row wrapper border-bottom white-bg page-heading">
+        <div class="col-lg-10">
+            <h3>简介添加：</h3>
+        </div>
+        <div class="col-lg-2">
+        </div>
+    </div>
+    <div class="row  border-bottom white-bg dashboard-header">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="ibox float-e-margins">
+                        <form method="post" class="form-horizontal" id="add_form" action="">
+                            <div class="form-group">
+
+                                <div class="form-group">
+                                    <!--隐藏表单-->
+                                    <input type="hidden" class="form-control" name="id" value="">
+                                    <label class="col-sm-2 control-label"><span style="color: red">*&nbsp;</span>所属部门:</label>
+
+                                    <div class="col-sm-4">
+                                        <select name="select" id="select_k1" class="xla_k">
+                                            <foreach name="list" item="list">
+                                                <option class="keshi" value="选择品牌2" id="{$list.id}">{$list.department}
+                                                </option>
+                                            </foreach>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <!--隐藏表单-->
+                                    <input type="hidden" class="form-control" name="id" value="">
+                                    <label class="col-sm-2 control-label"><span style="color: red">*&nbsp;</span>名字和职位:</label>
+                                    <div class="col-sm-4">
+                                        <input type="text" class="form-control title" id="name" placeholder="请输入医院名称" name="name" value="{$see.title}">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label"><span style="color: red">*&nbsp;</span>头像:</label>
+                                    <div class="col-sm-7">
+                                        <input id="file_upload"  name="file_upload" type="file" multiple="true">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label"></label>
+                                    <div class="col-sm-6">
+                                        <div id="image" class="image">
+                                            <div id="45" class="goods_img_row">
+                                                <a href="{echo tplgetimg($obj.thumb_image)}" target="_blank">
+                                                    <img src="{echo tplgetimg($obj.thumb_image)}" height="80" width="80" data-img="">
+                                                </a>
+                                                <div class="del">
+                                                    <a href="javascript:;" onclick="del(45);return" false;="">
+                                                        <i class="fa fa-times" title="删除"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--隐藏表单域-->
+                                        <input type="hidden" class="form-control" name="thumb_image" value="">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <!--隐藏表单-->
+                                    <input type="hidden" class="form-control" name="id" value="">
+                                    <label class="col-sm-2 control-label"><span style="color: red">*&nbsp;</span>部门:</label>
+                                    <div class="col-sm-4">
+                                        <input type="text" class="form-control title" id="company" placeholder="请输入医院名称" name="name" value="{$see.title}">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <!--隐藏表单-->
+                                    <input type="hidden" class="form-control" name="id" value="">
+                                    <label class="col-sm-2 control-label"><span style="color: red">*&nbsp;</span>擅长:</label>
+                                    <div class="col-sm-4">
+                                        <input type="text" class="form-control title" id="good_at" placeholder="请输入医院名称" name="name" value="{$see.title}">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label"><span
+                                            style="color: red">*&nbsp;</span>医生简介:</label>
+
+                                    <div class="col-sm-7">
+                                    <textarea type="text" name="content"
+                                              class="charge" id="doctor_jj"  style="width: 50%; height: 200px;">{$see['charge']}
+                                    </textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label"><span
+                                            style="color: red">*&nbsp;</span>出诊信息:</label>
+
+                                    <div class="col-sm-7">
+                                    <textarea type="text" name="content"
+                                            class="charge"  id="information" style="width: 50%; height: 200px;">{$see['charge']}
+                                    </textarea>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="hr-line-dashed"></div>
+                            <div class="form-group">
+                                <div class="col-sm-4 col-sm-offset-2">
+                                    <button class="btn btn-primary modify"  type="submit">保存</button>
+                                    <a class="btn btn-white" href="javascript:history.go(-1);">返回</a>
+                                </div>
+                            </div>
+                        </form>
+                </div>
+            </div>
+        </div>
+</div>
+    </div>
+
+<!-- Mainly scripts -->
+<script src="http://www.123.com/hospital/public/js/jquery.min.js?v=2.1.4"></script>
+<script src="http://www.123.com/hospital/public/js/bootstrap.min.js?v=3.3.6"></script>
+<script src="http://www.123.com/hospital/public/js/content.min.js?v=1.0.0"></script>
+<script type="text/javascript" src="http://tajs.qq.com/stats?sId=9051096" charset="UTF-8"></script>
+
+    <script>
+        //保存
+        $('.modify').click(function () {
+            var name = $("#name").val();
+            var company = $("#company").val();
+            var good_at = $("#good_at").val();
+            var doctor_jj = $('#doctor_jj').val();
+            var information = $("#information").val();
+//            var img = $(".img").val();
+            var id = $("#select_k1  option:selected").attr("id")//获取当前选中的值
+            $.ajax({
+                url:"{:U('doctor_list')}?action=add",
+                dataType:"json",
+                type:"post",
+                data:{
+                    name: name,
+                    company: company,
+                    good_at: good_at,
+                    doctor_jj: doctor_jj,
+                    information: information,
+//                    img:img,
+                    id: id,
+                },
+                success:function(data){
+
+                }
+            })
+        })
+    </script>
+</body>
+
+</html>
