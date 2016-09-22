@@ -47,6 +47,9 @@ class IndexController extends Controller {
         $ks = new Model('outpatient_department');
         $ks_list = $ks->select();
         $this->assign('list',$ks_list);
+        $list = new Model('hospital_list');
+        $list = $list->select();
+        $this->assign('list_xq',$list);
         if(IS_POST){
             $id = I('post.id');
             $a_id['a_id'] = $id;

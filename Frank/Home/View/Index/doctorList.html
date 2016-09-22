@@ -21,21 +21,29 @@
       <div class="right">科室介绍</div>
 	  </div>
 		<ul class="slide-bar" onclick="showSlide(false)">
-			<!--<li><a href="####">专家</a></li>-->
-			<!--<li><a href="####">遗传与生殖研究所</a></li>-->
-			<!--<li><a href="####">产科门诊</a></li>-->
-			<!--<li><a href="####">妇科门诊</a></li>-->
-			<!--<li><a href="####">VIP门诊</a></li>-->
-			<!--<li><a href="####">儿科门诊</a></li>-->
-			<!--<li class="active"><a href="####">妇女保健科</a></li>-->
-			<!--<li><a href="####">儿童保健科</a></li>-->
             <foreach name="list" item="list">
 			    <li><a  href="javascript:;" onclick="list({$list.id})">{$list.department}</a></li>
             </foreach>
 		</ul>
 
         <div class="doctors zhuijia">
-
+            <foreach name="list_xq" item="list">
+            <a href="doctorInfo.html" class="doctor">
+                <img class="head" src="http://en.gravatar.com/userimage/31502353/0a60d6ad9b7914d0c758d428a471bf67.jpg?size=200" />
+                <div class="right">
+                    <div>
+                        <span class="name">{$list.name}</span>
+                        <span>{$list.position}</span>
+                    </div>
+                    <div>
+                        {$list.company}
+                    </div>
+                    <div>
+                        擅长：{$list.good_at}
+                    </div>
+                </div>
+            </a>
+            </foreach>
         </div>
 	</div>
 

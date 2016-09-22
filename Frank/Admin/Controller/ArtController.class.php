@@ -125,5 +125,43 @@ class ArtController extends Controller
         }
         $this->display();
     }
+    //修改
+    public function see(){
+        $id = $_GET['id'];
+        $update = new Model('hospital_list');
+        $updata = $update->where("id = $id")->find();
+        $this->assign('updata',$updata);
+        if(IS_POST){
+            $id = I('post.id');
+            $name = I('post.name');
+            $company = I('post.company');
+            $position = I('post.position');
+            $doctor_jj = I('post.doctor_jj');
+            $information = I('post.information');
+            $good_at = I('post.good_at');
+//            $upde['name'] = $name;
+//            $upde['company'] = $company;
+//            $upde['position'] = $position;
+//            $upde['doctor_jj'] = $doctor_jj;
+//            $upde['$information'] = $information;
+//            $upde['good_at'] = $good_at;
+            $array = array(
+                'name'=> $name,
+                'company' => $company,
+                'position' => $position,
+                'doctor_jj' => $doctor_jj,
+                'information' => $information,
+                'good_at' => $good_at,
+            );
+            $update_list = new Model('hospital_list');
+           $up =  $update_list->where("id=$id")->save($array);
+            if($up){
+                $this->ajaxReturn('ok');
+            }else{
+                $this->ajaxReturn('ok');
+            }
+        }
+        $this->display();
+    }
 
 }
