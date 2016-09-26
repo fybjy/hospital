@@ -26,6 +26,15 @@ class IndexController extends Controller {
         }
         $this->display();
     }
+
+    public function AddForm(){
+        if(IS_POST){
+        $name = I('post.name');
+        $file_upload = I('post.file_upload');
+
+        }
+        $this->display();
+    }
     //查看
     public function see(){
         $id = $_GET['id'];

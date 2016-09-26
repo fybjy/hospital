@@ -89,17 +89,12 @@
                 protocol = /\\|\//.exec( this.path );
                 protocol && (this.localSeparator = protocol[0]);
             }
-
         }
-
         function parse(){
-
             var parsedStack = this.path.replace( this.currentDirPattern, '' );
-
             if( PathStack.hasProtocol( this.path ) ) {
                 parsedStack = parsedStack.replace( this.protocol , '');
             }
-
             parsedStack = parsedStack.split( this.localSeparator );
             parsedStack.length = parsedStack.length - 1;
 
@@ -112,7 +107,6 @@
                         root.push( tempPath );
                     }
                 }
-
             }
 
 
@@ -136,7 +130,7 @@
         UMEDITOR_HOME_URL : URL
 
         //图片上传配置区
-        ,imageUrl:"/common/BaiduUpload"             //图片上传提交地址
+        ,imageUrl:URL+"BaiduUpload"             //图片上传提交地址
         ,imagePath:""                     //图片修正地址，引用了fixedImagePath,如有特殊需求，可自行配置
         ,imageFieldName:"upfile"                   //图片数据的key,若此处修改，需要在后台对应文件修改对应参数
 
