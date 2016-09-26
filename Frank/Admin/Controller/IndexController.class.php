@@ -3,6 +3,7 @@
 namespace Admin\Controller;
 use Think\Controller;
 use Think\Model;
+use Think\Upload;
 class IndexController extends Controller {
     //医院简介
     public function brief(){
@@ -288,17 +289,15 @@ class IndexController extends Controller {
     }
     //图片上传
     public function upload(){
-        $upload = new \Think\Upload();// 实例化上传类
-        $upload->maxSize   =     3145728 ;// 设置附件上传大小
-        $upload->exts      =     array('jpg', 'gif', 'png', 'jpeg');// 设置附件上传类型
-        $upload->rootPath  =     './Uploads/'; // 设置附件上传根目录
-        $upload->savePath  =     ''; // 设置附件上传（子）目录
-        // 上传文件
-        $info   =   $upload->upload();
-        if(!$info) {// 上传错误提示错误信息
-            $this->error($upload->getError());
-        }else{// 上传成功
-            $this->success('上传成功！');
+        $upload = new Upload();//实例上传对象
+        $upload->maxSize = 3500000;//限制大小
+        $upload->savePath = "./"; //上传路径
+        $upload->exts = array("jpg","jpeg","gif","png"); //可以上传的文件后缀
+        $info = $upload->upload(); //执行对象的上传方法
+        if($info){
+            $this->success("上传成功。");  //成功函数
+        }else{
+            $this->error($upload->getError()); //错误提示
         }
     }
 }

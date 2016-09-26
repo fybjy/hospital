@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="renderer" content="webkit">
+    <title>铜梁妇幼保健院</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="http://www.123.com/hospital/public/css/bootstrap.min14ed.css?v=3.3.6" rel="stylesheet">
+    <link href="http://www.123.com/hospital/public/asset/admin/common/css/plugins/toastr/toastr.min.css" rel="stylesheet">
+    <link href="http://www.123.com/hospital/public/css/font-awesome.min93e3.css?v=4.4.0" rel="stylesheet">
+    <link href="http://www.123.com/hospital/public/asset/admin/common/umeditor/themes/default/css/umeditor.css" type="text/css" rel="stylesheet">
+    <link href="http://www.123.com/hospital/public/css/animate.min.css" rel="stylesheet">
+    <link href="http://www.123.com/hospital/public/css/style.min862f.css?v=4.1.0" rel="stylesheet">
+    <link href="http://www.123.com/hospital/public/asset/admin/common/css/bootstrap.min.css?v=3.3.0" rel="stylesheet">
+    <link href="http://www.123.com/hospital/public/asset/admin/common/font-awesome/css/font-awesome.css?v=4.3.0" rel="stylesheet">
+</head>
+<body>
+<div id="wrapper">
+    <!--公共菜单-->
+    <div class="row wrapper border-bottom white-bg page-heading">
+        <div class="col-lg-10">
+            <h3>简介添加：</h3>
+        </div>
+        <div class="col-lg-2">
+        </div>
+    </div>
+    <div class="row  border-bottom white-bg dashboard-header">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="ibox float-e-margins">
+                        <form method="post" class="form-horizontal" id="add_form" action="">
+                            <div class="form-group">
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label"><span style="color: red">*&nbsp;</span>头像:</label>
+                                    <div class="col-sm-7">
+                                        <input id="file_upload"  name="file_upload" type="file" multiple="true">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label"></label>
+                                    <div class="col-sm-6">
+                                        <div id="image" class="image">
+                                            <div id="45" class="goods_img_row">
+                                                <a href="{echo tplgetimg($obj.thumb_image)}" target="_blank">
+                                                    <img src="{echo tplgetimg($obj.thumb_image)}" height="80" width="80" data-img="">
+                                                </a>
+                                                <div class="del">
+                                                    <a href="javascript:;" onclick="del(45);return" false;="">
+                                                        <i class="fa fa-times" title="删除"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--隐藏表单域-->
+                                        <input type="hidden" class="form-control" name="thumb_image" value="">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <!--隐藏表单-->
+                                    <input type="hidden" class="form-control" name="id" value="">
+                                    <label class="col-sm-2 control-label"><span style="color: red">*&nbsp;</span>名字:</label>
+                                    <div class="col-sm-4">
+                                        <input type="text" class="form-control title" id="name" placeholder="请输入医院名称" name="name" value="{$updata.name}">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <!--隐藏表单-->
+                                    <input type="hidden" class="form-control" name="id" value="">
+                                    <label class="col-sm-2 control-label"><span style="color: red">*&nbsp;</span>部门:</label>
+                                    <div class="col-sm-4">
+                                        <input type="text" class="form-control title" id="position" placeholder="请输入医院名称" name="name" value="{$updata.position}">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <!--隐藏表单-->
+                                    <input type="hidden" class="form-control" name="id" value="">
+                                    <label class="col-sm-2 control-label"><span style="color: red">*&nbsp;</span>单位:</label>
+                                    <div class="col-sm-4">
+                                        <input type="text" class="form-control title" id="company" placeholder="请输入医院名称" name="name" value="{$updata.company}">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label"><span
+                                            style="color: red">*&nbsp;</span>擅长:</label>
+
+                                    <div class="col-sm-7">
+                                    <textarea type="text" name="content"
+                                            class="charge" id="good_at" style="width: 50%; height: 100px;">{$updata.good_at}
+                                    </textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label"><span
+                                            style="color: red">*&nbsp;</span>医生简介:</label>
+
+                                    <div class="col-sm-7">
+                                    <textarea type="text" name="content"
+                                              class="charge"  id="doctor_jj" style="width: 50%; height: 100px;">{$updata.doctor_jj}
+                                    </textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label"><span
+                                            style="color: red"></span>出诊信息:</label>
+
+                                    <div class="col-sm-7">
+                                    <textarea type="text" name="content"
+                                              class="charge" id="information"  style="width: 50%; height: 100px;">{$updata.information}
+                                    </textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hr-line-dashed"></div>
+                            <div class="form-group">
+                                <div class="col-sm-4 col-sm-offset-2">
+                                    <button class="btn btn-primary modify" onclick="modify({$updata.id})" type="button">修改</button>
+                                    <a class="btn btn-white" href="javascript:history.go(-1);">返回</a>
+                                </div>
+                            </div>
+                        </form>
+                </div>
+            </div>
+        </div>
+</div>
+    </div>
+
+<!-- Mainly scripts -->
+<script src="http://www.123.com/hospital/public/asset/admin/common/js/jquery-2.1.1.min.js"></script>
+<script src="http://www.123.com/hospital/public/asset/admin/common/js/bootstrap.min.js?v=3.3.0"></script>
+<script src="http://www.123.com/hospital/public/asset/admin/common/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+<script src="http://www.123.com/hospital/public/asset/admin/common/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+<!-- Custom and plugin javascript -->
+<script src="http://www.123.com/hospital/public/asset/admin/common/js/hplus.js?v=2.0.0"></script>
+<script src="http://www.123.com/hospital/public/asset/admin/common/js/plugins/pace/pace.min.js"></script>
+
+<script type="text/javascript" src="http://www.123.com/hospital/public/asset/admin/common/uploadify/jquery.uploadify.min.js"></script>
+<script src="http://www.123.com/hospital/public/asset/admin/common/js/plugins/layer/laydate/laydate.js"></script>
+<!--tip提示-->
+<script src="http://www.123.com/hospital/public/asset/admin/common/js/plugins/toastr/toastr.min.js"></script>
+<!-- edit -->
+<script type="text/javascript" charset="utf-8" src="http://www.123.com/hospital/public/asset/admin/common/umeditor/umeditor.config.js"></script>
+<script type="text/javascript" charset="utf-8" src="http://www.123.com/hospital/public/asset/admin/common/umeditor/umeditor.min.js"></script>
+<!-- jQuery Validation plugin javascript-->
+<script src="http://www.123.com/hospital/public/asset/admin/common/js/plugins/validate/jquery.validate.min.js"></script>
+<script src="http://www.123.com/hospital/public/asset/admin/common/js/plugins/validate/messages_zh.min.js"></script>
+<script src="http://static.weiwubao.com/asset/lib/js/ibox.js"></script>
+<script src="http://www.123.com/hospital/public/asset/admin/common/js/plugins/layer/layer.min.js"></script>
+    <script>
+        //修改
+       function modify(id){
+            var name = $("#name").val();
+            var company = $("#company").val();
+            var position = $("#position").val();
+            var good_at = $('#good_at').val();
+            var doctor_jj = $("#doctor_jj").val();
+            var information = $("#information").val();
+           if (name == null || name == "" || name == 'undefined'){
+               $.iBox.alert('请输入名字');
+                   $("#name").focus();
+                   return false;
+           }
+           if (company == null || company == "" || name == 'company'){
+               $.iBox.alert('请输入单位');
+               $("#company").focus();
+               return false;
+           }
+           if (position == null || position == "" || position == 'undefined'){
+               $.iBox.alert('请输入部门');
+               $("#position").focus();
+               return false;
+           }
+           if (good_at == null || good_at == "" || good_at == 'undefined'){
+               $.iBox.alert('请输入擅长');
+               $("#good_at").focus();
+               return false;
+           }
+           if (doctor_jj == null || doctor_jj == "" || doctor_jj == 'undefined'){
+               $.iBox.alert('请输入医生简介');
+               $("#doctor_jj").focus();
+               return false;
+           }
+
+            $.ajax({
+                url:"{:U('see')}",
+                dataType:"json",
+                type:"post",
+                data:{
+                    id:id,
+                    name:name,
+                    company:company,
+                    position:position,
+                    good_at:good_at,
+                    doctor_jj:doctor_jj,
+                    information:information,
+                },
+                success:function(data){
+                        if(data== "ok"){
+                            window.location.reload()
+                        }
+                }
+            })
+        }
+    </script>
+</body>
+
+</html>

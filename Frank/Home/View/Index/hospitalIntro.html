@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>医院简介</title>
+
+	<link href="http://cdn.bootcss.com/Swiper/3.3.1/css/swiper.min.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="http://www.123.com/hospital/public/styles/main.css">
+
+</head>
+
+<body>
+	<!--[if lt IE 8]>
+	    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+	<![endif]-->
+	
+
+	<div id="main" class="hospitallIntro">
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide" style="background-image:url(http://pic1.win4000.com/wallpaper/2/53d07b9484c86.jpg)"></div>
+				<div class="swiper-slide">Slide 2</div>
+				<div class="swiper-slide">Slide 3</div>
+				<div class="swiper-slide">Slide 4</div>
+			</div>
+
+			<div class="swiper-pagination"></div>
+		</div>
+		<div class="section info">
+			<div class="item">
+				<div class="label">
+					医院名称：
+				</div>
+				<div class="text">
+					{$hospital_list.title}
+				</div>
+			</div>
+			<div class="item">
+				<div class="label">医院地址：</div>
+				<div class="text">{$hospital_list.address}<a href="http://map.baidu.com/mobile/webapp/search/search/qt=s&wd={$hospital_list.address}&c=369&searchFlag=bigBox&version=5&exptype=dep&src_from=webapp_all_bigbox&src=0/vt=map&ecom=0" class="location"></a></div>
+			</div>
+			<volist  name="list"  id='tel'>
+				<div class="item">
+					<if condition="$i eq 1">
+					<div class="label">联系方式：</div>
+					<else />
+					<div class="label label-4"></div>
+					</if>
+					<div class="text"><a class="tel" href="tel:{$hospital_list.tel}">{$tel}</a></div>
+				</div>
+			</volist>
+		</div>
+
+		<div class="section time">
+			<div class="item">
+				<div class="label">门诊就诊时间：</div>
+				<div class="text">{$hospital_list.mz_time}</div>
+			</div>
+			<div class="item">
+				<div class="label">冬季：</div>
+				<div class="text">{$hospital_list.winter_time}</div>
+			</div>
+			<div class="item">
+				<div class="label">夏季：</div>
+				<div class="text">{$hospital_list.summer_time}</div>
+			</div>
+			<div class="item">
+				<div class="label">住院部：</div>
+				<div class="text">{$hospital_list.Inpatient}</div>
+			</div>
+		</div>
+		<div class="section intro">
+			<div class="intro-title">
+				收费标准：
+			</div>
+			<div class="intro-content">
+				{$hospital_list.charge}
+			</div>
+		</div>
+		<div class="section intro">
+			<div class="intro-title">
+				医院简介：
+			</div>
+			<div class="intro-content">
+				{$hospital_list.introduction}
+			</div>
+		</div>
+	</div>
+
+	<script src="http://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+	<script src="http://cdn.bootcss.com/Swiper/3.3.1/js/swiper.min.js"></script>
+	<script src="http://cdn.bootcss.com/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
+
+	<script src="http://www.123.com/hospital/public/scripts/vendor.js"></script>
+	<script src="http://www.123.com/hospital/public/scripts/main.js"></script>
+
+	<script type="text/javascript">
+		var swiper = new Swiper('.swiper-container', {
+			pagination: '.swiper-pagination',
+			paginationClickable: true,
+			loop:true
+		});
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>详情</title>
+
+	<link rel="stylesheet" href="http://www.123.com/hospital/public/styles/main.css">
+</head>
+<body>
+	<!--[if lt IE 8]>
+	    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+	<![endif]-->
+	
+
+	<div id="main" class="doctor-info">
+	  <div class="head-bar">
+      <span class="left back" onclick="history.back();"></span>
+      <div class="center">详情</div>
+      <div class="right"></div>
+	  </div>
+
+    <div class="content">
+      <div class="doctor">
+        <img class="head" src="http://en.gravatar.com/userimage/31502353/0a60d6ad9b7914d0c758d428a471bf67.jpg?size=200" />
+        <div class="right">
+          <div class="name">{$list.name}</div>
+          <div>{$list.position}</div>
+          <div>{$list.company}</div>
+        </div>
+      </div>
+      <ul class="tabs">
+        <li>
+          <input type="radio" name="tabs" id="tab1" checked="checked">
+          <label for="tab1">医生简介</label>
+          <div class="tab-content">
+            <div class="great">
+              <div class="great-title">擅长</div>
+              <div class="great-content">
+               {$list.good_at}
+              </div>
+            </div>
+            <div class="divider"></div>
+            <div class="hospital">
+              <div class="hospital-title">
+                医生简介
+              </div>
+              <div class="hospital-content">
+                {$list.doctor_jj}
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <input type="radio" name="tabs" id="tab2">
+          <label for="tab2">出诊信息</label>
+          <div class="tab-content">
+            <div class="visit-list">
+              <div class="visit-item expired">
+                <div class="left">
+                  <div class="time">
+                    10-04 星期日 上午
+                  </div>
+                  <div class="price">
+                    ￥46
+                  </div>
+                </div>
+                <div class="right">
+                  <div class="r-expired">
+                    已满
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="visit-list">
+              <div class="visit-item">
+                <div class="left">
+                  <div class="time">
+                    10-04 星期日 上午
+                  </div>
+                  <div class="price">
+                    ￥46
+                  </div>
+                </div>
+                <div class="right">
+                  <div class="r-last">
+                    余23/总40
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="footer-bar">
+      <div class="center" onclick="openDown(true)">立即预约</div>
+    </div>
+		<div class="download" onclick="openDown(false)">
+			<div class="cover"></div>
+			<div class="down-alert">
+				<div class="d-title">
+					您好，请前往下载医院APP！
+				</div>
+				<div class="d-bottom">
+					<a href="###" class="b-left">等会儿</a>
+					<a href="###" class="b-right">立即下载</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="http://www.123.com/hospital/public/scripts/vendor.js"></script>
+	<script src="http://www.123.com/hospital/public/scripts/main.js"></script>
+	<script type="text/javascript">
+		function openDown(show){
+			document.querySelector('.download').style.display = show ? 'block':'none';
+		}
+	</script>
+</body>
+</html>

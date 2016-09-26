@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>医生列表</title>
+
+	<link rel="stylesheet" href="http://www.123.com/hospital/public/styles/main.css">
+</head>
+<body>
+	<!--[if lt IE 8]>
+	    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+	<![endif]-->
+	
+
+	<div id="main" class="doctor-list">
+	  <div class="head-bar">
+      <span class="left list" onclick="showSlide(true)"></span>
+      <div class="center">专家</div>
+      <div class="right">科室介绍</div>
+	  </div>
+		<ul class="slide-bar" onclick="showSlide(false)">
+            <foreach name="list" item="list">
+			    <li><a  href="javascript:;" onclick="list({$list.id})">{$list.department}</a></li>
+            </foreach>
+		</ul>
+
+        <div class="doctors zhuijia">
+            <foreach name="list_xq" item="list">
+            <a href="doctorInfo.html" class="doctor">
+                <img class="head" src="http://en.gravatar.com/userimage/31502353/0a60d6ad9b7914d0c758d428a471bf67.jpg?size=200" />
+                <div class="right">
+                    <div>
+                        <span class="name">{$list.name}</span>
+                        <span>{$list.position}</span>
+                    </div>
+                    <div>
+                        {$list.company}
+                    </div>
+                    <div>
+                        擅长：{$list.good_at}
+                    </div>
+                </div>
+            </a>
+            </foreach>
+        </div>
+	</div>
+
+	<script src="http://www.123.com/hospital/public/scripts/vendor.js"></script>
+	<script src="http://www.123.com/hospital/public/scripts/main.js"></script>
+
+
+    <script src="http://www.123.com/hospital/public/js/jquery.min.js?v=2.1.4"></script>
+    <script src="http://www.123.com/hospital/public/js/bootstrap.min.js?v=3.3.6"></script>
+    <script src="http://www.123.com/hospital/public/js/content.min.js?v=1.0.0"></script>
+    <script type="text/javascript" src="http://tajs.qq.com/stats?sId=9051096" charset="UTF-8"></script>
+
+	<script type="text/javascript">
+		function showSlide(show) {
+			var slideBar = document.querySelector('.slide-bar');
+			if(show){
+				slideBar.classList.add('show');
+			}else{
+				slideBar.classList.remove('show');
+			}
+		}
+	</script>
+<script>
+    //科室列表
+    function list(id){
+//        $("a").attr("id");
+        $.ajax({
+            url:"{:U('doctorlist')}",
+            dataType:"json",
+            type:"post",
+            data:{
+                id:id
+            },
+            success: function (json) {
+                var html = '';
+                if(json && json.length){
+                    for(var a = 0; a < json.length;a++) {
+                        var val = json[a];
+                        html += '<div class="wqw">';
+                        html += '<a href="/hospital/home/index/doctorInfo?id='+val['id']+'" class="doctor">';
+                        html += '<img class="head"';
+                        html += 'src="http://en.gravatar.com/userimage/31502353/0a60d6ad9b7914d0c758d428a471bf67.jpg?size=200"/>';
+                        html += '<div class="right">';
+                        html += '<div>';
+                        html += '<span class="name">'+val['name']+'</span>';
+                        html += '<span>'+val['position']+'</span>';
+                        html += '</div>';
+                        html += '<div>';
+                        html += ''+val['company']+'';
+                        html += '</div>';
+                        html += '<div>';
+                        html += '擅长：'+val['good_at']+'。。。';
+                        html += '</div>';
+                        html += '</div>';
+                        html += '</a>';
+                        html += '</div>';
+                    }
+                }else{
+                    html += '<p class="tcc" style="padding: 30px 0px; text-align: center">暂无数据</p>';
+                }
+                $(".zhuijia").html(html);//追加
+            }
+        })
+    }
+</script>
+</body>
+</html>
